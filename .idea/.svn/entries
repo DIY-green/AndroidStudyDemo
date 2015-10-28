@@ -1,0 +1,112 @@
+10
+
+dir
+0
+http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/.idea
+http://182.92.169.124/svn/android
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+.name
+file
+
+
+
+add
+
+compiler.xml
+file
+
+
+
+add
+
+copyright
+dir
+
+
+
+add
+
+dictionaries
+dir
+
+
+
+add
+
+encodings.xml
+file
+
+
+
+add
+
+gradle.xml
+file
+
+
+
+add
+
+libraries
+dir
+
+
+
+add
+
+misc.xml
+file
+
+
+
+add
+
+modules.xml
+file
+
+
+
+add
+
+runConfigurations.xml
+file
+
+
+
+add
+
+vcs.xml
+file
+
+
+
+add
+
+workspace.xml
+file
+
+
+
+add
+

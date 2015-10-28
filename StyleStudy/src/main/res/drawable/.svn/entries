@@ -1,0 +1,315 @@
+10
+
+dir
+0
+http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/StyleStudy/src/main/res/drawable
+http://182.92.169.124/svn/android
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+bg_btn_activated.xml
+file
+
+
+
+add
+
+bg_btn_disable.xml
+file
+
+
+
+add
+
+bg_btn_lost_window_focused.xml
+file
+
+
+
+add
+
+bg_btn_normal.xml
+file
+
+
+
+add
+
+bg_btn_pressed.xml
+file
+
+
+
+add
+
+bg_btn_selected.xml
+file
+
+
+
+add
+
+bg_btn_selector.xml
+file
+
+
+
+add
+
+bg_circle.xml
+file
+
+
+
+add
+
+bg_edt_focused.xml
+file
+
+
+
+add
+
+bg_edt_normal.xml
+file
+
+
+
+add
+
+bg_edt_selector.xml
+file
+
+
+
+add
+
+bg_line_dash.xml
+file
+
+
+
+add
+
+bg_line_solid.xml
+file
+
+
+
+add
+
+bg_line_thick.xml
+file
+
+
+
+add
+
+bg_line_thick_more.xml
+file
+
+
+
+add
+
+bg_list_item_selector.xml
+file
+
+
+
+add
+
+bg_oval_with_gradient.xml
+file
+
+
+
+add
+
+bg_oval_with_padding.xml
+file
+
+
+
+add
+
+bg_oval_with_size.xml
+file
+
+
+
+add
+
+bg_oval_with_solid.xml
+file
+
+
+
+add
+
+bg_oval_with_stroke.xml
+file
+
+
+
+add
+
+bg_oval_with_stroke_dash.xml
+file
+
+
+
+add
+
+bg_oval_with_stroke_only.xml
+file
+
+
+
+add
+
+bg_rectangle_with_arc.xml
+file
+
+
+
+add
+
+bg_rectangle_with_corners.xml
+file
+
+
+
+add
+
+bg_rectangle_with_corners_top.xml
+file
+
+
+
+add
+
+bg_rectangle_with_gradient.xml
+file
+
+
+
+add
+
+bg_rectangle_with_padding.xml
+file
+
+
+
+add
+
+bg_rectangle_with_solid.xml
+file
+
+
+
+add
+
+bg_rectangle_with_stroke.xml
+file
+
+
+
+add
+
+bg_rectangle_with_stroke_dash.xml
+file
+
+
+
+add
+
+bg_rectangle_with_stroke_only.xml
+file
+
+
+
+add
+
+bg_ring_with_gradient.xml
+file
+
+
+
+add
+
+bg_ring_with_gradient_rotate.xml
+file
+
+
+
+add
+
+bg_ring_with_gradient_stroke.xml
+file
+
+
+
+add
+
+bg_ring_with_solid.xml
+file
+
+
+
+add
+
+bg_ring_with_stroke.xml
+file
+
+
+
+add
+
+bg_shadow_corners_rectangle.xml
+file
+
+
+
+add
+
+bg_tab_normal.xml
+file
+
+
+
+add
+
+bg_tab_selected.xml
+file
+
+
+
+add
+
+bg_tab_selector.xml
+file
+
+
+
+add
+

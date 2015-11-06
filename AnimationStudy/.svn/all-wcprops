@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/585/trunk/src/jiachuduan/StudyDemo/AnimationStudy
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/AnimationStudy/proguard-rules.pro
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/AnimationStudy/.gitignore
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/AnimationStudy/build.gradle
+END
+AnimationStudy.iml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/AnimationStudy/AnimationStudy.iml
+END

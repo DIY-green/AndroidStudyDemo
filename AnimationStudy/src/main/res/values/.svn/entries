@@ -1,15 +1,15 @@
 10
 
 dir
-0
+623
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/AnimationStudy/src/main/res/values
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-04T05:51:37.923117Z
+585
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,25 +25,181 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
+
+attrs.xml
+file
+
+
+
+
+2015-11-02T07:45:02.088000Z
+7f2c9f6caa6f125de02376d77b782ca9
+2015-11-02T11:26:30.775336Z
+565
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+955
+
+colors.xml
+file
+
+
+
+
+2015-11-04T05:01:39.248000Z
+18f80793c100240686193999df9c17bf
+2015-11-04T05:51:37.923117Z
+585
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+509
 
 dimens.xml
 file
 
 
 
-add
+
+2015-11-03T01:54:17.068000Z
+d7d2258455846d3253a36b70b04cd542
+2015-11-03T04:24:37.892175Z
+566
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+610
 
 strings.xml
 file
 
 
 
-add
+
+2015-11-04T05:33:58.006000Z
+669f86f1a40adf6d97f34a8a4e04c10a
+2015-11-04T05:51:37.923117Z
+585
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10626
 
 styles.xml
 file
 
 
 
-add
+
+2015-11-03T00:30:30.184000Z
+008be902783be5fa58f45d1490493b71
+2015-11-03T04:24:37.892175Z
+566
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1502
 

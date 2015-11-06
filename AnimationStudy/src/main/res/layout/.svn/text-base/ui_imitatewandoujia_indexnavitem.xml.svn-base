@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/nav_icon_iv"
+        android:layout_width="@dimen/tab_item_icon_size"
+        android:layout_height="37dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="0dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/nav_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal"
+        android:text="呵呵"
+        android:textSize="12sp"/>
+</LinearLayout>

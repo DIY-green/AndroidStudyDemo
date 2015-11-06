@@ -1,15 +1,15 @@
 10
 
 dir
-0
+623
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/gradle
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,11 +25,14 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 wrapper
 dir
-
-
-
-add
 

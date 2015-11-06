@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ScrollView
+        android:id="@+id/normal_mode_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/scrollview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="16dip">
+            <LinearLayout
+                android:id="@+id/first_group_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height"
+                    android:layout_gravity="top"
+                    android:background="@drawable/divider_section_top" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/darker_gray"
+                        android:text="tv1"
+                        android:textAllCaps="false" />
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/holo_orange_dark"
+                        android:text="tv2"
+                        android:textAllCaps="false" />
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/holo_green_dark"
+                        android:text="tv3"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/first_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_below="@id/first_group_container"
+                android:background="#FFEAEAEA">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height"
+                    android:layout_gravity="top"
+                    android:background="@drawable/divider_section_bottom" />
+            </FrameLayout>
+            <LinearLayout
+                android:id="@+id/second_group_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_group_container"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height"
+                    android:layout_gravity="top"
+                    android:background="@drawable/divider_section_top" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/darker_gray"
+                        android:text="tv4"
+                        android:textAllCaps="false" />
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/holo_orange_dark"
+                        android:text="tv5"
+                        android:textAllCaps="false" />
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_height"
+                        android:background="@android:color/holo_green_dark"
+                        android:text="tv6"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/second_spacer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:layout_below="@id/second_group_container"
+                android:background="#ffeaeaea">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height"
+                    android:layout_gravity="top"
+                    android:background="@drawable/divider_section_bottom" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/edit_mode_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/view_height"
+        android:visibility="invisible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="vertical">
+            <FrameLayout
+                android:id="@+id/edit_mode_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_purple" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

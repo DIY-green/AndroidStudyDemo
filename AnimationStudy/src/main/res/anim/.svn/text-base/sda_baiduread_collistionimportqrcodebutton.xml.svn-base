@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set 
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:interpolator="@anim/sda_baiduread_collistiondecelerateinterpolator"
+        android:duration="250" 
+        android:fillAfter="true" 
+        android:startOffset="0" 
+        android:fromYDelta="100.0%p" 
+        android:toYDelta="-25.0%" />
+    <translate
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="120"
+        android:fillAfter="true" 
+        android:startOffset="250" 
+        android:fromYDelta="-25.0%" 
+        android:toYDelta="0.0%" />
+</set>

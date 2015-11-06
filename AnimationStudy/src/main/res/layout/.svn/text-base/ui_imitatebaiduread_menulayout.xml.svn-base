@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <Button
+        android:id="@+id/sdi_menu_btn"
+        style="@style/MenuStyle"
+        android:background="@mipmap/sdd_menu"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/sdi_item1_btn"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/sdd_circle1"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/sdi_item2_btn"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/sdd_circle2"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/sdi_item3_btn"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/sdd_circle3"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/sdi_item4_btn"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/sdd_circle4"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/sdi_item5_btn"
+        style="@style/MenuItemStyle"
+        android:background="@mipmap/sdd_circle5"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+</FrameLayout>

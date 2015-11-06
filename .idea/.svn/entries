@@ -1,15 +1,15 @@
 10
 
 dir
-0
+623
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/.idea
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,88 +25,330 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 .name
 file
 
 
 
-add
+
+2015-10-23T03:19:25.807000Z
+296406af99d8a50ce017ca641c85c9f4
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
 
 compiler.xml
 file
 
 
 
-add
+
+2015-10-23T03:19:25.912000Z
+7c0db3ad7e8d6b0d1cbd768a9b7e7b3d
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+656
 
 copyright
 dir
-
-
-
-add
 
 dictionaries
 dir
-
-
-
-add
 
 encodings.xml
 file
 
 
 
-add
+
+2015-10-23T03:20:16.575000Z
+e983e7004bf05890eb93973f0a475914
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+159
 
 gradle.xml
 file
 
 
 
-add
+
+2015-10-30T02:20:23.676000Z
+9079837fbf32842a2b7843b07225a359
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1083
 
 libraries
 dir
 
 
 
-add
+delete
 
 misc.xml
 file
 
 
 
-add
+
+2015-10-30T04:50:38.519000Z
+43636e36a1a613c0b322b8969c2b0e40
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3675
 
 modules.xml
 file
 
 
 
-add
+
+2015-10-30T02:20:23.678000Z
+95411b206126e3160427d0fac14d5c58
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1463
 
 runConfigurations.xml
 file
 
 
 
-add
+
+2015-10-23T03:20:16.581000Z
+e9e1b64a01daa4c987b8fb1e927d8273
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+564
 
 vcs.xml
 file
 
 
 
-add
+
+2015-10-26T03:52:21.740000Z
+82589128ff41b7b9b834b927c1863e80
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+167
 
 workspace.xml
 file
 
 
 
-add
+
+2015-11-01T23:21:58.939000Z
+7e6414cb685bc42627894c69f770a037
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+618881
 

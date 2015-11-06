@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/sdi_showanim_iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ferriswheel" />
+    <View
+        android:id="@+id/sdi_showanim_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/sdi_showanim_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/dark_green" />
+    <LinearLayout
+        android:id="@+id/sdi_bottombtns_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_btn_rectanim"
+            android:textAllCaps="false"
+            android:onClick="startRectAnimation"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_btn_rgbanim"
+            android:textAllCaps="false"
+            android:onClick="startRGBAnimation" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_btn_hsvanim"
+            android:textAllCaps="false"
+            android:onClick="startHsvAnimation" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_btn_skewanim"
+            android:textAllCaps="false"
+            android:onClick="startSkewAnimation"/>
+    </LinearLayout>
+</RelativeLayout>

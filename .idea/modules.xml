@@ -5,12 +5,25 @@
       <module fileurl="file://$PROJECT_DIR$/Android5Study/Android5Study.iml" filepath="$PROJECT_DIR$/Android5Study/Android5Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/Android6Study/Android6Study.iml" filepath="$PROJECT_DIR$/Android6Study/Android6Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/AnimationStudy/AnimationStudy.iml" filepath="$PROJECT_DIR$/AnimationStudy/AnimationStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HandlerStudy/HandlerStudy.iml" filepath="$PROJECT_DIR$/HandlerStudy/HandlerStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArithmeticStudy/ArithmeticStudy.iml" filepath="$PROJECT_DIR$/ArithmeticStudy/ArithmeticStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonLibsStudy/CommonLibsStudy.iml" filepath="$PROJECT_DIR$/CommonLibsStudy/CommonLibsStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomViewStudy/CustomViewStudy.iml" filepath="$PROJECT_DIR$/CustomViewStudy/CustomViewStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataRelatedStudy/DataRelatedStudy.iml" filepath="$PROJECT_DIR$/DataRelatedStudy/DataRelatedStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternStudy/DesignPatternStudy.iml" filepath="$PROJECT_DIR$/DesignPatternStudy/DesignPatternStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrontierTechnologyStudy/FrontierTechnologyStudy.iml" filepath="$PROJECT_DIR$/FrontierTechnologyStudy/FrontierTechnologyStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotFixStudy/HotFixStudy.iml" filepath="$PROJECT_DIR$/HotFixStudy/HotFixStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageRelatedStudy/ImageRelatedStudy.iml" filepath="$PROJECT_DIR$/ImageRelatedStudy/ImageRelatedStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVCFrameStudy/MVCFrameStudy.iml" filepath="$PROJECT_DIR$/MVCFrameStudy/MVCFrameStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVPFrameStudy/MVPFrameStudy.iml" filepath="$PROJECT_DIR$/MVPFrameStudy/MVPFrameStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MechanismStudy/MechanismStudy.iml" filepath="$PROJECT_DIR$/MechanismStudy/MechanismStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultithreadStudy/MultithreadStudy.iml" filepath="$PROJECT_DIR$/MultithreadStudy/MultithreadStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/NetworkFrameStudy/NetworkFrameStudy.iml" filepath="$PROJECT_DIR$/NetworkFrameStudy/NetworkFrameStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OptimizeStudy/OptimizeStudy.iml" filepath="$PROJECT_DIR$/OptimizeStudy/OptimizeStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PluggableStudy/PluggableStudy.iml" filepath="$PROJECT_DIR$/PluggableStudy/PluggableStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyDemo.iml" filepath="$PROJECT_DIR$/StudyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StyleStudy/StyleStudy.iml" filepath="$PROJECT_DIR$/StyleStudy/StyleStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UiImitateStudy/UiImitateStudy.iml" filepath="$PROJECT_DIR$/UiImitateStudy/UiImitateStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
     </modules>
   </component>
 </project>

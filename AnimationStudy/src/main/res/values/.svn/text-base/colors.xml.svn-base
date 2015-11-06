@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blank">#00000000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="rippelColor2">#ff2f9b34</color>
+    <color name="rippelColor3">#ff46b451</color>
+    <color name="white">#ff46b451</color>
+    <color name="grey_normal">#ff8a837c</color>
+    <color name="transgray">#33555555</color>
+    <color name="dark_green">#008800</color>
+
+</resources>

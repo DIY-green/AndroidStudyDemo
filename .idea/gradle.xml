@@ -12,11 +12,24 @@
             <option value="$PROJECT_DIR$/Android5Study" />
             <option value="$PROJECT_DIR$/Android6Study" />
             <option value="$PROJECT_DIR$/AnimationStudy" />
-            <option value="$PROJECT_DIR$/HandlerStudy" />
+            <option value="$PROJECT_DIR$/ArithmeticStudy" />
+            <option value="$PROJECT_DIR$/CommonLibsStudy" />
+            <option value="$PROJECT_DIR$/CustomViewStudy" />
+            <option value="$PROJECT_DIR$/DataRelatedStudy" />
+            <option value="$PROJECT_DIR$/DesignPatternStudy" />
+            <option value="$PROJECT_DIR$/FrontierTechnologyStudy" />
+            <option value="$PROJECT_DIR$/HotFixStudy" />
+            <option value="$PROJECT_DIR$/ImageRelatedStudy" />
             <option value="$PROJECT_DIR$/MVCFrameStudy" />
             <option value="$PROJECT_DIR$/MVPFrameStudy" />
+            <option value="$PROJECT_DIR$/MechanismStudy" />
+            <option value="$PROJECT_DIR$/MultithreadStudy" />
             <option value="$PROJECT_DIR$/NetworkFrameStudy" />
+            <option value="$PROJECT_DIR$/OptimizeStudy" />
+            <option value="$PROJECT_DIR$/PluggableStudy" />
             <option value="$PROJECT_DIR$/StyleStudy" />
+            <option value="$PROJECT_DIR$/UiImitateStudy" />
+            <option value="$PROJECT_DIR$/Utils" />
           </set>
         </option>
       </GradleProjectSettings>

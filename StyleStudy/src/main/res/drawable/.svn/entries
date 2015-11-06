@@ -1,15 +1,15 @@
 10
 
 dir
-0
+623
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/StyleStudy/src/main/res/drawable
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,291 +25,1405 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 bg_btn_activated.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+d553ad0729e8cb0c8346e919b444af7e
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+934
 
 bg_btn_disable.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+737938c9eb951be2a442777e0f09bb9e
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+953
 
 bg_btn_lost_window_focused.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+ab1b4d094af01d3dbd17bd307cf8e0a7
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+989
 
 bg_btn_normal.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+cf7ed9fb9517d3b287d86683a3b0f685
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+934
 
 bg_btn_pressed.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+096b242ec6a1b1037fbdb69e7be17c86
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+936
 
 bg_btn_selected.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+43ef05f96e4325d0a57940f9dbd166ec
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+936
 
 bg_btn_selector.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+6846fe300b44893b85b0256fde061c22
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1475
 
 bg_circle.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+7ab5045bd7a8e7df87782adbe0b03642
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+889
 
 bg_edt_focused.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+a1b9518292cf1f18f966fc40fa194744
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1170
 
 bg_edt_normal.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+4b996e7a17b5a489266db32dca1d42db
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1155
 
 bg_edt_selector.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+c51887b03ecbe05597110111e7172778
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+991
 
 bg_line_dash.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+f6880dbcb790ab5ff414277cf50c88d9
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+973
 
 bg_line_solid.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+1c3ea6e10312f045e81c9bed80e8ca9d
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+879
 
 bg_line_thick.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+0a07f49ba726effc80e5999a3882f603
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+880
 
 bg_line_thick_more.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+ce6a7dd824150de7a439510743b1166d
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+882
 
 bg_list_item_selector.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+fdab6e40131e9b28ec5783035d5a7c47
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+883
 
 bg_oval_with_gradient.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+bbfebe957bfc519a86dd7bb58913ab62
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1205
 
 bg_oval_with_padding.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+3cca6751b0af4fac1a01fa0b15ac67f4
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1018
 
 bg_oval_with_size.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+d63fc5fcb436906e84ac9367c9511c2b
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1129
 
 bg_oval_with_solid.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+da06d52e63e70e2de89196aba6c0ca65
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+856
 
 bg_oval_with_stroke.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+57d482b406cacea681fb0ac3f623c879
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1255
 
 bg_oval_with_stroke_dash.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+ddb70a10eb199bd96efbb475f8c5daaa
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1202
 
 bg_oval_with_stroke_only.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+d7f3c80053d9effd5021d43db4388925
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1140
 
 bg_rectangle_with_arc.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+528868edcf3e837d8b67d9a5ad9c14f1
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1144
 
 bg_rectangle_with_corners.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+deaa3a43414b977b5b08bf484b329b6c
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1204
 
 bg_rectangle_with_corners_top.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+7b4476296f62049bff42d08047310687
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1275
 
 bg_rectangle_with_gradient.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+83a2370d460c9902eee6c0bb674c9a4e
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1203
 
 bg_rectangle_with_padding.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+cc321f2e83a0e3718dca3b8d3a128065
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1048
 
 bg_rectangle_with_solid.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+bce4f40dd6d1336f20f1c3785ab7a673
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+861
 
 bg_rectangle_with_stroke.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+a0142d4be98378032c5b0f2463117b2b
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1270
 
 bg_rectangle_with_stroke_dash.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+fb6ec87651e083a423b051bd53bc6044
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1332
 
 bg_rectangle_with_stroke_only.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+4b996e7a17b5a489266db32dca1d42db
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1155
 
 bg_ring_with_gradient.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+f21ddc2ef5b2f00bbe047d6bf16ad55f
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+952
 
 bg_ring_with_gradient_rotate.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+35ec746b441aa2256c07bdd88a180f44
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+828
 
 bg_ring_with_gradient_stroke.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+afbc07ad0db94b07698a27d24a17cc08
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1040
 
 bg_ring_with_solid.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+d7a015d3b8086d47d1e34ddbfc09a10e
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+872
 
 bg_ring_with_stroke.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+8b83e75b60d8f10ef467a32cd9517d87
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+909
 
 bg_shadow_corners_rectangle.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+2090aa18aaec8fa3e04bb7fa01bae4d1
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1298
 
 bg_tab_normal.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+9c7fc8b86aeb88522e0f4f5c0c3f6836
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+902
 
 bg_tab_selected.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+cde6b4b7c3c1b9e18f330ddce89881f8
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+941
 
 bg_tab_selector.xml
 file
 
 
 
-add
+
+2015-10-02T17:47:08.000000Z
+e38727fcb8d76a3e691726ceefbc657d
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1507
 

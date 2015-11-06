@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/585/trunk/src/jiachuduan/StudyDemo
+END
+gradlew
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/gradlew
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/settings.gradle
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/.gitignore
+END
+StudyDemo.iml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/StudyDemo.iml
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/local.properties
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/build.gradle
+END
+gradlew.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/gradlew.bat
+END
+gradle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/gradle.properties
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/.gitattributes
+END

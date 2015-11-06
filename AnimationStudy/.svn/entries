@@ -1,15 +1,15 @@
 10
 
 dir
-0
+623
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/AnimationStudy
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-04T05:51:37.923117Z
+585
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,20 +25,81 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 .gitignore
 file
 
 
 
-add
+
+2015-10-26T03:12:29.228000Z
+02e6ed7a96b1eb179e9dd86e6677527d
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
 
 AnimationStudy.iml
 file
 
 
 
-add
+
+2015-10-31T05:19:20.919000Z
+8dd6180f2437e35cfa8fed112b2e8b18
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7534
 
 build
 dir
@@ -52,26 +113,75 @@ file
 
 
 
-add
+
+2015-10-31T08:37:18.068000Z
+b5dcc56293f732b56e39037956ce5ee8
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+699
+
+doc
+dir
 
 libs
 dir
-
-
-
-add
 
 proguard-rules.pro
 file
 
 
 
-add
+
+2015-10-26T03:12:29.237000Z
+f7627434eddea250d2c9e8b6e3b4280c
+2015-11-01T23:25:26.062370Z
+562
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+690
 
 src
 dir
-
-
-
-add
 

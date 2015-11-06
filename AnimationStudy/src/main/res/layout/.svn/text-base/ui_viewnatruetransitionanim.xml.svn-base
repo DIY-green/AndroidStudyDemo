@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+    <ScrollView
+        android:id="@+id/normal_mode_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+        <LinearLayout
+            android:id="@+id/scrollview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="16dip" >
+            <LinearLayout
+                android:id="@+id/first_group_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/localfrom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:gravity="left|center"
+                    android:padding="3dip" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@mipmap/ic_search_outward" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="from"
+                        android:textAllCaps="false"
+                        android:textSize="16dip" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#e6e6e6" />
+                <LinearLayout
+                    android:id="@+id/localto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:gravity="left|center"
+                    android:padding="3dip" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@mipmap/ic_search_inward" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="to"
+                        android:textAllCaps="false"
+                        android:textSize="16dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/first_spacer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f3f3f3" >
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:layout_gravity="top"
+                    android:background="@drawable/divider_section_bottom" />
+            </FrameLayout>
+            <LinearLayout
+                android:id="@+id/second_group_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/datefrom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:gravity="left|center"
+                    android:padding="3dip" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@mipmap/ic_search_outward" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="from"
+                        android:textAllCaps="false"
+                        android:textSize="16dip" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#e6e6e6" />
+                <LinearLayout
+                    android:id="@+id/dateto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/view_height"
+                    android:gravity="left|center"
+                    android:padding="3dip" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@mipmap/ic_search_inward" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="to"
+                        android:textAllCaps="false"
+                        android:textSize="16dip" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#e6e6e6" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/third_group_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+                <Button
+                    android:id="@+id/search"
+                    android:layout_width="300dip"
+                    android:layout_height="@dimen/view_height"
+                    android:layout_gravity="center"
+                    android:background="@color/red"
+                    android:text="搜索"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/edit_mode_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="@dimen/view_height"
+        android:visibility="invisible" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#f2f2f2"
+            android:clickable="true"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginLeft="15dip"
+                android:gravity="left|center"
+                android:text="今天"
+                android:textSize="16dip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginLeft="15dip"
+                android:gravity="left|center"
+                android:text="明天"
+                android:textSize="16dip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginLeft="15dip"
+                android:gravity="left|center"
+                android:text="后天"
+                android:textSize="16dip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/view_height"
+                android:layout_marginLeft="15dip"
+                android:gravity="left|center"
+                android:text="23日"
+                android:textSize="16dip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:gravity="left|center"
+                android:text="25日"
+                android:textSize="16dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

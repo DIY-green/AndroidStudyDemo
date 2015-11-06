@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- 定义一个动画帧，Drawable为sdd_frameanim_0，持续时间50毫秒 -->
+    <item
+        android:drawable="@mipmap/sdd_frameanim_0"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/sdd_frameanim_1"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/sdd_frameanim_2"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/sdd_frameanim_3"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/sdd_frameanim_4"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/sdd_frameanim_5"
+        android:duration="100" />
+</animation-list>

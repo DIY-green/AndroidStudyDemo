@@ -12,7 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.RelativeLayout;
 
 import com.cheng.animationstudy.R;
-import com.cheng.animationstudy.UiImitateBaiduReadBubble;
+import com.cheng.animationstudy.ui.UiImitateBaiduReadBubble;
 import com.cheng.utils.ViewFinder;
 
 /**

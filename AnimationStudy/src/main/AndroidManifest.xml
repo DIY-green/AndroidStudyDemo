@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".UiMain"
+            android:name=".ui.UiMain"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,92 +17,89 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UiFrameAnim"
-            android:label="@string/title_uidrawableanim" >
+            android:name=".ui.UiFrameAnim"
+            android:label="@string/title_uidrawableanim" />
+        <activity
+            android:name=".ui.UiTweenAnim"
+            android:label="@string/title_uitweenanim" />
+        <activity
+            android:name=".ui.UiPropertyAnim"
+            android:label="@string/title_uipropertyanim" />
+        <activity
+            android:name=".ui.UiNineOldAndroids"
+            android:label="@string/title_uinineoldandroids" />
+        <activity
+            android:name=".ui.UiAdvanced"
+            android:label="@string/title_uiadvanced" />
+        <activity
+            android:name=".ui.UiImitateWandoujia"
+            android:label="@string/title_uiimitatewandoujia" />
+        <activity
+            android:name=".ui.UiImitateBaiduReadBubble"
+            android:label="@string/title_activity_ui_imitate_baidu_read_bubble" />
+        <activity
+            android:name=".ui.UiImitateMogujieCart"
+            android:label="@string/title_activity_ui_imitate_mogujie_cart" />
+        <activity
+            android:name=".ui.UiImitateUCPullDownEye"
+            android:label="@string/title_activity_ui_imitate_ucpull_down_eye" />
+        <activity
+            android:name=".ui.UiImitateTaobaoRetraction"
+            android:label="@string/title_activity_ui_imitate_taobao_retraction" />
+        <activity
+            android:name=".ui.UiImitateBrowserZoomView"
+            android:label="@string/title_activity_ui_imitate_browser_zoom_view" />
+        <activity
+            android:name=".ui.UiViewNatrueTransitionAnim"
+            android:label="@string/title_activity_ui_view_natrue_transition_anim" />
+        <activity
+            android:name=".ui.UiPullToRefreshAnim01"
+            android:label="@string/title_activity_ui_pull_to_refresh_anim01" />
+        <activity
+            android:name=".ui.UiPullToRefreshAnim02"
+            android:label="@string/title_activity_ui_pull_to_refresh_anim02" />
+        <activity
+            android:name=".ui.UiPullToRefreshAnim03"
+            android:label="@string/title_activity_ui_pull_to_refresh_anim03" />
+        <activity
+            android:name=".ui.UiPropertyAnimAdvanced"
+            android:label="@string/title_activity_ui_property_anim_advanced" />
+        <activity
+            android:name=".ui.UiLayoutAnim"
+            android:label="@string/title_activity_ui_layout_anim" />
+        <activity
+            android:name=".ui.UiLayoutAnimDefault"
+            android:label="@string/title_activity_ui_layout_anim_default" />
+        <activity
+            android:name=".ui.UiLayoutAnimHideShow"
+            android:label="@string/title_activity_ui_layout_anim_hide_show" />
+        <activity
+            android:name=".ui.UiAnimStreamControl"
+            android:label="@string/title_activity_ui_anim_stream_control" />
+        <activity
+            android:name=".ui.UiCommonPropertyAnim"
+            android:label="@string/title_activity_ui_common_property_anim" />
+        <activity
+            android:name=".ui.UiObjectPropertyAnim"
+            android:label="@string/title_activity_ui_object_property_anim" />
+        <activity
+            android:name=".ui.UiActivityJump"
+            android:label="@string/title_activity_ui_activity_jump" />
+        <activity
+            android:name=".ui.UiShowDialog"
+            android:label="@string/title_activity_ui_show_dialog" >
         </activity>
         <activity
-            android:name=".UiTweenAnim"
-            android:label="@string/title_uitweenanim" >
+            android:name=".ui.UiFragmentTransition"
+            android:label="@string/title_activity_ui_fragment_transition" >
         </activity>
         <activity
-            android:name=".UiPropertyAnim"
-            android:label="@string/title_uipropertyanim" >
+            android:name=".ui.UiViewPagerTransition"
+            android:label="@string/title_activity_ui_view_pager_transition" >
         </activity>
         <activity
-            android:name=".UiNineOldAndroids"
-            android:label="@string/title_uinineoldandroids" >
-        </activity>
-        <activity
-            android:name=".UiAdvanced"
-            android:label="@string/title_uiadvanced" >
-        </activity>
-        <activity
-            android:name=".UiImitateWandoujia"
-            android:label="@string/title_uiimitatewandoujia" >
-        </activity>
-        <activity
-            android:name=".UiImitateBaiduReadBubble"
-            android:label="@string/title_activity_ui_imitate_baidu_read_bubble" >
-        </activity>
-        <activity
-            android:name=".UiImitateMogujieCart"
-            android:label="@string/title_activity_ui_imitate_mogujie_cart" >
-        </activity>
-        <activity
-            android:name=".UiImitateUCPullDownEye"
-            android:label="@string/title_activity_ui_imitate_ucpull_down_eye" >
-        </activity>
-        <activity
-            android:name=".UiImitateTaobaoRetraction"
-            android:label="@string/title_activity_ui_imitate_taobao_retraction" >
-        </activity>
-        <activity
-            android:name=".UiImitateBrowserZoomView"
-            android:label="@string/title_activity_ui_imitate_browser_zoom_view" >
-        </activity>
-        <activity
-            android:name=".UiViewNatrueTransitionAnim"
-            android:label="@string/title_activity_ui_view_natrue_transition_anim" >
-        </activity>
-        <activity
-            android:name=".UiPullToRefreshAnim01"
-            android:label="@string/title_activity_ui_pull_to_refresh_anim01" >
-        </activity>
-        <activity
-            android:name=".UiPullToRefreshAnim02"
-            android:label="@string/title_activity_ui_pull_to_refresh_anim02" >
-        </activity>
-        <activity
-            android:name=".UiPullToRefreshAnim03"
-            android:label="@string/title_activity_ui_pull_to_refresh_anim03" >
-        </activity>
-        <activity
-            android:name=".UiPropertyAnimAdvanced"
-            android:label="@string/title_activity_ui_property_anim_advanced" >
-        </activity>
-        <activity
-            android:name=".UiLayoutAnim"
-            android:label="@string/title_activity_ui_layout_anim" >
-        </activity>
-        <activity
-            android:name=".UiLayoutAnimDefault"
-            android:label="@string/title_activity_ui_layout_anim_default" >
-        </activity>
-        <activity
-            android:name=".UiLayoutAnimHideShow"
-            android:label="@string/title_activity_ui_layout_anim_hide_show" >
-        </activity>
-        <activity
-            android:name=".UiAnimStreamControl"
-            android:label="@string/title_activity_ui_anim_stream_control" >
-        </activity>
-        <activity
-            android:name=".UiCommonPropertyAnim"
-            android:label="@string/title_activity_ui_common_property_anim" >
-        </activity>
-        <activity
-            android:name=".UiObjectPropertyAnim"
-            android:label="@string/title_activity_ui_object_property_anim" >
+            android:name=".ui.UiActivityJumpAim"
+            android:label="@string/title_activity_ui_activity_jump_aim" >
         </activity>
     </application>
 

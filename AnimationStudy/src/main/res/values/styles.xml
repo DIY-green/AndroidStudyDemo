@@ -14,11 +14,11 @@
         <item name="android:layout_width">45dp</item>
         <item name="android:layout_height">45dp</item>
     </style>
-    
+
     <declare-styleable name="CompoundButton">
-        <attr name="android:button"/>
-        <attr name="drawableWidth" format="dimension"/>
-        <attr name="drawableHeight" format="dimension"/>
+        <attr name="android:button" />
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
     </declare-styleable>
 
     <style name="more_item_ll">
@@ -32,9 +32,19 @@
     <style name="customer_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@null</item>
     </style>
+
     <style name="PopupAnimation" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/sda_taobao_roll_up</item>
         <item name="android:windowExitAnimation">@anim/sda_taobao_roll_down</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

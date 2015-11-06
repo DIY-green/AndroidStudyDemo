@@ -13,5 +13,6 @@
     <dimen name="view_height">56dip</dimen>
     <dimen name="margin">16dip</dimen>
     <dimen name="separator_height">2dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--从屏幕左边退出，先退后2%p位置，再向左退出  -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <translate
+        android:duration="200"
+        android:fromXDelta="0%p"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:toXDelta="2%p" />
+    <translate
+        android:duration="1000"
+        android:fromXDelta="2%p"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:startOffset="200"
+        android:toXDelta="-100%p" />
+
+</set>

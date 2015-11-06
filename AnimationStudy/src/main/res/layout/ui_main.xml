@@ -35,4 +35,40 @@
         android:text="@string/sds_btn_advanced"
         android:textAllCaps="false"
         android:onClick="toAdvanced"/>
+    <Button
+        android:id="@+id/sdi_activityjump_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdi_advanced_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_activityjump"
+        android:textAllCaps="false"
+        android:onClick="toActivityJump"/>
+    <Button
+        android:id="@+id/sdi_showdialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdi_activityjump_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_showdialog"
+        android:textAllCaps="false"
+        android:onClick="toShowDialog"/>
+    <Button
+        android:id="@+id/sdi_fragmenttransition_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdi_showdialog_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_fragmenttransition"
+        android:textAllCaps="false"
+        android:onClick="toFragmentTransition"/>
+    <Button
+        android:id="@+id/sdi_viewpagertransition_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdi_fragmenttransition_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_viewpagertransition"
+        android:textAllCaps="false"
+        android:onClick="toViewPagerTransition"/>
 </RelativeLayout>

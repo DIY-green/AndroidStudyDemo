@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--从屏幕右边进入，到达终点后有超出在返回终点的动态效果  -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromXDelta="100%p"
+    android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+    android:toXDelta="0%p" />

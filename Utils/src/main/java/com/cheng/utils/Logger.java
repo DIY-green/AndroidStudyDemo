@@ -88,6 +88,26 @@ public class Logger {
         e(TAG, str);
     }
 
+    public static void v(Number number) {
+        v(TAG, "Number is :" + String.valueOf(number));
+    }
+
+    public static void d(Number number) {
+        d(TAG, "Number is :" + String.valueOf(number));
+    }
+
+    public static void i(Number number) {
+        i(TAG, "Number is :" + String.valueOf(number));
+    }
+
+    public static void w(Number number) {
+        w(TAG, "Number is :" + String.valueOf(number));
+    }
+
+    public static void e(Number number) {
+        e(TAG, "Number is :" + String.valueOf(number));
+    }
+
     public static void e(Throwable throwable) {
         e(TAG, throwable);
     }

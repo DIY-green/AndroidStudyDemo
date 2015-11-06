@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AnimationStudy</string>
 
@@ -6,6 +7,10 @@
     <string name="sds_btn_propertyanim">属性动画</string>
     <string name="sds_btn_nineoldandroids">NineOldAndroids</string>
     <string name="sds_btn_advanced">Advanced</string>
+    <string name="sds_btn_activityjump">Activity跳转动画</string>
+    <string name="sds_btn_showdialog">Dialog显示动画</string>
+    <string name="sds_btn_fragmenttransition">Fragment切换动画</string>
+    <string name="sds_btn_viewpagertransition">ViewPager切换动画</string>
     <string name="sds_btn_imitatewandoujia">仿豌豆荚首页动画</string>
     <string name="sds_btn_imitatebaiduread">仿百度阅读气泡</string>
     <string name="sds_btn_imitatemogujie">仿蘑菇街购物车</string>
@@ -57,11 +62,23 @@
     <string name="sds_btn_rgbanim">RGB</string>
     <string name="sds_btn_hsvanim">Hsv</string>
     <string name="sds_btn_skewanim">Skew</string>
+    <string name="sds_btn_horizontalslidetrans">左右滑动切换</string>
+    <string name="sds_btn_verticalslidetrans">上下滑动切换</string>
+    <string name="sds_btn_scaleuptrans">按比例扩大切换</string>
+    <string name="sds_btn_thumbnailtrans">缩略图放大切换</string>
+    <string name="sds_btn_scenetrans">场景转换切换</string>
+    <string name="sds_btn_verticaltransfer">垂直过渡切换</string>
+    <string name="sds_btn_fadeinfadeouttrans">淡入淡出切换</string>
+    <string name="sds_btn_finish">关闭</string>
     <string name="sds_cb_keepanimstatus">保持动画结束状态</string>
     <string name="sds_cb_loadxmlanim">加载xml动画</string>
     <string name="sds_cb_usegridlayout">使用GridLayout</string>
     <string name="sds_cb_changepoliceboximg">替换为PoliceBox图片</string>
     <string name="sds_cb_showtrananimimg">显示位移动画图片</string>
+    <string name="sds_tv_activityjumptip">Activity跳转动画演示</string>
+    <string name="sds_tv_firstactivitytip">这是第一个Activity</string>
+    <string name="sds_tv_secondactivitytip">这是第二个Activity</string>
+
     <string name="title_uidrawableanim">FrameAnim</string>
     <string name="title_uitweenanim">TweenAnim</string>
     <string name="title_uipropertyanim">PropertyAnim</string>
@@ -102,5 +119,10 @@
     <string name="title_activity_ui_anim_stream_control">AnimStreamControl</string>
     <string name="title_activity_ui_common_property_anim">CommonPropertyAnim</string>
     <string name="title_activity_ui_object_property_anim">ObjectPropertyAnim</string>
+    <string name="title_activity_ui_activity_jump">ActivityJump</string>
+    <string name="title_activity_ui_show_dialog">ShowDialog</string>
+    <string name="title_activity_ui_fragment_transition">FragmentTransition</string>
+    <string name="title_activity_ui_view_pager_transition">ViewPagerTransition</string>
+    <string name="title_activity_ui_activity_jump_aim">ActivityJumpAim</string>
 
 </resources>

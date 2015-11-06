@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">StudyDemo</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">MechanismStudy</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

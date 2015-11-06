@@ -1,14 +1,14 @@
 10
 
 dir
-623
+627
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/MechanismStudy/src/main/res
 http://182.92.169.124/svn/android
 
 
 
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -18,7 +18,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-copied
+
 
 
 
@@ -35,190 +35,28 @@ copied
 
 drawable
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 layout
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 menu
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 mipmap-hdpi
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 mipmap-mdpi
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 mipmap-xhdpi
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 mipmap-xxhdpi
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 values
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 
 values-w820dp
 dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-copied
 

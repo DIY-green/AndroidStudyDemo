@@ -1,14 +1,14 @@
 10
 
 dir
-623
+627
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/MechanismStudy/src/main/res/layout
 http://182.92.169.124/svn/android
 
 
 
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -18,7 +18,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-copied
+
 
 
 
@@ -33,16 +33,16 @@ copied
 
 0
 
-activity_main.xml
+ui_main.xml
 file
 
 
 
 
-2015-10-24T08:45:53.919000Z
-26c3d699d7b9396664bebc7a462be9d5
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:54:15.683000Z
+4e126436be2221758a67febd3708b992
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -52,7 +52,6 @@ wangcheng
 
 
 
-copied
 
 
 
@@ -65,5 +64,6 @@ copied
 
 
 
-1654
+
+626
 

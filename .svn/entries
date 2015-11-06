@@ -118,69 +118,64 @@ dir
 
 ArithmeticStudy
 dir
-
-
-
-add
 
 CommonLibsStudy
 dir
-
-
-
-add
 
 CustomViewStudy
 dir
-
-
-
-add
 
 DataRelatedStudy
 dir
-
-
-
-add
 
 DesignPatternStudy
 dir
-
-
-
-add
 
 FrontierTechnologyStudy
 dir
-
-
-
-add
 
 HandlerStudy
 dir
 
 HotFixStudy
 dir
-
-
-
-add
 
 ImageRelatedStudy
 dir
-
-
-
-add
 
 LICENSE
 file
-0
+628
 
 
-add
+
+2015-10-28T10:55:14.582000Z
+d437277f55afee75ebe74b04a6955810
+2015-11-06T02:58:59.516123Z
+628
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18387
 
 MVCFrameStudy
 dir
@@ -188,36 +183,54 @@ dir
 MVPFrameStudy
 dir
 
+MechanismStudy
+dir
+
 MultithreadStudy
 dir
-
-
-
-add
 
 NetworkFrameStudy
 dir
 
 OptimizeStudy
 dir
-
-
-
-add
 
 PluggableStudy
 dir
-
-
-
-add
 
 README.md
 file
-0
+628
 
 
-add
+
+2015-10-28T10:55:14.582000Z
+aecee66271cfae7b82c7d2a6d9bc0a1c
+2015-11-06T02:58:59.516123Z
+628
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53
 
 StudyDemo.iml
 file
@@ -258,10 +271,6 @@ dir
 
 UiImitateStudy
 dir
-
-
-
-add
 
 Utils
 dir
@@ -444,14 +453,14 @@ wangcheng
 
 settings.gradle
 file
+629
 
 
 
-
-2015-10-30T02:20:11.280000Z
-36a5604f508fae2ecf2e6e56cd3f7a6f
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:54:09.384000Z
+1d4c8f3bc7722b5534349238c25395ae
+2015-11-06T02:59:55.089422Z
+629
 wangcheng
 
 
@@ -474,5 +483,5 @@ wangcheng
 
 
 
-163
+431
 

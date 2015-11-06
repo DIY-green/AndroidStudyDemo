@@ -1,14 +1,14 @@
 10
 
 dir
-623
+627
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/MechanismStudy/src/main/res/mipmap-xhdpi
 http://182.92.169.124/svn/android
 
 
 
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -18,7 +18,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-copied
+
 
 
 
@@ -39,10 +39,10 @@ file
 
 
 
-2015-10-23T03:19:23.391000Z
+2015-11-06T02:54:10.828000Z
 93fd2eadf162fd41695cab262540184f
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 has-props
 
@@ -52,7 +52,7 @@ has-props
 
 
 
-copied
+
 
 
 

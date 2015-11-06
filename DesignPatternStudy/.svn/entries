@@ -1,15 +1,15 @@
 10
 
 dir
-0
+625
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/DesignPatternStudy
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,46 +25,153 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 .gitignore
 file
 
 
 
-add
+
+2015-11-06T02:19:09.970000Z
+02e6ed7a96b1eb179e9dd86e6677527d
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
 
 DesignPatternStudy.iml
 file
 
 
 
-add
+
+2015-11-06T02:36:27.460000Z
+c6e5a5eab56bad6450e3544dade75d22
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7386
 
 build.gradle
 file
 
 
 
-add
+
+2015-11-06T02:19:10.114000Z
+04134280c13e1e62bd50e62e7c169c61
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+619
 
 libs
 dir
-
-
-
-add
 
 proguard-rules.pro
 file
 
 
 
-add
+
+2015-11-06T02:19:09.978000Z
+f7627434eddea250d2c9e8b6e3b4280c
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+690
 
 src
 dir
-
-
-
-add
 

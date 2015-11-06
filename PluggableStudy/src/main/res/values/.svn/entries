@@ -1,15 +1,15 @@
 10
 
 dir
-0
+626
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/PluggableStudy/src/main/res/values
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,25 +25,113 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 dimens.xml
 file
 
 
 
-add
+
+2015-11-06T02:11:19.499000Z
+70d60a479ceea16da02b1ae584b88026
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+216
 
 strings.xml
 file
 
 
 
-add
+
+2015-11-06T02:11:19.482000Z
+e12af197be7e7a6c6d755a3b6bc84177
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+190
 
 styles.xml
 file
 
 
 
-add
+
+2015-11-06T02:11:18.729000Z
+340b27bb71a2d549ed67398bfccf824f
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+202
 

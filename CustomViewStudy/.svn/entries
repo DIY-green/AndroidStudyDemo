@@ -1,15 +1,15 @@
 10
 
 dir
-0
+625
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/CustomViewStudy
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,46 +25,153 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 .gitignore
 file
 
 
 
-add
+
+2015-11-06T02:03:54.503000Z
+02e6ed7a96b1eb179e9dd86e6677527d
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
 
 CustomViewStudy.iml
 file
 
 
 
-add
+
+2015-11-06T02:30:01.991000Z
+62a52482552b187c2f6716b2655d8d1b
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7380
 
 build.gradle
 file
 
 
 
-add
+
+2015-11-06T02:03:54.648000Z
+dc1a772d95618fc065f8149c4a8e7e23
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+616
 
 libs
 dir
-
-
-
-add
 
 proguard-rules.pro
 file
 
 
 
-add
+
+2015-11-06T02:03:54.513000Z
+f7627434eddea250d2c9e8b6e3b4280c
+2015-11-06T02:44:44.257063Z
+625
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+690
 
 src
 dir
-
-
-
-add
 

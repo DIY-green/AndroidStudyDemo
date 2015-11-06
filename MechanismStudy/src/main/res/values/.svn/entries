@@ -1,14 +1,14 @@
 10
 
 dir
-623
+627
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/MechanismStudy/src/main/res/values
 http://182.92.169.124/svn/android
 
 
 
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -18,7 +18,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-copied
+
 
 
 
@@ -39,10 +39,10 @@ file
 
 
 
-2015-10-23T03:22:41.119000Z
+2015-11-06T02:54:15.587000Z
 70d60a479ceea16da02b1ae584b88026
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -52,7 +52,7 @@ wangcheng
 
 
 
-copied
+
 
 
 
@@ -73,10 +73,10 @@ file
 
 
 
-2015-10-23T03:22:41.105000Z
-3acfd1f308af5267badb31a6d6f47de9
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:54:15.549000Z
+d6a236055d4c8c3d588d55d6fa3851bf
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -86,7 +86,6 @@ wangcheng
 
 
 
-copied
 
 
 
@@ -99,7 +98,8 @@ copied
 
 
 
-247
+
+190
 
 styles.xml
 file
@@ -107,10 +107,10 @@ file
 
 
 
-2015-10-23T03:19:23.467000Z
+2015-11-06T02:54:10.945000Z
 340b27bb71a2d549ed67398bfccf824f
-2015-11-01T23:25:26.062370Z
-562
+2015-11-06T02:58:04.669587Z
+627
 wangcheng
 
 
@@ -120,7 +120,7 @@ wangcheng
 
 
 
-copied
+
 
 
 

@@ -1,15 +1,15 @@
 10
 
 dir
-0
+626
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/HotFixStudy/src/main/res/values-w820dp
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,11 +25,45 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 dimens.xml
 file
 
 
 
-add
+
+2015-11-06T02:22:02.131000Z
+24ef463fb7401d2ff020e9f4291ffc8f
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+364
 

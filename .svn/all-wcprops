@@ -9,11 +9,17 @@ svn:wc:ra_dav:version-url
 V 64
 /svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/gradlew
 END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/628/trunk/src/jiachuduan/StudyDemo/LICENSE
+END
 settings.gradle
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/settings.gradle
+/svn/android/!svn/ver/629/trunk/src/jiachuduan/StudyDemo/settings.gradle
 END
 .gitignore
 K 25
@@ -44,6 +50,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 68
 /svn/android/!svn/ver/562/trunk/src/jiachuduan/StudyDemo/gradlew.bat
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/628/trunk/src/jiachuduan/StudyDemo/README.md
 END
 gradle.properties
 K 25

@@ -1,15 +1,15 @@
 10
 
 dir
-0
+626
 http://182.92.169.124/svn/android/trunk/src/jiachuduan/StudyDemo/UiImitateStudy
 http://182.92.169.124/svn/android
-add
 
 
 
-
-
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,46 +25,153 @@ svn:special svn:externals svn:needs-lock
 
 
 0f5f0e11-700e-49f4-a95e-1a175f5084c6
+
+
+
+
+
+
+0
 
 .gitignore
 file
 
 
 
-add
+
+2015-11-06T01:59:31.457000Z
+02e6ed7a96b1eb179e9dd86e6677527d
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8
 
 UiImitateStudy.iml
 file
 
 
 
-add
+
+2015-11-06T02:30:01.986000Z
+1fea9ee08e131c8a301867fd0f2c7564
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7378
 
 build.gradle
 file
 
 
 
-add
+
+2015-11-06T01:59:31.940000Z
+b8dadb5e4e4dd2f4cd26b5bec395caeb
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+615
 
 libs
 dir
-
-
-
-add
 
 proguard-rules.pro
 file
 
 
 
-add
+
+2015-11-06T01:59:31.488000Z
+f7627434eddea250d2c9e8b6e3b4280c
+2015-11-06T02:47:30.666627Z
+626
+wangcheng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+690
 
 src
 dir
-
-
-
-add
 

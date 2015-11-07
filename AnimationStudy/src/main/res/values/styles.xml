@@ -5,6 +5,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="TranslucentTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
     <style name="MenuStyle">
         <item name="android:layout_width">50dp</item>
         <item name="android:layout_height">50dp</item>

@@ -45,6 +45,7 @@
         android:layout_below="@id/sdi_verticleslide_btn"
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_scaleuptrans"
+        android:visibility="gone"
         android:onClick="showScaleUpTrans"/>
     <Button
         android:id="@+id/sdi_thumbnailtrans_btn"
@@ -53,6 +54,7 @@
         android:layout_below="@id/sdi_scaleuptrans_btn"
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_thumbnailtrans"
+        android:visibility="gone"
         android:onClick="showThumbnailTrans"/>
     <Button
         android:id="@+id/sdi_scenetrans_btn"
@@ -61,6 +63,7 @@
         android:layout_below="@id/sdi_thumbnailtrans_btn"
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_scenetrans"
+        android:visibility="gone"
         android:onClick="showSceneTrans"/>
     <Button
         android:id="@+id/sdi_verticaltransfer_btn"
@@ -78,4 +81,32 @@
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_fadeinfadeouttrans"
         android:onClick="showFadeInFadeOutTrans"/>
+    <Button
+        android:id="@+id/sdi_activityoptionscompat_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_fadeinfadeouttrans_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_activityoptionscompatuse"
+        android:textAllCaps="false"
+        android:onClick="toActivityOptionsCompatDemo"/>
+    <RadioGroup
+        android:id="@+id/sdi_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/sdi_useactivityoptionscompat_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sds_cb_useactivityoptionscompat"/>
+        <RadioButton
+            android:id="@+id/sdi_useactivityoptionscompatics_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sds_cb_useactivityoptionscompatics"/>
+    </RadioGroup>
 </RelativeLayout>

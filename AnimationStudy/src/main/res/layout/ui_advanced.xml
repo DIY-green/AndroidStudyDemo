@@ -17,7 +17,6 @@
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_imitatewandoujia"
         android:onClick="toImitateWandoujia"/>
-
     <Button
         android:id="@+id/sdi_imitatebaiduread_btn"
         android:layout_width="match_parent"
@@ -26,7 +25,6 @@
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_imitatebaiduread"
         android:onClick="toImitateBaiduRead"/>
-
     <Button
         android:id="@+id/sdi_imitatemogujie_btn"
         android:layout_width="match_parent"
@@ -35,7 +33,6 @@
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_imitatemogujie"
         android:onClick="toImitateMogujie"/>
-
     <Button
         android:id="@+id/sdi_imitateucpulldowneye_btn"
         android:layout_width="match_parent"
@@ -44,7 +41,6 @@
         android:layout_alignParentStart="true"
         android:text="@string/sds_btn_imitateucpulldowneye"
         android:onClick="toImitateUCPullDownEye"/>
-
     <Button
         android:id="@+id/sdi_imitatetaobaoretraction_btn"
         android:layout_width="match_parent"
@@ -52,7 +48,6 @@
         android:layout_below="@id/sdi_imitateucpulldowneye_btn"
         android:text="@string/sds_btn_imitatetaobaoretraction"
         android:onClick="toImitateTaobaoRetraction"/>
-
     <Button
         android:id="@+id/sdi_imitatebrowserzoomview_btn"
         android:layout_width="match_parent"
@@ -60,7 +55,6 @@
         android:layout_below="@id/sdi_imitatetaobaoretraction_btn"
         android:text="@string/sds_btn_imitatebrowserzoomview"
         android:onClick="toImitateBrowserZoomView" />
-
     <Button
         android:id="@+id/sdi_viewnaturaltransitionanim_btn"
         android:layout_width="match_parent"
@@ -69,7 +63,6 @@
         android:text="@string/sds_btn_viewnaturaltransitionanim"
         android:textAllCaps="false"
         android:onClick="toViewNatureTransitionAnim" />
-
     <Button
         android:id="@+id/sdi_pulltorefreshanim01_btn"
         android:layout_width="match_parent"
@@ -77,7 +70,6 @@
         android:layout_below="@id/sdi_viewnaturaltransitionanim_btn"
         android:text="@string/sds_btn_pulltorefreshanim01"
         android:onClick="toPullToRefreshAnim01" />
-
     <Button
         android:id="@+id/sdi_pulltorefreshanim02_btn"
         android:layout_width="match_parent"
@@ -85,7 +77,6 @@
         android:layout_below="@id/sdi_pulltorefreshanim01_btn"
         android:text="@string/sds_btn_pulltorefreshanim02"
         android:onClick="toPullToRefreshAnim02" />
-
     <Button
         android:id="@+id/sdi_pulltorefreshanim03_btn"
         android:layout_width="match_parent"

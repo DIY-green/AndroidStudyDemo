@@ -69,15 +69,19 @@
     <string name="sds_btn_scenetrans">场景转换切换</string>
     <string name="sds_btn_verticaltransfer">垂直过渡切换</string>
     <string name="sds_btn_fadeinfadeouttrans">淡入淡出切换</string>
+    <string name="sds_btn_activityoptionscompatuse">ActivityOptiosCompat使用</string>
     <string name="sds_btn_finish">关闭</string>
     <string name="sds_cb_keepanimstatus">保持动画结束状态</string>
     <string name="sds_cb_loadxmlanim">加载xml动画</string>
     <string name="sds_cb_usegridlayout">使用GridLayout</string>
     <string name="sds_cb_changepoliceboximg">替换为PoliceBox图片</string>
     <string name="sds_cb_showtrananimimg">显示位移动画图片</string>
+    <string name="sds_cb_useactivityoptionscompat">使用AOCompat</string>
+    <string name="sds_cb_useactivityoptionscompatics">使用AOCompatOCS</string>
     <string name="sds_tv_activityjumptip">Activity跳转动画演示</string>
     <string name="sds_tv_firstactivitytip">这是第一个Activity</string>
     <string name="sds_tv_secondactivitytip">这是第二个Activity</string>
+    <string name="tower_of_london">The Tower of London has played a prominent role in English history. It was besieged several times and controlling it has been important to controlling the country. The Tower has served variously as an armoury, a treasury, a menagerie, the home of the Royal Mint, a public records office, and the home of the Crown Jewels of the United Kingdom. From the early 14th century until the reign of Charles II, a procession would be led from the Tower to Westminster Abbey on the coronation of a monarch. In the absence of the monarch, the Constable of the Tower is in charge of the castle. This was a powerful and trusted position in the medieval period. In the late 15th century the castle was the prison of the Princes in the Tower. Under the Tudors, the Tower became used less as a royal residence, and despite attempts to refortify and repair the castle its defences lagged behind developments to deal with artillery.</string>
 
     <string name="title_uidrawableanim">FrameAnim</string>
     <string name="title_uitweenanim">TweenAnim</string>
@@ -124,5 +128,11 @@
     <string name="title_activity_ui_fragment_transition">FragmentTransition</string>
     <string name="title_activity_ui_view_pager_transition">ViewPagerTransition</string>
     <string name="title_activity_ui_activity_jump_aim">ActivityJumpAim</string>
+    <string name="title_activity_ui_activity_options_compat_jump_aim">ActivityOptionsCompatJumpAim
+    </string>
+    <string name="title_activity_ui_activity_options_compat_demo">ActivityOptionsCompatDemo</string>
+    <string name="title_activity_ui_activity_options_compat_demo_target">
+        ActivityOptionsCompatDemoTarget
+    </string>
 
 </resources>

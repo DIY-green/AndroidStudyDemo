@@ -10,5 +10,6 @@
     <color name="grey_normal">#ff8a837c</color>
     <color name="transgray">#33555555</color>
     <color name="dark_green">#008800</color>
+    <drawable name="background">#eeeeee</drawable>
 
 </resources>

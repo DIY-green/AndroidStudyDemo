@@ -1,80 +1,133 @@
 package com.cheng.animationstudy.ui;
 
 import android.content.Intent;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.RadioGroup;
 
 import com.cheng.animationstudy.R;
 import com.cheng.utils.Logger;
-
-import java.util.Random;
+import com.cheng.utils.ViewFinder;
+import com.kale.activityoptions.ActivityCompatICS;
+import com.kale.activityoptions.ActivityOptionsCompatICS;
 
 public class UiActivityJump extends AppCompatActivity {
 
     private static int randomInt = 3;
+    private RadioGroup mBottomRG;
+
+    private boolean useActivityOptionsCompat;
+    private boolean useActivityOptionsCompatICS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_activityjump);
+
+        initView();
+        initListener();
+    }
+
+    private void initView() {
+        this.mBottomRG = ViewFinder.findViewById(this, R.id.sdi_bottom_rg);
+    }
+
+    private void initListener() {
+        this.mBottomRG.setOnCheckedChangeListener(
+        new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if (checkedId == R.id.sdi_useactivityoptionscompat_rb) {
+                    useActivityOptionsCompat = true;
+                    useActivityOptionsCompatICS = false;
+                } else if (checkedId == R.id.sdi_useactivityoptionscompatics_rb) {
+                    useActivityOptionsCompatICS = true;
+                    useActivityOptionsCompat = false;
+                }
+            }
+        });
     }
 
     public void showHorizontalSlideTransition(View v) {
-        overlay();
         randomInt++;
         Logger.e(randomInt);
         switch ((randomInt)%3) {
             case 0:
                 // 设置切换动画，从右边进入，左边退出
-                overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
+                startActivityWithAnim(R.anim.in_from_right,
+                        R.anim.out_to_left);
                 break;
             case 1:
                 // 设置切换动画，从右边进入，左边退出,带动态效果
-                overridePendingTransition(R.anim.dync_in_from_right, R.anim.dync_out_to_left);
+                startActivityWithAnim(R.anim.dync_in_from_right,
+                        R.anim.dync_out_to_left);
                 break;
             case 2:
                 // 设置切换动画，从右边进入，左边退出,带动态效果
-                overridePendingTransition(R.anim.new_dync_in_from_right, R.anim.new_dync_out_to_left);
+                startActivityWithAnim(R.anim.new_dync_in_from_right,
+                        R.anim.new_dync_out_to_left);
                 break;
         }
     }
 
     public void showVerticleTransition(View v) {
-        overlay();
         // 设置动画，从下进入，从上退出
-        overridePendingTransition(R.anim.in_from_down, R.anim.out_to_up);
+        startActivityWithAnim(R.anim.in_from_down,
+                R.anim.out_to_up);
     }
 
-    public void showScaleUpTrans(View v) {
-
-    }
-
-    public void showThumbnailTrans(View v) {
-
-    }
-
-    public void showSceneTrans(View v) {
-
+    public void toActivityOptionsCompatDemo(View v) {
+        Intent intent = new Intent(
+                UiActivityJump.this,
+                UiActivityOptionsCompatDemo.class
+        );
+        startActivity(intent);
     }
 
     public void showVerticalTransfer(View v) {
-
+        startActivityWithAnim(R.anim.slide_in_bottom,
+                R.anim.slide_out_bottom);
     }
 
     public void showFadeInFadeOutTrans(View v) {
-
+        startActivityWithAnim(R.anim.push_left_in,
+                R.anim.fade_out_left);
     }
 
-    private void overlay() {
-        overlay(UiActivityJumpAim.class);
-    }
-
-    private void overlay(Class clazz) {
-        Intent intent = new Intent(UiActivityJump.this, clazz);
-        startActivity(intent);
+    private void startActivityWithAnim(int startAnimId, int endAnimId) {
+        Intent intent = new Intent(
+                UiActivityJump.this,
+                UiActivityJumpAim.class
+        );
+        if (useActivityOptionsCompat) {
+            ActivityOptionsCompat activityOptionsCompat
+                    = ActivityOptionsCompat.makeCustomAnimation(
+                    UiActivityJump.this,
+                    startAnimId,
+                    endAnimId);
+            ActivityCompat.startActivity(
+                    UiActivityJump.this,
+                    intent,
+                    activityOptionsCompat.toBundle());
+        } else if (useActivityOptionsCompatICS) {
+            ActivityOptionsCompatICS activityOptionsCompatICS
+                    = ActivityOptionsCompatICS.makeCustomAnimation(
+                    UiActivityJump.this,
+                    startAnimId,
+                    endAnimId);
+            ActivityCompatICS.startActivity(
+                    UiActivityJump.this,
+                    intent,
+                    activityOptionsCompatICS.toBundle());
+        } else {
+            startActivity(intent);
+            overridePendingTransition(startAnimId, endAnimId);
+        }
     }
 
     // android转场动画windowAnimation和ActivityAnimation的区别

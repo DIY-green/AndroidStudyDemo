@@ -63,4 +63,13 @@
         android:text="@string/sds_btn_objectpropertyanim"
         android:textAllCaps="false"
         android:onClick="toObjectPropertyAnim"/>
+    <Button
+        android:id="@+id/sdi_animbypath_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_objectpropertyanim_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_animbypath"
+        android:textAllCaps="false"
+        android:onClick="toAnimByPath"/>
 </RelativeLayout>

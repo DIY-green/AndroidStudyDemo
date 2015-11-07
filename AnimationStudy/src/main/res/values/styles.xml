@@ -51,4 +51,20 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- windowAnimation -->
+    <style name="WindowAnimation" parent="@android:style/Animation">
+        <!--窗体进入动画-->
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <!--窗体退出动画-->
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <!-- ActivityAnimation -->
+    <style name="ActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/slide_out_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_left_out</item>
+    </style>
+
 </resources>

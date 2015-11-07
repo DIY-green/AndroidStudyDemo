@@ -39,6 +39,10 @@ public class UiPropertyAnimAdvanced extends AppCompatActivity {
         overlay(UiObjectPropertyAnim.class);
     }
 
+    public void toAnimByPath(View v) {
+        overlay(UiAnimByPath.class);
+    }
+
     private void overlay(Class clazz) {
         Intent intent = new Intent(UiPropertyAnimAdvanced.this, clazz);
         startActivity(intent);

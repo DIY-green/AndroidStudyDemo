@@ -43,6 +43,14 @@ public class UiAdvanced extends AppCompatActivity {
         overlay(UiViewNatrueTransitionAnim.class);
     }
 
+    public void toDynamicRotationAnim(View v) {
+        overlay(UiDynamicRotationAnim.class);
+    }
+
+    public void toLeafFlyLoadingAnim(View v) {
+        overlay(UiLeafFlyLoadingAnim.class);
+    }
+
     public void toPullToRefreshAnim01(View v) {
         overlay(UiPullToRefreshAnim01.class);
     }

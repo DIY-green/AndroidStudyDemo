@@ -64,10 +64,24 @@
         android:textAllCaps="false"
         android:onClick="toViewNatureTransitionAnim" />
     <Button
-        android:id="@+id/sdi_pulltorefreshanim01_btn"
+        android:id="@+id/sdi_dynamicrotationanim_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/sdi_viewnaturaltransitionanim_btn"
+        android:text="@string/sds_btn_dynamicrotationanim"
+        android:onClick="toDynamicRotationAnim" />
+    <Button
+        android:id="@+id/sdi_leafflyloadinganim_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_dynamicrotationanim_btn"
+        android:text="@string/sds_btn_leafflyloadinganim"
+        android:onClick="toLeafFlyLoadingAnim" />
+    <Button
+        android:id="@+id/sdi_pulltorefreshanim01_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_leafflyloadinganim_btn"
         android:text="@string/sds_btn_pulltorefreshanim01"
         android:onClick="toPullToRefreshAnim01" />
     <Button

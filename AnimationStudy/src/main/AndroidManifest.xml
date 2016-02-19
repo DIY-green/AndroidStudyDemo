@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cheng.animationstudy" >
+    package="com.cheng.animationstudy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".ui.UiMain"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -87,41 +89,75 @@
             android:label="@string/title_activity_ui_activity_jump" />
         <activity
             android:name=".ui.UiShowDialog"
-            android:label="@string/title_activity_ui_show_dialog" >
-        </activity>
+            android:label="@string/title_activity_ui_show_dialog" />
         <activity
             android:name=".ui.UiFragmentTransition"
-            android:label="@string/title_activity_ui_fragment_transition" >
-        </activity>
+            android:label="@string/title_activity_ui_fragment_transition" />
         <activity
             android:name=".ui.UiViewPagerTransition"
-            android:label="@string/title_activity_ui_view_pager_transition" >
-        </activity>
+            android:label="@string/title_activity_ui_view_pager_transition" />
         <activity
             android:name=".ui.UiActivityJumpAim"
-            android:label="@string/title_activity_ui_activity_jump_aim" >
-        </activity>
+            android:label="@string/title_activity_ui_activity_jump_aim" />
         <activity
             android:name=".ui.UiActivityOptionsCompatDemo"
-            android:label="@string/title_activity_ui_activity_options_compat_demo" >
-        </activity>
+            android:label="@string/title_activity_ui_activity_options_compat_demo" />
         <activity
             android:name=".ui.UiActivityOptionsCompatDemoTarget"
             android:label="@string/title_activity_ui_activity_options_compat_demo_target"
-            android:theme="@style/TranslucentTheme" >
-        </activity>
+            android:theme="@style/TranslucentTheme" />
         <activity
             android:name=".ui.UiAnimByPath"
-            android:label="@string/title_activity_ui_anim_by_path" >
-        </activity>
+            android:label="@string/title_activity_ui_anim_by_path" />
         <activity
             android:name=".ui.UiLeafFlyLoadingAnim"
-            android:label="@string/title_activity_ui_leaf_fly_loading_anim" >
-        </activity>
+            android:label="@string/title_activity_ui_leaf_fly_loading_anim" />
         <activity
             android:name=".ui.UiDynamicRotationAnim"
-            android:label="@string/title_activity_ui_dynamic_rotation_anim" >
-        </activity>
+            android:label="@string/title_activity_ui_dynamic_rotation_anim" />
+        <activity
+            android:name=".ui.UiImitateAutoHomePTRA"
+            android:label="@string/title_activity_ui_imitate_athmpt_anim" />
+        <activity
+            android:name=".ui.UiImitateMeiTuanPTRA"
+            android:label="@string/title_activity_ui_imitate_meituanpt_anim" />
+        <activity
+            android:name=".ui.UiImitateGoogleSRLA01"
+            android:label="@string/title_activity_ui_imitate_google_srla01" />
+        <activity
+            android:name=".ui.UiImitateGoogleSRLA02"
+            android:label="@string/title_activity_ui_imitate_google_srla02" />
+        <activity
+            android:name=".ui.UiBGARefreshLayout"
+            android:label="@string/title_activity_ui_bgarefresh_layout" />
+        <activity
+            android:name=".ui.UiBGANormalListView"
+            android:label="@string/title_activity_ui_bganormal_list_view" />
+        <activity
+            android:name=".ui.UiBGANormalRecyclerView"
+            android:label="@string/title_activity_ui_bgarecycler_view" />
+        <activity
+            android:name=".ui.UiBGASwipeListView"
+            android:label="@string/title_activity_ui_bgaswipe_list_view" />
+        <activity
+            android:name=".ui.UiBGASwipeRecyclerView"
+            android:label="@string/title_activity_ui_bgaswipe_recycler_view" />
+        <activity
+            android:name=".ui.UiBGAScrollView"
+            android:label="@string/title_activity_ui_bga_scroll_view" />
+        <activity
+            android:name=".ui.UiBGAWebView"
+            android:label="@string/title_activity_ui_bga_web_view" />
+        <activity
+            android:name=".ui.UiBGAViewPager"
+            android:label="@string/title_activity_ui_bga_view_pager" />
+        <activity
+            android:name=".ui.UiSunRosePullToRefreshAnim"
+            android:label="@string/title_activity_ui_sun_rose_pull_to_refresh_anim" />
+        <activity
+            android:name=".ui.UiZrcListView"
+            android:label="@string/title_activity_ui_zrc_list_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

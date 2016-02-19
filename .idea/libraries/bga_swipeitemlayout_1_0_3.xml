@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bga-swipeitemlayout-1.0.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-swipeitemlayout/1.0.3/res" />
+      <root url="jar://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-swipeitemlayout/1.0.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-swipeitemlayout/1.0.3/338c28e96d4990e9c2c96652c2b18f5aec8b5481/bga-swipeitemlayout-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

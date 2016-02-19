@@ -20,7 +20,7 @@ import android.widget.ViewFlipper;
 import com.cheng.animationstudy.C;
 import com.cheng.animationstudy.R;
 import com.cheng.animationstudy.customview.TweenAnimView;
-import com.cheng.utils.AnalogSignal;
+import com.cheng.utils.AnalogSignalUtil;
 import com.cheng.utils.ViewFinder;
 
 /**
@@ -411,23 +411,23 @@ public class UiTweenAnim extends AppCompatActivity implements AdapterView.OnItem
     备注：TweenAnimView的问题以后再说，其他基本动画都演示清楚了
      */
     public void keyUp(View v) {
-        AnalogSignal.KeyEventSignal.up();
+        AnalogSignalUtil.KeyEventSignal.up();
     }
 
     public void keyDown(View v) {
-        AnalogSignal.KeyEventSignal.down();
+        AnalogSignalUtil.KeyEventSignal.down();
     }
 
     public void keyLeft(View v) {
-        AnalogSignal.KeyEventSignal.left();
+        AnalogSignalUtil.KeyEventSignal.left();
     }
 
     public void keyRight(View v) {
-        AnalogSignal.KeyEventSignal.right();
+        AnalogSignalUtil.KeyEventSignal.right();
     }
 
     public void keyCenter(View v) {
-        AnalogSignal.KeyEventSignal.center();
+        AnalogSignalUtil.KeyEventSignal.center();
     }
 
 }

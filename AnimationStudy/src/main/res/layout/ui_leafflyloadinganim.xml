@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:text="loading ..."
         android:textColor="#FFA800"
         android:textSize="30dp" />
@@ -24,11 +24,11 @@
             android:layout_centerHorizontal="true" />
         <ImageView
             android:id="@+id/fan_pic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="35dp"
+            android:layout_marginRight="38dp"
             android:src="@mipmap/fengshan" />
     </RelativeLayout>
     <ScrollView

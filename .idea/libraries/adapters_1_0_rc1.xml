@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="adapters-1.0-rc1">
+    <CLASSES>
+      <root url="jar://D:/Develop/Android/sdk/extras/android/m2repository/com/android/databinding/adapters/1.0-rc1/adapters-1.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Develop/Android/sdk/extras/android/m2repository/com/android/databinding/adapters/1.0-rc1/adapters-1.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

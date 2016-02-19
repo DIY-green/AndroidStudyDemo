@@ -2,8 +2,8 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
   <!-- 按下时背景图片 -->
-  <item android:state_pressed="true" android:drawable="@color/blank" />
-  <item android:state_checked="true" android:drawable="@color/blank" />
+  <item android:state_pressed="true" android:drawable="@color/black" />
+  <item android:state_checked="true" android:drawable="@color/black" />
   <!-- 默认时背景图片 -->
-  <item android:drawable="@color/blank" />
+  <item android:drawable="@color/black" />
 </selector>

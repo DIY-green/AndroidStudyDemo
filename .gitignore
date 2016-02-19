@@ -32,3 +32,4 @@ proguard/
 captures/
 
 *.svn
+.svn

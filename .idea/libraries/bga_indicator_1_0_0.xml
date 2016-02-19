@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bga-indicator-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-indicator/1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-indicator/1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-indicator/1.0.0/b2fc9de2b39e8315554116124427654eff72d7aa/bga-indicator-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -51,6 +51,34 @@ public class UiAdvanced extends AppCompatActivity {
         overlay(UiLeafFlyLoadingAnim.class);
     }
 
+    public void toSunRosePullToRefreshAnim(View v) {
+        overlay(UiSunRosePullToRefreshAnim.class);
+    }
+
+    public void toZrcListView(View v) {
+        overlay(UiZrcListView.class);
+    }
+
+    public void toImitateATHMPullToRefreshAnim(View v) {
+        overlay(UiImitateAutoHomePTRA.class);
+    }
+
+    public void toImitateMeiTuanPullToRefreshAnim(View v) {
+        overlay(UiImitateMeiTuanPTRA.class);
+    }
+
+    public void toImitateGoogleSwipeRefreshLayoutAnim01(View v) {
+        overlay(UiImitateGoogleSRLA01.class);
+    }
+
+    public void toImitateGoogleSwipeRefreshLayoutAnim02(View v) {
+        overlay(UiImitateGoogleSRLA02.class);
+    }
+
+    public void toBGARefreshLayout(View v) {
+        overlay(UiBGARefreshLayout.class);
+    }
+
     public void toPullToRefreshAnim01(View v) {
         overlay(UiPullToRefreshAnim01.class);
     }

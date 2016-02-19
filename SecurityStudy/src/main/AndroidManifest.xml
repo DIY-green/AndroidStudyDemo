@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cheng.securitystudy" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.UiMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.UiPseudoEncryption"
+            android:label="@string/title_activity_ui_prevent_secondary_signature_pack" >
+        </activity>
+        <activity
+            android:name=".ui.UiPreventDecompile"
+            android:label="@string/title_activity_ui_prevent_decompile" >
+        </activity>
+        <activity
+            android:name=".ui.UiDexBytecodeTamper"
+            android:label="@string/title_activity_ui_dex_bytecode_tamper" >
+        </activity>
+        <activity
+            android:name=".ui.UiDestoryAPKPackage"
+            android:label="@string/title_activity_ui_destory_apkpackage" >
+        </activity>
+        <activity
+            android:name=".ui.UiResourceImageVandalism"
+            android:label="@string/title_activity_ui_resource_image_vandalism" >
+        </activity>
+        <activity
+            android:name=".ui.UiCodeSeniorConfusion"
+            android:label="@string/title_activity_ui_code_senior_confusion" >
+        </activity>
+        <activity
+            android:name=".ui.UiJunkCode"
+            android:label="@string/title_activity_ui_junk_code" >
+        </activity>
+        <activity
+            android:name=".ui.UiFolderConfusion"
+            android:label="@string/title_activity_ui_folder_confusion" >
+        </activity>
+        <activity
+            android:name=".ui.UiRuntimeVerification"
+            android:label="@string/title_activity_ui_runtime_verification" >
+        </activity>
+        <activity
+            android:name=".ui.UiAndroidTechVerify"
+            android:label="@string/title_activity_ui_android_test_verify" >
+        </activity>
+        <activity
+            android:name=".ui.UiJavaTechVerify"
+            android:label="@string/title_activity_ui_java_test_verify" >
+        </activity>
+        <activity
+            android:name=".ui.UiPreventMemoryChange"
+            android:label="@string/title_activity_ui_prevent_memory_change" >
+        </activity>
+        <activity
+            android:name=".ui.UiVersusJD_GUI"
+            android:label="@string/title_activity_ui_versus_jd__gui" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,16 +1,26 @@
 package com.cheng.designpatternstudy;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.View;
 
-public class UiMain extends AppCompatActivity {
+import com.cheng.base.BaseUi;
+import com.cheng.bigtalkdesignpatterns.UiBigTalkDesignPatterns;
+import com.cheng.zenofdesignpatterns.UiZenofDesignPatterns;
+
+public class UiMain extends BaseUi {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ui_main);
+    }
+
+    public void toBigTalkDesignPattern(View v) {
+        overlay(UiBigTalkDesignPatterns.class);
+    }
+
+    public void toZenofDesignPattern(View v) {
+        overlay(UiZenofDesignPatterns.class);
     }
 
 }

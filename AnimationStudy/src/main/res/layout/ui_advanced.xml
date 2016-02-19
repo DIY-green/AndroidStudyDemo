@@ -78,10 +78,60 @@
         android:text="@string/sds_btn_leafflyloadinganim"
         android:onClick="toLeafFlyLoadingAnim" />
     <Button
-        android:id="@+id/sdi_pulltorefreshanim01_btn"
+        android:id="@+id/sdi_sunrosepulltorefreshanim_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/sdi_leafflyloadinganim_btn"
+        android:text="@string/sds_btn_sunrosepulltorefreshanim"
+        android:onClick="toSunRosePullToRefreshAnim" />
+    <Button
+        android:id="@+id/sdi_zrclistview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_sunrosepulltorefreshanim_btn"
+        android:text="@string/sds_btn_zrclistview"
+        android:onClick="toZrcListView"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/sdi_imitateathmpulltorefreshanim_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_zrclistview_btn"
+        android:text="@string/sds_btn_imitateathmpulltorefreshanim"
+        android:onClick="toImitateATHMPullToRefreshAnim" />
+    <Button
+        android:id="@+id/sdi_imitatemeituanpulltorefreshanim_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_imitateathmpulltorefreshanim_btn"
+        android:text="@string/sds_btn_imitatemeituanpulltorefreshanim"
+        android:onClick="toImitateMeiTuanPullToRefreshAnim" />
+    <Button
+        android:id="@+id/sdi_imitategoogleswiperefreshlayout01_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_imitatemeituanpulltorefreshanim_btn"
+        android:text="@string/sds_btn_imitategoogleswiperefreshlayoutanim01"
+        android:onClick="toImitateGoogleSwipeRefreshLayoutAnim01" />
+    <Button
+        android:id="@+id/sdi_imitategoogleswiperefreshlayout02_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_imitategoogleswiperefreshlayout01_btn"
+        android:text="@string/sds_btn_imitategoogleswiperefreshlayoutanim02"
+        android:onClick="toImitateGoogleSwipeRefreshLayoutAnim02" />
+    <Button
+        android:id="@+id/sdi_bgarefreshlayout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_imitategoogleswiperefreshlayout02_btn"
+        android:text="@string/sds_btn_bgarefreshlayout"
+        android:onClick="toBGARefreshLayout" />
+    <Button
+        android:id="@+id/sdi_pulltorefreshanim01_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_bgarefreshlayout_btn"
         android:text="@string/sds_btn_pulltorefreshanim01"
         android:onClick="toPullToRefreshAnim01" />
     <Button

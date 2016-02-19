@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 仿百度阅读波纹按钮 -->
     <declare-styleable name="RippleView">
         <attr name="rv_alpha" format="integer"/>
         <attr name="rv_framerate" format="integer"/>
@@ -18,4 +19,90 @@
         <attr name="rv_inner_radius" format="dimension"/>
         <attr name="rv_inner_margin_radius" format="dimension"/>
     </declare-styleable>
+
+    <!-- 仿Google SwipeRefreshLayout下拉刷新 -->
+    <declare-styleable name="SwipyRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- cn.bingoogolapple.refreshlayout -->
+    <declare-styleable name="BGAMoocStyleRefreshView">
+        <attr name="mv_ultimateColor" format="reference|color"/>
+        <attr name="mv_originalImg" format="reference" />
+    </declare-styleable>
+
+    <!-- SunRoseRefreshView -->
+    <declare-styleable name="SunRoseRefreshView">
+        <attr name="type" format="enum">
+            <enum name="sun" value="0" />
+            <enum name="jet" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- ZrcListView -->
+    <declare-styleable name="ZrcAbsListView">
+        <!-- Drawable used to indicate the currently selected item in the list. -->
+        <attr name="android:listSelector"/>
+        <!-- When set to true, the selector will be drawn over the selected item.
+             Otherwise the selector is drawn behind the selected item. The default
+             value is false. -->
+        <attr name="android:drawSelectorOnTop"/>
+        <!-- Used by ListView and GridView to stack their content from the bottom. -->
+        <attr name="android:stackFromBottom"/>
+        <!-- When set to true, the list uses a drawing cache during scrolling.
+             This makes the rendering faster but uses more memory. The default
+             value is true. -->
+        <attr name="android:scrollingCache"/>
+        <!-- Sets the transcript mode for the list. In transcript mode, the list
+             scrolls to the bottom to make new items visible when they are added. -->
+        <attr name="android:transcriptMode" />
+        <!-- Indicates that this list will always be drawn on top of solid, single-color
+             opaque background. This allows the list to optimize drawing. -->
+        <attr name="android:cacheColorHint"/>
+        <!-- When set to true, the list will use a more refined calculation
+             method based on the pixels height of the items visible on screen. This
+             property is set to true by default but should be set to false if your adapter
+             will display items of varying heights. When this property is set to true and
+             your adapter displays items of varying heights, the scrollbar thumb will
+             change size as the user scrolls through the list. When set to fale, the list
+             will use only the number of items in the adapter and the number of items visible
+             on screen to determine the scrollbar's properties. -->
+        <attr name="android:smoothScrollbar"/>
+        <!-- Defines the choice behavior for the view. By default, lists do not have
+             any choice behavior. By setting the choiceMode to singleChoice, the list
+             allows up to one item to be in a chosen state. By setting the choiceMode to
+             multipleChoice, the list allows any number of items to be chosen.
+             Finally, by setting the choiceMode to multipleChoiceModal the list allows
+             any number of items to be chosen in a special selection mode.
+             The application will supply a
+             {@link android.widget.AbsListView.MultiChoiceModeListener} using
+             {@link android.widget.AbsListView#setMultiChoiceModeListener} to control the
+             selection mode. This uses the {@link android.view.ActionMode} API. -->
+        <attr name="android:choiceMode" />
+    </declare-styleable>
+    <declare-styleable name="ZrcListView">
+        <!-- Reference to an array resource that will populate the ListView.  For static content,
+             this is simpler than populating the ListView programmatically. -->
+        <attr name="android:entries" />
+        <!-- Drawable or color to draw between list items. -->
+        <attr name="android:divider"/>
+        <!-- Height of the divider. Will use the intrinsic height of the divider if this
+             is not specified. -->
+        <attr name="android:dividerHeight" />
+        <!-- When set to false, the ListView will not draw the divider after each header view.
+             The default value is true. -->
+        <attr name="android:headerDividersEnabled"/>
+        <!-- When set to false, the ListView will not draw the divider before each footer view.
+             The default value is true. -->
+        <attr name="android:footerDividersEnabled"/>
+        <!-- Drawable to draw above list content. -->
+        <attr name="android:overScrollHeader"/>
+        <!-- Drawable to draw below list content. -->
+        <attr name="android:overScrollFooter"/>
+    </declare-styleable>
+
 </resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bga-banner-2.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-banner/2.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/AnimationStudy/build/intermediates/exploded-aar/cn.bingoogolapple/bga-banner/2.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.bingoogolapple/bga-banner/2.0.3/3387073700442c97316608134a5f0a9481cce42d/bga-banner-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

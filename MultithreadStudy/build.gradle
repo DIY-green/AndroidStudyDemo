@@ -22,4 +22,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.0'
+    // dexmaker
+    compile 'com.crittercism.dexmaker:dexmaker:1.4'
+    // multidex
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
+    compile project(':Utils')
 }

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HighQualityCodeStudy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sds_demotips">该Demo用于演示高质量代码书写规范</string>
+    <string name="sds_btn_howtohandleexception">如何正确处理异常</string>
+    <string name="sds_btn_howtousehandler">如何正确使用Handler</string>
+    <string name="title_activity_ui_how_to_handle_exception">HowToHandleException</string>
+    <string name="title_activity_ui_how_to_use_handler">HowToUseHandler</string>
+    <string name="title_activity_ui_use_layout_inflater">UseLayoutInflater</string>
+</resources>

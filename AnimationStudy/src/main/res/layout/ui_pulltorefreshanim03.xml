@@ -1,10 +1,105 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.cheng.animationstudy.ui.UiPullToRefreshAnim03">
-
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/sdi_changecontent_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/sdi_showlistview_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_cb_showlistview"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/sdi_showscrollview_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_cb_showscrollview"/>
+        <RadioButton
+            android:id="@+id/sdi_showwebview_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sds_cb_showwebview"/>
+    </RadioGroup>
+    <com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout
+        android:id="@+id/refresh_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sdi_changecontent_rg">
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+        <com.cheng.animationstudy.customview.pulltorefresh03.PullableListView
+            android:id="@+id/content_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:dividerHeight="1dp" />
+        <include layout="@layout/load_more" />
+    </com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout>
+    <com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout
+        android:id="@+id/refresh_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sdi_changecontent_rg"
+        android:visibility="gone">
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+        <com.cheng.animationstudy.customview.pulltorefresh03.PullableScrollView
+            android:id="@+id/content_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <LinearLayout
+                    android:id="@+id/imagesLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/h" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/i" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/j" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/k" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/l" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/m" />
+                </LinearLayout>
+            </RelativeLayout>
+        </com.cheng.animationstudy.customview.pulltorefresh03.PullableScrollView>
+        <include layout="@layout/load_more" />
+    </com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout>
+    <com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout
+        android:id="@+id/refresh_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sdi_changecontent_rg"
+        android:visibility="gone">
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+        <com.cheng.animationstudy.customview.pulltorefresh03.PullableWebView
+            android:id="@+id/content_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <include layout="@layout/load_more" />
+    </com.cheng.animationstudy.customview.pulltorefresh03.PullToRefreshLayout>
 </RelativeLayout>

@@ -18,10 +18,14 @@ import com.cheng.utils.ViewFinder;
 
 import java.util.Random;
 
+/**
+ * 叶子飞舞加载动画
+ */
 public class UiLeafFlyLoadingAnim extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener,
         View.OnClickListener {
 
     private static final int REFRESH_PROGRESS = 0x10;
+
     private LeafLoadingView mLeafLoadingView;
     private SeekBar mAmpireSeekBar;
     private SeekBar mDistanceSeekBar;
@@ -29,16 +33,14 @@ public class UiLeafFlyLoadingAnim extends AppCompatActivity implements SeekBar.O
     private TextView mDisparityText;
     private View mFanView;
     private Button mClearButton;
-    private int mProgress = 0;
-
     private TextView mProgressText;
     private View mAddProgress;
     private SeekBar mFloatTimeSeekBar;
-
     private SeekBar mRotateTimeSeekBar;
     private TextView mFloatTimeText;
     private TextView mRotateTimeText;
 
+    private int mProgress = 0;
     private Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
             switch (msg.what) {

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="multidex-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MultithreadStudy/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/MultithreadStudy/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

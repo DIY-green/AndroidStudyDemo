@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cheng.mvvmstudy" >
+
+    <application
+        android:name=".MVVMStudyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".UiMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UiFernadoCejsaMain"
+            android:label="@string/title_activity_ui_fernado_cejsa_main" />
+        <activity
+            android:name=".simplerobobinding.ui.activity.UiSimpleMVVMDemo"
+            android:label="@string/title_activity_ui_simple_mvvmdemo" />
+        <activity
+            android:name=".albumrobobinding.ui.activity.UiAlbumHome"
+            android:label="@string/title_activity_ui_albumrobobinding_mvvmdemo" />
+        <activity
+            android:name=".albumrobobinding.ui.activity.UiCreateEditAlbum"
+            android:label="@string/title_activity_ui_createedit_album" />
+        <activity
+            android:name=".albumrobobinding.ui.activity.UiViewAlbum"
+            android:label="@string/title_activity_ui_view_album" />
+        <activity
+            android:name=".albumrobobinding.ui.activity.UiViewAlbums"
+            android:label="@string/title_activity_ui_view_albums" />
+        <activity
+            android:name=".androiddatabinding.ui.activity.UiAndroidDataBindingDemo"
+            android:label="@string/title_activity_ui_android_data_binding_demo" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.0-rc1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MVVMFrameStudy/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc1/res" />
+      <root url="jar://$PROJECT_DIR$/MVVMFrameStudy/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Develop/Android/sdk/extras/android/m2repository/com/android/databinding/library/1.0-rc1/library-1.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

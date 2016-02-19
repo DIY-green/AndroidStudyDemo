@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <Button
+        android:id="@+id/sdi_tofernadocejsamain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_fernadocejsamain"
+        android:onClick="toFernadoCejsa"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/sdi_tosimplemvvmdemo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_tofernadocejsamain_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_simplemvvmdemo"
+        android:onClick="toSimpleMVVMDemo"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/sdi_torobobindingalbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdi_tosimplemvvmdemo_btn"
+        android:layout_alignParentStart="true"
+        android:text="@string/sds_btn_robobindingalbum"
+        android:textAllCaps="false"
+        android:onClick="toRobobindingAlbum"/>
+</RelativeLayout>

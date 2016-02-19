@@ -1,5 +1,7 @@
 package com.cheng.utils;
 
+import android.app.IntentService;
+import android.os.HandlerThread;
 import android.text.TextUtils;
 import android.util.Log;
 

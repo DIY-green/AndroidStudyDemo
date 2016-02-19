@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <com.cheng.animationstudy.customview.autohome.AutoHome
+        android:id="@+id/sdi_autohome"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp" />
+    <FrameLayout
+        android:id="@+id/sdi_animcontainer_fl"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:visibility="gone">
+        <com.cheng.animationstudy.customview.autohome.PointerView
+            android:id="@+id/sdi_animpointer_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sdd_autohome_load_icon_dial2x" />
+    </FrameLayout>e
+    <TextView
+        android:id="@+id/sdi_pulltorefresh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="下拉刷新" />
+</LinearLayout>

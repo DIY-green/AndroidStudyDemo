@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="blank">#00000000</color>
+    <color name="black">#00000000</color>
     <color name="red">#ff0000</color>
     <color name="blue">#0000ff</color>
     <color name="rippelColor">#FFFFFF</color>
@@ -11,5 +11,8 @@
     <color name="transgray">#33555555</color>
     <color name="dark_green">#008800</color>
     <drawable name="background">#eeeeee</drawable>
+    <color name="saffron">#F4B63E</color>
+    <color name="eggplant">#663D4E</color>
+    <color name="sienna">#EB6460</color>
 
 </resources>

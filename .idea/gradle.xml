@@ -5,31 +5,36 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="1.7" />
+        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Android5Study" />
             <option value="$PROJECT_DIR$/Android6Study" />
             <option value="$PROJECT_DIR$/AnimationStudy" />
+            <option value="$PROJECT_DIR$/AnnotationStudy" />
             <option value="$PROJECT_DIR$/ArithmeticStudy" />
             <option value="$PROJECT_DIR$/CommonLibsStudy" />
             <option value="$PROJECT_DIR$/CustomViewStudy" />
             <option value="$PROJECT_DIR$/DataRelatedStudy" />
             <option value="$PROJECT_DIR$/DesignPatternStudy" />
             <option value="$PROJECT_DIR$/FrontierTechnologyStudy" />
+            <option value="$PROJECT_DIR$/HighQualityCodeStudy" />
             <option value="$PROJECT_DIR$/HotFixStudy" />
             <option value="$PROJECT_DIR$/ImageRelatedStudy" />
             <option value="$PROJECT_DIR$/MVCFrameStudy" />
             <option value="$PROJECT_DIR$/MVPFrameStudy" />
+            <option value="$PROJECT_DIR$/MVVMFrameStudy" />
             <option value="$PROJECT_DIR$/MechanismStudy" />
             <option value="$PROJECT_DIR$/MultithreadStudy" />
             <option value="$PROJECT_DIR$/NetworkFrameStudy" />
             <option value="$PROJECT_DIR$/OptimizeStudy" />
             <option value="$PROJECT_DIR$/PluggableStudy" />
+            <option value="$PROJECT_DIR$/SecurityStudy" />
             <option value="$PROJECT_DIR$/StyleStudy" />
             <option value="$PROJECT_DIR$/UiImitateStudy" />
             <option value="$PROJECT_DIR$/Utils" />
+            <option value="$PROJECT_DIR$/zBase" />
           </set>
         </option>
       </GradleProjectSettings>

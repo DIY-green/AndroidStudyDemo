@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SecurityStudy</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="classesdex_crc">000000</string>
+
+    <string name="sds_btn_preventsecondarysignaturepack">防止二次签名打包</string>
+    <string name="sds_btn_preventdecompile">防止反编译</string>
+    <string name="sds_btn_codeseniorconfusion">代码高级混淆</string>
+    <string name="sds_btn_runtimeverification">运行时校验</string>
+    <string name="sds_btn_preventmemorychange">防止内存修改</string>
+    <string name="sds_btn_pseudoencryption">伪加密</string>
+    <string name="sds_btn_destoryapkpackage">APK包破坏</string>
+    <string name="sds_btn_resourceimagevandalism">资源图片故意破坏</string>
+    <string name="sds_btn_junkcode">花指令</string>
+    <string name="sds_btn_folderconfusion">文件夹混淆</string>
+    <string name="sds_btn_versusjdgui">对抗JD-GUI</string>
+    <string name="sds_btn_androidtechverify">Android技术校验</string>
+    <string name="sds_btn_classesintegrityverify">Classes.dex完整性校验</string>
+    <string name="sds_btn_apkintegrityverify">APK完整性校验</string>
+    <string name="sds_btn_javatechverify">Java技术校验</string>
+    <string name="sds_btn_plusgold">加分</string>
+    <string name="sds_cb_keepsafe">开启安全保护</string>
+
+    <string name="title_activity_ui_prevent_secondary_signature_pack">
+        PreventSecondarySignaturePack
+    </string>
+    <string name="title_activity_ui_prevent_decompile">PreventDecompile</string>
+    <string name="title_activity_ui_dex_bytecode_tamper">DexBytecodeTamper</string>
+    <string name="title_activity_ui_destory_apkpackage">DestoryAPKPackage</string>
+    <string name="title_activity_ui_resource_image_vandalism">UiResourceImageVandalism</string>
+    <string name="title_activity_ui_code_senior_confusion">CodeSeniorConfusion</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ui_junk_code">JunkCode</string>
+    <string name="title_activity_ui_folder_confusion">FolderConfusion</string>
+    <string name="title_activity_ui_runtime_verification">RuntimeVerification</string>
+    <string name="title_activity_ui_android_test_verify">AndroidTestVerify</string>
+    <string name="title_activity_ui_java_test_verify">JavaTestVerify</string>
+    <string name="title_activity_ui_prevent_memory_change">PreventMemoryChange</string>
+    <string name="title_activity_ui_versus_jd__gui">VersusJD_GUI</string>
+
+</resources>

@@ -1,21 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cheng.mvpframestudy" >
+    package="com.cheng.mvpframestudy">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 单元测试添加代码2 -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="MVPFrameStudy"
+        android:targetPackage="com.cheng.mvpframestudy" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+
+        <!-- 单元测试添加代码1 -->
+        <uses-library android:name="android.test.runner" />
+
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".UiMain"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".diymvp.ui.activity.UiLogin"
+            android:label="@string/title_activity_ui_login" />
+        <activity
+            android:name=".diymvp.ui.activity.UiShowWeather"
+            android:label="@string/title_activity_ui_show_weather" />
+        <activity
+            android:name=".themvp.UiTheMVPDemo"
+            android:label="@string/title_activity_ui_the_mvpdemo" />
+        <activity
+            android:name=".themvp.presenter.activity.SimpleActivity"
+            android:label="@string/title_activity_simple" />
+        <activity
+            android:name=".themvp.presenter.activity.DemoActivity"
+            android:label="@string/title_activity_demo" />
+        <activity
+            android:name=".themvp.presenter.activity.ShellActivity"
+            android:label="@string/title_activity_shell" />
+        <activity
+            android:name=".themvp.presenter.activity.Demo4Activity"
+            android:label="@string/title_activity_demo4" />
+        <activity
+            android:name=".themvp.presenter.activity.Demo5Activity"
+            android:label="@string/title_activity_demo5"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".themvp.presenter.activity.Demo6Activity"
+            android:label="@string/title_activity_demo6" />
+        <activity
+            android:name=".themvp.presenter.activity.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".rxjavamvp.UiRxJavaMVP" />
+        <activity android:name=".rxjavamvp.ui.activity.UiUser"></activity>
     </application>
 
 </manifest>

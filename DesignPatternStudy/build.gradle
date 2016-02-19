@@ -20,6 +20,10 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.1.0'
+    compile project(':Utils')
+    compile project(':zBase')
+    compile files('libs/servlet-api.jar')
+    compile files('libs/dom4j-1.6.1.jar')
 }

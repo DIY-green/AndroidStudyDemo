@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rxandroid-1.0.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MVPFrameStudy/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/MVPFrameStudy/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/1.0.1/5de1084e44ee8bbcdde96d5fa90460b4f77a482/rxandroid-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <com.cheng.animationstudy.customview.meituan.MeiTuanRefreshFirstStepView
+        android:id="@+id/first_view"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp" />
+    <com.cheng.animationstudy.customview.meituan.MeiTuanRefreshSecondStepView
+        android:id="@+id/second_view"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <com.cheng.animationstudy.customview.meituan.MeiTuanRefreshThirdStepView
+        android:id="@+id/third_view"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/sdi_pulltorefresh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="下拉刷新" />
+</LinearLayout>

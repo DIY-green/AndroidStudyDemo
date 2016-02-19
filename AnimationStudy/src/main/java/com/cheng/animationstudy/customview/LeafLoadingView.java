@@ -18,7 +18,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.cheng.animationstudy.R;
-import com.cheng.utils.UiUtils;
+import com.cheng.utils.UiUtil;
 
 public class LeafLoadingView extends View {
 
@@ -86,8 +86,8 @@ public class LeafLoadingView extends View {
     public LeafLoadingView(Context context, AttributeSet attrs) {
         super(context, attrs);
         mResources = getResources();
-        mLeftMargin = UiUtils.dipToPx(context, LEFT_MARGIN);
-        mRightMargin = UiUtils.dipToPx(context, RIGHT_MARGIN);
+        mLeftMargin = UiUtil.dipToPx(context, LEFT_MARGIN);
+        mRightMargin = UiUtil.dipToPx(context, RIGHT_MARGIN);
 
         mLeafFloatTime = LEAF_FLOAT_TIME;
         mLeafRotateTime = LEAF_ROTATE_TIME;

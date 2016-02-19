@@ -20,6 +20,13 @@
     <string name="sds_btn_viewnaturaltransitionanim">界面自然过渡动画</string>
     <string name="sds_btn_dynamicrotationanim">仿乐动力旋转动画</string>
     <string name="sds_btn_leafflyloadinganim">叶子飞动加载动画</string>
+    <string name="sds_btn_sunrosepulltorefreshanim">太阳升起下拉刷新动画</string>
+    <string name="sds_btn_zrclistview">ZrcListView好看的下拉刷新</string>
+    <string name="sds_btn_imitateathmpulltorefreshanim">仿汽车之家下拉刷新动画</string>
+    <string name="sds_btn_imitatemeituanpulltorefreshanim">仿美团下拉刷新动画</string>
+    <string name="sds_btn_imitategoogleswiperefreshlayoutanim01">仿Google下拉刷新动画1</string>
+    <string name="sds_btn_imitategoogleswiperefreshlayoutanim02">仿Google下拉刷新动画2</string>
+    <string name="sds_btn_bgarefreshlayout">开源BGARefreshLayout</string>
     <string name="sds_btn_pulltorefreshanim01">下拉刷新动画01</string>
     <string name="sds_btn_pulltorefreshanim02">下拉刷新动画02</string>
     <string name="sds_btn_pulltorefreshanim03">下拉刷新动画03</string>
@@ -73,6 +80,14 @@
     <string name="sds_btn_verticaltransfer">垂直过渡切换</string>
     <string name="sds_btn_fadeinfadeouttrans">淡入淡出切换</string>
     <string name="sds_btn_activityoptionscompatuse">ActivityOptiosCompat使用</string>
+    <string name="sds_btn_bganormallistview">BGA NormalListView</string>
+    <string name="sds_btn_bganormalrecycleview">BGA NormalRecycleView</string>
+    <string name="sds_btn_bgaswipelistview">BGA SwipeListView</string>
+    <string name="sds_btn_bgaswiperecycleview">BGA SwipeRecycleView</string>
+    <string name="sds_btn_bgascrollview">BGA ScrollView</string>
+    <string name="sds_btn_bgawebview">BGA WebView</string>
+    <string name="sds_btn_bgaviewpager">BGA ViewPager</string>
+    <string name="sds_btn_bgastickynav">BGA StickyNav</string>
     <string name="sds_btn_finish">关闭</string>
     <string name="sds_cb_keepanimstatus">保持动画结束状态</string>
     <string name="sds_cb_loadxmlanim">加载xml动画</string>
@@ -82,6 +97,10 @@
     <string name="sds_cb_useactivityoptionscompat">使用AOCompat</string>
     <string name="sds_cb_useactivityoptionscompatics">使用AOCompatOCS</string>
     <string name="sds_cb_changepathview">转换另一个</string>
+    <string name="sds_cb_showlistview">显示LV</string>
+    <string name="sds_cb_showgridview">显示GV</string>
+    <string name="sds_cb_showwebview">显示WV</string>
+    <string name="sds_cb_showscrollview">显示SV</string>
     <string name="sds_tv_activityjumptip">Activity跳转动画演示</string>
     <string name="sds_tv_firstactivitytip">这是第一个Activity</string>
     <string name="sds_tv_secondactivitytip">这是第二个Activity</string>
@@ -110,6 +129,34 @@
     <string name="current_Disparity">修改振幅差距，当前%1$s</string>
     <string name="current_float_time">修改移动速度，当前%1$s</string>
     <string name="current_rotate_time">修改旋转速度，当前%1$s</string>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_ui_imitate_browser_zoom_view">ImitateBrowserZoomView</string>
@@ -145,5 +192,19 @@
     <string name="title_activity_ui_anim_by_path">AnimByPath</string>
     <string name="title_activity_ui_leaf_fly_loading_anim">LeafFlyLoadingAnim</string>
     <string name="title_activity_ui_dynamic_rotation_anim">DynamicRotationAnim</string>
+    <string name="title_activity_ui_imitate_athmpt_anim">ImitateATHMPTRA</string>
+    <string name="title_activity_ui_imitate_meituanpt_anim">ImitateMeiTuanPTRA</string>
+    <string name="title_activity_ui_imitate_google_srla01">ImitateGoogleSRLA01</string>
+    <string name="title_activity_ui_imitate_google_srla02">ImitateGoogleSRLA02</string>
+    <string name="title_activity_ui_bgarefresh_layout">BGARefreshLayout</string>
+    <string name="title_activity_ui_bganormal_list_view">BGANormalListView</string>
+    <string name="title_activity_ui_bgarecycler_view">BGARecyclerView</string>
+    <string name="title_activity_ui_bgaswipe_list_view">BGASwipeListView</string>
+    <string name="title_activity_ui_bgaswipe_recycler_view">BGASwipeRecyclerView</string>
+    <string name="title_activity_ui_bga_scroll_view">BGAScrollView</string>
+    <string name="title_activity_ui_bga_web_view">BGAWebView</string>
+    <string name="title_activity_ui_bga_view_pager">BGAViewPager</string>
+    <string name="title_activity_ui_sun_rose_pull_to_refresh_anim">SunRosePullToRefreshAnim</string>
+    <string name="title_activity_ui_zrc_list_view">ZrcListView</string>
 
 </resources>

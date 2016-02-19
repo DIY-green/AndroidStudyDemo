@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item 
-        android:drawable="@drawable/sdd_bdr_shape_green_ball_shadow" />
-    <item 
-        android:drawable="@drawable/sdd_bdr_shape_green_ball"
-        android:bottom="2.0dip" />
-</layer-list>

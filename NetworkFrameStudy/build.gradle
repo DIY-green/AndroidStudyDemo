@@ -20,7 +20,15 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.0.0'
+    //==========第三方库==========
+    // View 注入库
+    compile 'com.jakewharton:butterknife:7.0.1'
+    // OkHttp3
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    // Gson
+    compile 'com.google.code.gson:gson:2.3.1'
     compile project(':Utils')
+    compile project(':zBase')
 }

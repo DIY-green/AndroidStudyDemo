@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">NetworkFrameStudy</string>
 
+    <string name="network_frame_study">网络框架学习</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="okhttp">OkHttp</string>
+    <string name="title_activity_okhttp">OkHttp</string>
+    <string name="title_activity_okhttpdemo">OkHttpDemo</string>
 </resources>

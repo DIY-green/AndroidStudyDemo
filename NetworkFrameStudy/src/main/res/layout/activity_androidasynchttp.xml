@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,32 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context="com.cheng.networkframestudy.androidasynchttp.AndroidAsyncHttpActivity">
 
     <TextView
-        android:id="@+id/tv_projectnavigation"
+        android:id="@+id/tv_introduce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/network_frame_study" />
-
-    <Button
-        android:id="@+id/btn_okhttp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/okhttp"
-        android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_below="@id/tv_projectnavigation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="简介"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
     <Button
-        android:id="@+id/btn_androidasynchttp"
+        android:id="@+id/btn_toandroidasynchttpdemo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/androidasynchttp"
+        android:text="AndroidAsyncHttpDemo"
         android:textAllCaps="false"
         android:onClick="onClick"
-        android:layout_below="@id/btn_okhttp"
+        android:layout_below="@id/tv_introduce"
         android:layout_alignParentStart="true" />
-
 </RelativeLayout>

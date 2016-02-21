@@ -3,7 +3,6 @@ package com.cheng.networkframestudy.okhttp.sample;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -37,11 +36,12 @@ public class OkHttpDemoActivity extends BaseActivity {
 
     private static final String TAG = "OkHttpDemoActivity";
 
+    private static final String BASE_URLUrl = "http://10.138.114.147:8080/okHttpServer/";
+
     private TextView tvResult;
     private ImageView ivShowImg;
-    private ProgressBar pbLoading;
 
-    private String mBaseUrl = "http://10.138.114.147:8080/okHttpServer/";
+    private ProgressBar pbLoading;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +69,7 @@ public class OkHttpDemoActivity extends BaseActivity {
     }
 
     public void postString(View view) {
-        String url = mBaseUrl + "user!postString";
+        String url = BASE_URLUrl + "user!postString";
         OkHttpUtil
                 .postString()
                 .url(url)
@@ -85,7 +85,7 @@ public class OkHttpDemoActivity extends BaseActivity {
             Toast.makeText(OkHttpDemoActivity.this, "文件不存在，请修改文件路径", Toast.LENGTH_SHORT).show();
             return;
         }
-        String url = mBaseUrl + "user!postFile";
+        String url = BASE_URLUrl + "user!postFile";
         OkHttpUtil
                 .postFile()
                 .url(url)
@@ -96,7 +96,7 @@ public class OkHttpDemoActivity extends BaseActivity {
     }
 
     public void getUser(View view) {
-        String url = mBaseUrl + "user!getUser";
+        String url = BASE_URLUrl + "user!getUser";
         OkHttpUtil
                 .get()//
                 .url(url)//
@@ -119,7 +119,7 @@ public class OkHttpDemoActivity extends BaseActivity {
     public void getUsers(View view) {
         Map<String, String> params = new HashMap<String, String>();
         params.put("name", "zhy");
-        String url = mBaseUrl + "user!getUsers";
+        String url = BASE_URLUrl + "user!getUsers";
         OkHttpUtil//
                 .post()//
                 .url(url)//
@@ -189,7 +189,7 @@ public class OkHttpDemoActivity extends BaseActivity {
         headers.put("APP-Key", "APP-Secret222");
         headers.put("APP-Secret", "APP-Secret111");
 
-        String url = mBaseUrl + "user!uploadFile";
+        String url = BASE_URLUrl + "user!uploadFile";
 
         OkHttpUtil.post()//
                 .addFile("mFile", "messenger_01.png", file)//
@@ -211,7 +211,7 @@ public class OkHttpDemoActivity extends BaseActivity {
         params.put("username", "张鸿洋");
         params.put("password", "123");
 
-        String url = mBaseUrl + "user!uploadFile";
+        String url = BASE_URLUrl + "user!uploadFile";
         OkHttpUtil.post()//
                 .addFile("mFile", "messenger_01.png", file)//
                 .addFile("mFile", "test1.txt", file2)//

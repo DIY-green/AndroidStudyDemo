@@ -25,7 +25,9 @@
         <activity
             android:name=".okhttp.sample.OkHttpDemoActivity"
             android:label="@string/title_activity_okhttpdemo" />
-        <activity android:name=".okhttp.sample.OkHttpTestActivity"></activity>
+        <activity android:name=".okhttp.sample.OkHttpTestActivity" />
+        <activity android:name=".androidasynchttp.AndroidAsyncHttpActivity" />
+        <activity android:name=".androidasynchttp.sample.AndroidAsyncHttpDemoActivity"></activity>
     </application>
 
 </manifest>

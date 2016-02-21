@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cheng.networkframestudy.androidasynchttp.sample.AndroidAsyncHttpDemoActivity">
+
+    <Button
+        android:id="@+id/btn_gettest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_posttest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/btn_gettest"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_uploadfiletest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UploadFile"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/btn_posttest"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_downloadfiletest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadFile"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/btn_uploadfiletest"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_downloadimagetest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadImage"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/btn_downloadfiletest"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_getusertest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GetUser"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/btn_downloadimagetest"
+        android:layout_alignParentStart="true" />
+
+    <ProgressBar
+        android:id="@+id/pbar_showprogress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_getusertest"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/iv_showimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_showresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Result"
+        android:layout_below="@id/pbar_showprogress"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

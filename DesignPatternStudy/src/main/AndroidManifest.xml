@@ -1,349 +1,318 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cheng.designpatternstudy" >
+    package="com.cheng.designpatternstudy">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".UiMain"
-            android:label="@string/app_name" >
+            android:name=".MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".singleton.UiSingleton"
-            android:label="@string/title_activity_ui_singleton" >
-        </activity>
+            android:name=".singleton.SingletonActivity"
+            android:label="@string/title_activity_singleton" />
         <!-- 设计模式之禅 -->
         <activity
-            android:name="com.cheng.zenofdesignpatterns.UiZenofDesignPatterns"
-            android:label="@string/title_activity_ui_zo_dpmain" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.ZenofDesignPatternsActivity"
+            android:label="@string/title_activity_zodp" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.UiZoDPParts"
-            android:label="@string/title_activity_ui_zo_dppart" />
+            android:name="com.cheng.zenofdesignpatterns.ZoDPPartsActivity"
+            android:label="@string/title_activity_zodp_part" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.srp.UiZoDPSingleResponsibilityPrinciple"
-            android:label="@string/title_activity_ui_single_responsibility_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.srp.ZoDPSingleResponsibilityPrincipleActivity"
+            android:label="@string/title_activity_zodp_singleresponsibilityprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.lsp.UiZoDPLiskovSubstitutionPrinciple"
-            android:label="@string/title_activity_ui_liskov_substitution_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.lsp.ZoDPLiskovSubstitutionPrincipleActivity"
+            android:label="@string/title_activity_zodp_liskovsubstitutionprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.dip.UiZoDPDependenceInversionPrinciple"
-            android:label="@string/title_activity_ui_dependence_inversion_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.dip.ZoDPDependenceInversionPrincipleActivity"
+            android:label="@string/title_activity_zodp_dependenceinversionprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.isp.UiZoDPInterfaceSegregationPrinciple"
-            android:label="@string/title_activity_ui_interface_segregation_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.isp.ZoDPInterfaceSegregationPrincipleActivity"
+            android:label="@string/title_activity_zodp_interfacesegregationprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.lkp.UiZoDPLeastKnowledgePrinciple"
-            android:label="@string/title_activity_ui_least_knowledge_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.lkp.ZoDPLeastKnowledgePrincipleActivity"
+            android:label="@string/title_activity_zodp_leastknowledgeprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.principle.ocp.UiZoDPOpenClosePrinciple"
-            android:label="@string/title_activity_ui_open_close_principle" />
+            android:name="com.cheng.zenofdesignpatterns.principle.ocp.ZoDPOpenClosePrincipleActivity"
+            android:label="@string/title_activity_zodp_opencloseprinciple" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.singleton.UiZoDPSingleton"
-            android:label="@string/title_activity_ui_zo_dpsingleton" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.singleton.ZoDPSingletonActivity"
+            android:label="@string/title_activity_zodp_singleton" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.factorymethod.UiZoDPFactoryMethod"
-            android:label="@string/title_activity_ui_zo_dpfactory_method" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.factorymethod.ZoDPFactoryMethodActivity"
+            android:label="@string/title_activity_zodp_factorymethod" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.abstractfactory.UiZoDPAbstractFactory"
-            android:label="@string/title_activity_ui_zo_dpabstract_factory" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.abstractfactory.ZoDPAbstractFactoryActivity"
+            android:label="@string/title_activity_zodp_abstractfactory" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.templatemethod.UiZoDPTemplateMethod"
-            android:label="@string/title_activity_ui_zo_dptemplate_method" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.templatemethod.ZoDPTemplateMethodActivity"
+            android:label="@string/title_activity_zodp_templatemethod" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.builder.UiZoDPBuilder"
-            android:label="@string/title_activity_ui_zo_dpbuilder" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.builder.ZoDPBuilderActivity"
+            android:label="@string/title_activity_zodp_builder" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.proxy.UiZoDPProxy"
-            android:label="@string/title_activity_ui_zo_dpproxy" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.proxy.ZoDPProxyActivity"
+            android:label="@string/title_activity_zodp_proxy" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.prototype.UiZoDPPrototype"
-            android:label="@string/title_activity_ui_zo_dpprototype" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.prototype.ZoDPPrototypeActivity"
+            android:label="@string/title_activity_zodp_prototype" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.mediator.UiZoDPMediator"
-            android:label="@string/title_activity_ui_zo_dpmediator" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.mediator.ZoDPMediatorActivity"
+            android:label="@string/title_activity_zodp_mediator" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.command.UiZoDPCommand"
-            android:label="@string/title_activity_ui_zo_dpcommand" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.command.ZoDPCommandActivity"
+            android:label="@string/title_activity_zodp_command" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.chainofresponsibility.UiChainofResponsibility"
-            android:label="@string/title_activity_ui_chainof_responsibility" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.chainofresponsibility.ChainofResponsibilityActivity"
+            android:label="@string/title_activity_zodp_chainofresponsibility" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.decorator.UiZoDPDecorator"
-            android:label="@string/title_activity_ui_zo_dpdecorator" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.decorator.ZoDPDecoratorActivity"
+            android:label="@string/title_activity_zodp_decorator" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.strategy.UiZoDPStrategy"
-            android:label="@string/title_activity_ui_zo_dpstrategy" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.strategy.ZoDPStrategyActivity"
+            android:label="@string/title_activity_zodp_strategy" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.adapter.UiZoDPAdapter"
-            android:label="@string/title_activity_ui_zo_dpadapter" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.adapter.ZoDPAdapterActivity"
+            android:label="@string/title_activity_zodp_adapter" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.iterator.UiZoDPIterator"
-            android:label="@string/title_activity_ui_zo_dpiterator" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.iterator.ZoDPIteratorActivity"
+            android:label="@string/title_activity_zodp_iterator" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.composite.UiZoDPComposite"
-            android:label="@string/title_activity_ui_zo_dpcomposite" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.composite.ZoDPCompositeActivity"
+            android:label="@string/title_activity_zodp_composite" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.observer.UiZoDPObserver"
-            android:label="@string/title_activity_ui_zo_dpobserver" />
+            android:name="com.cheng.zenofdesignpatterns.patterns.observer.ZoDPObserverActivity"
+            android:label="@string/title_activity_zodp_observer" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.facade.UiZoDPFacade"
-            android:label="@string/title_activity_ui_zo_dpfacade"
+            android:name="com.cheng.zenofdesignpatterns.patterns.facade.ZoDPFacadeActivity"
+            android:label="@string/title_activity_zodp_facade"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.memento.UiZoDPMemento"
-            android:label="@string/title_activity_ui_zo_dpmemento" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.memento.ZoDPMementoActivity"
+            android:label="@string/title_activity_zodp_memento" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.visitor.UiZoDPVisitor"
-            android:label="@string/title_activity_ui_zo_dpvisitor" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.visitor.ZoDPVisitorActivity"
+            android:label="@string/title_activity_zodp_visitor" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.state.UiZoDPState"
-            android:label="@string/title_activity_ui_zo_dpstate" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.state.ZoDPStateActivity"
+            android:label="@string/title_activity_zodp_state" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.interpreter.UiZoDPInterpreter"
-            android:label="@string/title_activity_ui_zo_dpinterpreter" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.interpreter.ZoDPInterpreterActivity"
+            android:label="@string/title_activity_zodp_interpreter" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.flyweight.UiZoDPFlyweight"
-            android:label="@string/title_activity_ui_zo_dpflyweight" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.flyweight.ZoDPFlyweightActivity"
+            android:label="@string/title_activity_zodp_flyweight" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patterns.bridge.UiZoDPBridge"
-            android:label="@string/title_activity_ui_zo_dpbridge" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patterns.bridge.ZoDPBridgeActivity"
+            android:label="@string/title_activity_zodp_bridge" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patternpk.creational.UiZoDPCreationalPK"
-            android:label="@string/title_activity_ui_zo_dpcreational_pk" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patternpk.creational.ZoDPCreationalPKActivity"
+            android:label="@string/title_activity_zodp_creationalpk" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patternpk.structural.UiZoDPStructuralPK"
-            android:label="@string/title_activity_ui_zo_dpstructural_pk" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patternpk.structural.ZoDPStructuralPKActivity"
+            android:label="@string/title_activity_zodp_structuralpk" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patternpk.behavioral.UiZoDPBehavioralPK"
-            android:label="@string/title_activity_ui_zo_dpbehavioral_pk" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patternpk.behavioral.ZoDPBehavioralPKActivity"
+            android:label="@string/title_activity_zodp_behavioralpk" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.patternpk.crosswarzone.UiZoDPCrossWarZonePK"
-            android:label="@string/title_activity_ui_zo_dpcrosswarzone_pk" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.patternpk.crosswarzone.ZoDPCrossWarZonePKActivity"
+            android:label="@string/title_activity_zodp_crosswarzonepk" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.perfectworld.command_chain.UiZoDPCommandChain"
-            android:label="@string/title_activity_ui_zo_dpcommand_chain" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.perfectworld.command_chain.ZoDPCommandChainActivity"
+            android:label="@string/title_activity_zodp_commandchain" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.perfectworld.factory_strategy.UiZoDPFactoryStrategy"
-            android:label="@string/title_activity_ui_zo_dpfactory_startegy" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.perfectworld.factory_strategy.ZoDPFactoryStrategyActivity"
+            android:label="@string/title_activity_zodp_factorystartegy" />
         <activity
-            android:name="com.cheng.zenofdesignpatterns.perfectworld.observer_mediator.UiZoDPObserverMediator"
-            android:label="@string/title_activity_ui_zo_dpobservermediator" >
-        </activity>
+            android:name="com.cheng.zenofdesignpatterns.perfectworld.observer_mediator.ZoDPObserverMediatorActivity"
+            android:label="@string/title_activity_zodp_observermediator" />
         <activity
             android:name="com.cheng.zenofdesignpatterns.extension.mvcframework.UiZoDPMVCFramework"
-            android:label="@string/title_activity_ui_zo_dpmvcframework" >
-        </activity>
+            android:label="@string/title_activity_zodp_mvcframework" />
         <activity
             android:name="com.cheng.zenofdesignpatterns.extension.newpatterns.UiZoDPNewPatterns"
-            android:label="@string/title_activity_ui_zo_dpnewpatterns" >
-        </activity>
+            android:label="@string/title_activity_zodp_newpatterns" />
         <!-- 大话设计模式 -->
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiBigTalkDesignPatterns"
-            android:label="@string/title_activity_ui_bt_dpmain" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.BigTalkDesignPatternsActivity"
+            android:label="@string/title_activity_btdp" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter01"
-            android:label="@string/title_activity_ui_chapter01" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter01Activity"
+            android:label="@string/title_activity_btdp_chapter01" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter02"
-            android:label="@string/title_activity_ui_chapter02" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter02Activity"
+            android:label="@string/title_activity_btdp_chapter02" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter03"
-            android:label="@string/title_activity_ui_chapter03" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter03Activity"
+            android:label="@string/title_activity_btdp_chapter03" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter04"
-            android:label="@string/title_activity_ui_chapter01" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter04Activity"
+            android:label="@string/title_activity_btdp_chapter01" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter05"
-            android:label="@string/title_activity_ui_chapter05" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter05Activity"
+            android:label="@string/title_activity_btdp_chapter05" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter06"
-            android:label="@string/title_activity_ui_chapter06" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter06Activity"
+            android:label="@string/title_activity_btdp_chapter06" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter07"
-            android:label="@string/title_activity_ui_chapter07" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter07Activity"
+            android:label="@string/title_activity_btdp_chapter07" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter08"
-            android:label="@string/title_activity_ui_chapter08" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter08Activity"
+            android:label="@string/title_activity_btdp_chapter08" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter09"
-            android:label="@string/title_activity_ui_chapter09" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter09Activity"
+            android:label="@string/title_activity_btdp_chapter09" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter10"
-            android:label="@string/title_activity_ui_chapter10" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter10Activity"
+            android:label="@string/title_activity_btdp_chapter10" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter11"
-            android:label="@string/title_activity_ui_chapter11" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter11Activity"
+            android:label="@string/title_activity_btdp_chapter11" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter12"
-            android:label="@string/title_activity_ui_chapter12" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter12Activity"
+            android:label="@string/title_activity_btdp_chapter12" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter13"
-            android:label="@string/title_activity_ui_chapter13" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter13Activity"
+            android:label="@string/title_activity_btdp_chapter13" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter14"
-            android:label="@string/title_activity_ui_chapter14" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter14Activity"
+            android:label="@string/title_activity_btdp_chapter14" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter15"
-            android:label="@string/title_activity_ui_chapter15" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter15Activity"
+            android:label="@string/title_activity_btdp_chapter15" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter16"
-            android:label="@string/title_activity_ui_chapter16" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter16Activity"
+            android:label="@string/title_activity_btdp_chapter16" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter17"
-            android:label="@string/title_activity_ui_chapter17" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter17Activity"
+            android:label="@string/title_activity_btdp_chapter17" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter18"
-            android:label="@string/title_activity_ui_chapter18" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter18Activity"
+            android:label="@string/title_activity_btdp_chapter18" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter19"
-            android:label="@string/title_activity_ui_chapter19" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter19Activity"
+            android:label="@string/title_activity_btdp_chapter19" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter20"
-            android:label="@string/title_activity_ui_chapter20" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter20Activity"
+            android:label="@string/title_activity_btdp_chapter20" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter21"
-            android:label="@string/title_activity_ui_chapter21" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter21Activity"
+            android:label="@string/title_activity_btdp_chapter21" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter22"
-            android:label="@string/title_activity_ui_chapter22" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter22Activity"
+            android:label="@string/title_activity_btdp_chapter22" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter23"
-            android:label="@string/title_activity_ui_chapter23" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter23Activity"
+            android:label="@string/title_activity_btdp_chapter23" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter24"
-            android:label="@string/title_activity_ui_chapter24" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter24Activity"
+            android:label="@string/title_activity_btdp_chapter24" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter25"
-            android:label="@string/title_activity_ui_chapter25" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter25Activity"
+            android:label="@string/title_activity_btdp_chapter25" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter26"
-            android:label="@string/title_activity_ui_chapter26" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter26Activity"
+            android:label="@string/title_activity_btdp_chapter26" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter27"
-            android:label="@string/title_activity_ui_chapter27" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter27Activity"
+            android:label="@string/title_activity_btdp_chapter27" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter28"
-            android:label="@string/title_activity_ui_chapter28" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter28Activity"
+            android:label="@string/title_activity_btdp_chapter28" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter29"
-            android:label="@string/title_activity_ui_chapter29" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter29Activity"
+            android:label="@string/title_activity_btdp_chapter29" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.UiChapter30"
-            android:label="@string/title_activity_ui_chapter30" />
+            android:name="com.cheng.bigtalkdesignpatterns.Chapter30Activity"
+            android:label="@string/title_activity_btdp_chapter30" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.simplefactory.UiBTDPSimpleFactory"
-            android:label="@string/title_activity_ui_simple_factory" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.simplefactory.BTDPSimpleFactoryActivity"
+            android:label="@string/title_activity_btdp_simplefactory" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.strategy.UiBTDPStrategy"
-            android:label="@string/title_activity_ui_btdpstrategy" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.strategy.BTDPStrategyActivity"
+            android:label="@string/title_activity_btdp_strategy" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.decorator.UiBTDPDecotator"
-            android:label="@string/title_activity_ui_btdpdecotator" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.decorator.BTDPDecotatorActivity"
+            android:label="@string/title_activity_btdp_decotator" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.proxy.UiBTDPProxy"
-            android:label="@string/title_activity_ui_btdpproxy" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.proxy.BTDPProxyActivity"
+            android:label="@string/title_activity_btdp_proxy" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.factorymethod.UiBTDPFactoryMethod"
-            android:label="@string/title_activity_ui_btdpfactory_method" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.factorymethod.BTDPFactoryMethodActivity"
+            android:label="@string/title_activity_btdp_factorymethod" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.templatemethod.UiBTDPTemplateMethod"
-            android:label="@string/title_activity_ui_btdptemplate_method" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.templatemethod.BTDPTemplateMethodActivity"
+            android:label="@string/title_activity_btdp_templatemethod" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.facade.UiBTDPFacade"
-            android:label="@string/title_activity_ui_btdpfacade" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.facade.BTDPFacadeActivity"
+            android:label="@string/title_activity_btdp_facade" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.builder.UiBTDPBuilder"
-            android:label="@string/title_activity_ui_btdpbuilder" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.builder.BTDPBuilderActivity"
+            android:label="@string/title_activity_btdp_builder" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.observer.UiBTDPObserver"
-            android:label="@string/title_activity_ui_btdpobserver" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.observer.BTDPObserverActivity"
+            android:label="@string/title_activity_btdp_observer" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.abstractfactory.UiBTDPAbstractFactory"
-            android:label="@string/title_activity_ui_btdpabstract_factory" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.abstractfactory.BTDPAbstractFactoryActivity"
+            android:label="@string/title_activity_btdp_abstractfactory" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.state.UiBTDPState"
-            android:label="@string/title_activity_ui_btdpstate" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.state.BTDPStateActivity"
+            android:label="@string/title_activity_btdp_state" />
         <activity
             android:name="com.cheng.bigtalkdesignpatterns.adapter.UiBTDPAdapter"
-            android:label="@string/title_activity_ui_btdpadapter" >
-        </activity>
+            android:label="@string/title_activity_btdp_adapter" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.memento.UiBTDPMemento"
-            android:label="@string/title_activity_ui_btdpmemento" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.memento.BTDPMementoActivity"
+            android:label="@string/title_activity_btdp_memento" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.composite.UiBTDPComposite"
-            android:label="@string/title_activity_ui_btdpcomposite" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.composite.BTDPCompositeActivity"
+            android:label="@string/title_activity_btdp_composite" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.iterator.UiBTDPIterator"
-            android:label="@string/title_activity_ui_btdpiterator" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.iterator.BTDPIteratorActivity"
+            android:label="@string/title_activity_btdp_iterator" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.singleton.UiBTDPSingleton"
-            android:label="@string/title_activity_ui_btdpsingleton" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.singleton.BTDPSingletonActivity"
+            android:label="@string/title_activity_btdp_singleton" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.bridge.UiBTDPBridge"
-            android:label="@string/title_activity_ui_btdpbridge" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.bridge.BTDPBridgeActivity"
+            android:label="@string/title_activity_btdp_bridge" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.command.UiBTDPCommand"
-            android:label="@string/title_activity_ui_btdpcommand" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.command.BTDPCommandActivity"
+            android:label="@string/title_activity_btdp_command" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.chainofresponsibility.UiBTDPChainofResponsibility"
-            android:label="@string/title_activity_ui_btdpchainof_responsibility" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.chainofresponsibility.BTDPChainofResponsibilityActivity"
+            android:label="@string/title_activity_btdp_chainofresponsibility" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.mediator.UiBTDPMediator"
-            android:label="@string/title_activity_ui_btdpmediator" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.mediator.BTDPMediatorActivity"
+            android:label="@string/title_activity_btdp_mediator" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.flyweight.UiBTDPFlyweight"
-            android:label="@string/title_activity_ui_btdpflyweight" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.flyweight.BTDPFlyweightActivity"
+            android:label="@string/title_activity_btdp_flyweight" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.interpreter.UiBTDPInterpreter"
-            android:label="@string/title_activity_ui_btdpinterpreter" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.interpreter.BTDPInterpreterActivity"
+            android:label="@string/title_activity_btdp_interpreter" />
         <activity
-            android:name="com.cheng.bigtalkdesignpatterns.visitor.UiBTDPVisitor"
-            android:label="@string/title_activity_ui_btdpvisitor" >
-        </activity>
+            android:name="com.cheng.bigtalkdesignpatterns.visitor.BTDPVisitorActivity"
+            android:label="@string/title_activity_btdp_visitor" />
+        <!-- 最佳实践 -->
+        <activity android:name="com.cheng.bestpractice.BestPracticeActivity"
+            android:label="@string/title_activity_bp"/>
+        <activity android:name="com.cheng.bestpractice.observer.BPObserverActivity"
+            android:label="@string/title_activity_bp_observer"/>
+        <activity android:name="com.cheng.bestpractice.observer.activity.BPObserverFirstActivity"
+            android:label="@string/title_activity_bp_observerfirst"/>
+        <activity android:name="com.cheng.bestpractice.observer.activity.BPObserverOtherActivity"
+            android:label="@string/title_activity_bp_observerother"/>
     </application>
 
 </manifest>

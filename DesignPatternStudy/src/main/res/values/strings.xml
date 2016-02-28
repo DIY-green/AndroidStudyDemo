@@ -7,6 +7,6 @@
     <string name="sds_btn_bigtalkdesignpattern">大话设计模式</string>
     <string name="sds_btn_zenofdesignpattern">设计模式之禅</string>
     <string name="sds_btn_singleton">单例设计模式</string>
-    <string name="title_activity_ui_singleton">Singleton</string>
+    <string name="title_activity_singleton">Singleton</string>
 
 </resources>

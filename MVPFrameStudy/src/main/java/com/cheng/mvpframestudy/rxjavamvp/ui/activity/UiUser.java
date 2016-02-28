@@ -6,7 +6,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvpframestudy.R;
 import com.cheng.mvpframestudy.rxjavamvp.model.bean.User;
 import com.cheng.mvpframestudy.rxjavamvp.presenter.i.IUserPresenter;
@@ -14,7 +14,7 @@ import com.cheng.mvpframestudy.rxjavamvp.presenter.impl.UserPresenterImpl;
 import com.cheng.mvpframestudy.rxjavamvp.ui.i.IUserView;
 import com.cheng.utils.UiUtil;
 
-public class UiUser extends BaseUi implements IUserView {
+public class UiUser extends BaseActivity implements IUserView {
 
     private Button mUserNameBtn;
     private ProgressDialog mLoadingPB;

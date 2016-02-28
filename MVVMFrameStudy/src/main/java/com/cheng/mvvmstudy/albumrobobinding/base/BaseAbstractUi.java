@@ -2,7 +2,7 @@ package com.cheng.mvvmstudy.albumrobobinding.base;
 
 import android.view.View;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvvmstudy.MVVMStudyApp;
 import com.cheng.mvvmstudy.albumrobobinding.api.i.IAlbumStore;
 
@@ -14,7 +14,7 @@ import org.robobinding.binder.BinderFactory;
  * @version $Revision: 1.0 $
  * @since 1.0
  */
-public abstract class BaseAbstractUi extends BaseUi {
+public abstract class BaseAbstractUi extends BaseActivity {
 
     public void initializeContentView(int layoutId, Object presentationModel) {
         ViewBinder viewBinder = createViewBinder(true);

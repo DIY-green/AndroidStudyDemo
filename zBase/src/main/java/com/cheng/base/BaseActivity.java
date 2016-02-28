@@ -10,7 +10,7 @@ import com.cheng.utils.ViewFinder;
 /**
  * 自定义Activity基类
  */
-public class BaseUi extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity {
 
     public <T extends View> T findViewByID(int id) {
         return (T)ViewFinder.findViewById(this, id);

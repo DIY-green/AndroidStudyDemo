@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvcframestudy.R;
 import com.cheng.mvcframestudy.diymvc.controller.i.OnWeatherListener;
 import com.cheng.mvcframestudy.diymvc.model.bean.WeatherBean;
@@ -15,7 +15,7 @@ import com.cheng.mvcframestudy.diymvc.model.i.WeatherModel;
 import com.cheng.mvcframestudy.diymvc.model.impl.WeatherModelImpl;
 import com.cheng.utils.UiUtil;
 
-public class UiDIYMVCDemo extends BaseUi implements OnWeatherListener {
+public class UiDIYMVCDemo extends BaseActivity implements OnWeatherListener {
  
     private WeatherModel weatherModel;
     private Dialog loadingDialog;

@@ -26,7 +26,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvpframestudy.R;
 import com.cheng.mvpframestudy.diymvp.presenter.i.ILoginPresenter;
 import com.cheng.mvpframestudy.diymvp.presenter.impl.LoginPresenterImpl;
@@ -37,7 +37,7 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
-public class UiLogin extends BaseUi implements ILoginView {
+public class UiLogin extends BaseActivity implements ILoginView {
 
     private static final int REQUEST_READ_CONTACTS = 0;
     // UI references.

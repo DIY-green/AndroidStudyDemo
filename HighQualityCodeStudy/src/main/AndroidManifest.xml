@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".UiMain"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,69 +16,69 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".exceptionhandle.UiHowToHandleException"
-            android:label="@string/title_activity_ui_how_to_handle_exception" >
+            android:name=".exceptionhandle.HowToHandleExceptionActivity"
+            android:label="@string/title_activity_how_to_handle_exception" >
         </activity>
         <activity
-            android:name=".memoryleakhandle.UiHowToUseHandler"
-            android:label="@string/title_activity_ui_how_to_use_handler" >
+            android:name=".memoryleakhandle.HowToUseHandlerActivity"
+            android:label="@string/title_activity_how_to_use_handler" >
         </activity>
         <activity
-            android:name=".androidapimisuse.UiUseLayoutInflater"
-            android:label="@string/title_activity_ui_use_layout_inflater" >
+            android:name=".androidapimisuse.HowToUseLayoutInflaterActivity"
+            android:label="@string/title_activity_use_layout_inflater" >
         </activity>
         <!-- 编写高质量代码的151个建议 -->
         <activity
-            android:name="com.cheng.improve151suggest.UiI151Suggest"
+            android:name="com.cheng.improve151suggest.I151SuggestActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter01"
-            android:label="@string/title_activity_ui_chapter01" >
+            android:name="com.cheng.improve151suggest.I151SChapter01Activity"
+            android:label="@string/title_activity_i151s_chapter01" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter02"
-            android:label="@string/title_activity_ui_chapter02" >
+            android:name="com.cheng.improve151suggest.I151SChapter02Activity"
+            android:label="@string/title_activity_i151s_chapter02" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter03"
-            android:label="@string/title_activity_ui_chapter03" >
+            android:name="com.cheng.improve151suggest.I151SChapter03Activity"
+            android:label="@string/title_activity_i151s_chapter03" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter04"
-            android:label="@string/title_activity_ui_chapter04" >
+            android:name="com.cheng.improve151suggest.I151SChapter04Activity"
+            android:label="@string/title_activity_i151s_chapter04" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter05"
-            android:label="@string/title_activity_ui_chapter05" >
+            android:name="com.cheng.improve151suggest.I151SChapter05Activity"
+            android:label="@string/title_activity_i151s_chapter05" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter06"
-            android:label="@string/title_activity_ui_chapter06" >
+            android:name="com.cheng.improve151suggest.I151SChapter06Activity"
+            android:label="@string/title_activity_i151s_chapter06" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter07"
-            android:label="@string/title_activity_ui_chapter07" >
+            android:name="com.cheng.improve151suggest.I151SChapter07Activity"
+            android:label="@string/title_activity_i151s_chapter07" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter08"
-            android:label="@string/title_activity_ui_chapter08" >
+            android:name="com.cheng.improve151suggest.I151SChapter08Activity"
+            android:label="@string/title_activity_i151s_chapter08" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter09"
-            android:label="@string/title_activity_ui_chapter09" >
+            android:name="com.cheng.improve151suggest.I151SChapter09Activity"
+            android:label="@string/title_activity_i151s_chapter09" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter10"
-            android:label="@string/title_activity_ui_chapter10" >
+            android:name="com.cheng.improve151suggest.I151SChapter10Activity"
+            android:label="@string/title_activity_i151s_chapter10" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter11"
-            android:label="@string/title_activity_ui_chapter11" >
+            android:name="com.cheng.improve151suggest.I151SChapter11Activity"
+            android:label="@string/title_activity_i151s_chapter11" >
         </activity>
         <activity
-            android:name="com.cheng.improve151suggest.UiChapter12"
-            android:label="@string/title_activity_ui_chapter12" >
+            android:name="com.cheng.improve151suggest.I151SChapter12Activity"
+            android:label="@string/title_activity_i151s_chapter12" >
         </activity>
     </application>
 

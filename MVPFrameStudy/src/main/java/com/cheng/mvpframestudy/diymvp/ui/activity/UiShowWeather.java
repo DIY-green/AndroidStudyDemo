@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvpframestudy.R;
 import com.cheng.mvpframestudy.diymvp.model.bean.WeatherBean;
 import com.cheng.mvpframestudy.diymvp.presenter.i.IWeatherPresenter;
 import com.cheng.mvpframestudy.diymvp.presenter.impl.WeatherPresenterImpl;
 import com.cheng.mvpframestudy.diymvp.ui.i.IWeatherView;
 
-public class UiShowWeather extends BaseUi implements IWeatherView {
+public class UiShowWeather extends BaseActivity implements IWeatherView {
 
     private Dialog mLoadingDialog;
     private EditText mCityNOInputET;

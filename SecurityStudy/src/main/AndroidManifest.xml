@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ui.UiMain"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,55 +17,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.UiPseudoEncryption"
+            android:name=".activity.PseudoEncryptionActivity"
             android:label="@string/title_activity_ui_prevent_secondary_signature_pack" >
         </activity>
         <activity
-            android:name=".ui.UiPreventDecompile"
+            android:name=".activity.PreventDecompileActivity"
             android:label="@string/title_activity_ui_prevent_decompile" >
         </activity>
         <activity
-            android:name=".ui.UiDexBytecodeTamper"
+            android:name=".activity.DexBytecodeTamperActivity"
             android:label="@string/title_activity_ui_dex_bytecode_tamper" >
         </activity>
         <activity
-            android:name=".ui.UiDestoryAPKPackage"
+            android:name=".activity.DestoryAPKPackageActivity"
             android:label="@string/title_activity_ui_destory_apkpackage" >
         </activity>
         <activity
-            android:name=".ui.UiResourceImageVandalism"
+            android:name=".activity.ResourceImageVandalismActivity"
             android:label="@string/title_activity_ui_resource_image_vandalism" >
         </activity>
         <activity
-            android:name=".ui.UiCodeSeniorConfusion"
+            android:name=".activity.CodeSeniorConfusionActivity"
             android:label="@string/title_activity_ui_code_senior_confusion" >
         </activity>
         <activity
-            android:name=".ui.UiJunkCode"
+            android:name=".activity.JunkCodeActivity"
             android:label="@string/title_activity_ui_junk_code" >
         </activity>
         <activity
-            android:name=".ui.UiFolderConfusion"
+            android:name=".activity.FolderConfusionActivity"
             android:label="@string/title_activity_ui_folder_confusion" >
         </activity>
         <activity
-            android:name=".ui.UiRuntimeVerification"
+            android:name=".activity.RuntimeVerificationActivity"
             android:label="@string/title_activity_ui_runtime_verification" >
         </activity>
         <activity
-            android:name=".ui.UiAndroidTechVerify"
+            android:name=".activity.AndroidTechVerifyActivity"
             android:label="@string/title_activity_ui_android_test_verify" >
         </activity>
         <activity
-            android:name=".ui.UiJavaTechVerify"
+            android:name=".activity.JavaTechVerifyActivity"
             android:label="@string/title_activity_ui_java_test_verify" >
         </activity>
         <activity
-            android:name=".ui.UiPreventMemoryChange"
+            android:name=".activity.PreventMemoryChangeActivity"
             android:label="@string/title_activity_ui_prevent_memory_change" >
         </activity>
         <activity
-            android:name=".ui.UiVersusJD_GUI"
+            android:name=".activity.VersusJD_GUIActivity"
             android:label="@string/title_activity_ui_versus_jd__gui" >
         </activity>
     </application>

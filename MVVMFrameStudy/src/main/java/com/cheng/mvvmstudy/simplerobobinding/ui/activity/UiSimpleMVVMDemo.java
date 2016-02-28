@@ -4,7 +4,7 @@ package com.cheng.mvvmstudy.simplerobobinding.ui.activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvvmstudy.R;
 import com.cheng.mvvmstudy.simplerobobinding.viewmodel.PresentationModel;
 
@@ -18,7 +18,7 @@ import org.robobinding.binder.BinderFactoryBuilder;
 * @version $Revision: 1.0 $
 * @author Cheng Wei
 */
-public class UiSimpleMVVMDemo extends BaseUi {
+public class UiSimpleMVVMDemo extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

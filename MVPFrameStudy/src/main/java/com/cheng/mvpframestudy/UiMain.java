@@ -3,12 +3,12 @@ package com.cheng.mvpframestudy;
 import android.os.Bundle;
 import android.view.View;
 
-import com.cheng.base.BaseUi;
+import com.cheng.base.BaseActivity;
 import com.cheng.mvpframestudy.diymvp.ui.activity.UiLogin;
 import com.cheng.mvpframestudy.rxjavamvp.UiRxJavaMVP;
 import com.cheng.mvpframestudy.themvp.UiTheMVPDemo;
 
-public class UiMain extends BaseUi {
+public class UiMain extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cheng.bigtalkdesignpatterns.decorator.BTDPDecotatorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="装饰模式"
+        android:id="@+id/textView8" />
+
+    <Button
+        android:id="@+id/bti_test1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test01"
+        android:textAllCaps="false"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/bti_showtest1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_below="@id/bti_test1_btn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bti_test2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test02"
+        android:layout_below="@id/bti_showtest1_tv"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/bti_showtest2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_below="@id/bti_test2_btn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bti_test3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test03"
+        android:layout_below="@+id/bti_showtest2_tv"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/bti_showtest3_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_below="@id/bti_test3_btn"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="title_activity_zodp">ZenofDesignPatterns</string>
+    <string name="title_activity_zodp_part">ZoDPPart</string>
+    <string name="title_activity_zodp_singleresponsibilityprinciple">SingleResponsibilityPrinciple
+    </string>
+    <string name="title_activity_zodp_liskovsubstitutionprinciple">LiskovSubstitutionPrinciple
+    </string>
+    <string name="title_activity_zodp_dependenceinversionprinciple">DependenceInversionPrinciple
+    </string>
+    <string name="title_activity_zodp_interfacesegregationprinciple">InterfaceSegregationPrinciple
+    </string>
+    <string name="title_activity_zodp_leastknowledgeprinciple">LeastKnowledgePrinciple</string>
+    <string name="title_activity_zodp_opencloseprinciple">OpenClosePrinciple</string>
+    <string name="title_activity_zodp_singleton">Singleton</string>
+    <string name="title_activity_zodp_factorymethod">FactoryMethod</string>
+    <string name="title_activity_zodp_abstractfactory">AbstractFactory</string>
+    <string name="title_activity_zodp_templatemethod">TemplateMethod</string>
+    <string name="title_activity_zodp_builder">Builder</string>
+    <string name="title_activity_zodp_proxy">Proxy</string>
+    <string name="title_activity_zodp_prototype">Prototype</string>
+    <string name="title_activity_zodp_mediator">Mediator</string>
+    <string name="title_activity_zodp_command">Command</string>
+    <string name="title_activity_zodp_chainofresponsibility">ChainofResponsibility</string>
+    <string name="title_activity_zodp_decorator">Decorator</string>
+    <string name="title_activity_zodp_strategy">Strategy</string>
+    <string name="title_activity_zodp_adapter">Adapter</string>
+    <string name="title_activity_zodp_iterator">Iterator</string>
+    <string name="title_activity_zodp_composite">Composite</string>
+    <string name="title_activity_zodp_observer">Observer</string>
+    <string name="title_activity_zodp_facade">Facade</string>
+    <string name="title_activity_zodp_memento">Memento</string>
+    <string name="title_activity_zodp_visitor">Visitor</string>
+    <string name="title_activity_zodp_state">State</string>
+    <string name="title_activity_zodp_interpreter">Interpreter</string>
+    <string name="title_activity_zodp_flyweight">Flyweight</string>
+    <string name="title_activity_zodp_bridge">Bridge</string>
+    <string name="title_activity_zodp_creationalpk">Creational PK</string>
+    <string name="title_activity_zodp_structuralpk">StructuralPK</string>
+    <string name="title_activity_zodp_behavioralpk">BehavioralPK</string>
+    <string name="title_activity_zodp_crosswarzonepk">CrossWarZonePK</string>
+    <string name="title_activity_zodp_commandchain">CommandChain</string>
+    <string name="title_activity_zodp_factorystartegy">FactoryStrategy</string>
+    <string name="title_activity_zodp_observermediator">ObserverMediator</string>
+    <string name="title_activity_zodp_mvcframework">MVCFramework</string>
+    <string name="title_activity_zodp_newpatterns">NewPatterns</string>
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="i151schapters">
+        <item>第1章 java开发中通用的方法和准则</item>
+        <item>第2章 基本类型</item>
+        <item>第3章 类、对象及方法</item>
+        <item>第4章 字符串</item>
+        <item>第5章 数组和集合</item>
+        <item>第6章 枚举和注解</item>
+        <item>第7章 泛型和反射</item>
+        <item>第8章 异常</item>
+        <item>第9章 多线程和并发</item>
+        <item>第10章 性能和效率</item>
+        <item>第11章 开源世界</item>
+        <item>第12章 思想为源</item>
+    </array>
+    <array name="i151schapterClazzes">
+        <item>com.cheng.improve151suggest.UiChapter01</item>
+        <item>com.cheng.improve151suggest.UiChapter02</item>
+        <item>com.cheng.improve151suggest.UiChapter03</item>
+        <item>com.cheng.improve151suggest.UiChapter04</item>
+        <item>com.cheng.improve151suggest.UiChapter05</item>
+        <item>com.cheng.improve151suggest.UiChapter06</item>
+        <item>com.cheng.improve151suggest.UiChapter07</item>
+        <item>com.cheng.improve151suggest.UiChapter08</item>
+        <item>com.cheng.improve151suggest.UiChapter09</item>
+        <item>com.cheng.improve151suggest.UiChapter10</item>
+        <item>com.cheng.improve151suggest.UiChapter11</item>
+        <item>com.cheng.improve151suggest.UiChapter12</item>
+    </array>
+    <array name="i151schapter1">
+        <item>建议1： 不要在常量和变量中出现易混淆的字母</item>
+        <item>建议2： 莫让常量蜕变成变量</item>
+        <item>建议3： 三元操作符的类型务必一致</item>
+        <item>建议4： 避免带有变长参数的方法重载</item>
+        <item>建议5： 别让null值和空值威胁到变长方法</item>
+        <item>建议6： 覆写变长方法也循规蹈矩</item>
+        <item>建议7： 警惕自增的陷阱</item>
+        <item>建议8： 不要让旧语法困扰你</item>
+        <item>建议9： 少用静态导入</item>
+        <item>建议10： 不要在本类中覆盖静态导入的变量和方法</item>
+        <item>建议11： 养成良好习惯，显式声明uid</item>
+        <item>建议12： 避免用序列化类在构造函数中为不变量赋值</item>
+        <item>建议13： 避免为final变量复杂赋值</item>
+        <item>建议14： 使用序列化类的私有方法巧妙解决部分属性持久化问题</item>
+        <item>建议15： break万万不可忘</item>
+        <item>建议16： 易变业务使用脚本语言编写</item>
+        <item>建议17： 慎用动态编译</item>
+        <item>建议18： 避免instanceof非预期结果</item>
+        <item>建议19： 断言绝对不是鸡肋</item>
+        <item>建议20： 不要只替换一个类</item>
+    </array>
+    <array name="i151schapter2">
+        <item>建议21： 用偶判断，不用奇判断</item>
+        <item>建议22： 用整数类型处理货币</item>
+        <item>建议23： 不要让类型默默转换</item>
+        <item>建议24： 边界，边界，还是边界</item>
+        <item>建议25： 不要让四舍五入亏了一方</item>
+        <item>建议26： 提防包装类型的null值</item>
+        <item>建议27： 谨慎包装类型的大小比较</item>
+        <item>建议28： 优先使用整型池</item>
+        <item>建议29： 优先选择基本类型</item>
+        <item>建议30： 不要随便设置随机种子</item>
+    </array>
+    <array name="i151schapter3">
+        <item>建议31： 在接口中不要存在实现代码</item>
+        <item>建议32： 静态变量一定要先声明后赋值</item>
+        <item>建议33： 不要覆写静态方法</item>
+        <item>建议34： 构造函数尽量简化</item>
+        <item>建议35： 避免在构造函数中初始化其他类</item>
+        <item>建议36： 使用构造代码块精炼程序</item>
+        <item>建议37： 构造代码块会想你所想</item>
+        <item>建议38： 使用静态内部类提高封装性</item>
+        <item>建议39： 使用匿名类的构造函数</item>
+        <item>建议40： 匿名类的构造函数很特殊</item>
+        <item>建议41： 让多重继承成为现实</item>
+        <item>建议42： 让工具类不可实例化</item>
+        <item>建议43： 避免对象的浅拷贝</item>
+        <item>建议44： 推荐使用序列化实现对象的拷贝</item>
+        <item>建议45： 覆写equals方法时不要识别不出自己</item>
+        <item>建议46： equals应该考虑null值情景</item>
+        <item>建议47： 在equals中使用getclass进行类型判断</item>
+        <item>建议48： 覆写equals方法必须覆写hashcode方法</item>
+        <item>建议49： 推荐覆写tostring方法</item>
+        <item>建议50： 使用package-info类为包服务</item>
+        <item>建议51： 不要主动进行垃圾回收</item>
+    </array>
+    <array name="i151schapter4">
+        <item>建议52： 推荐使用string直接量赋值</item>
+        <item>建议53： 注意方法中传递的参数要求</item>
+        <item>建议54： 正确使用string、stringbuffer、stringbuilder</item>
+        <item>建议55： 注意字符串的位置</item>
+        <item>建议56： 自由选择字符串拼接方法</item>
+        <item>建议57： 推荐在复杂字符串操作中使用正则表达式</item>
+        <item>建议58： 强烈建议使用utf编码</item>
+        <item>建议59： 对字符串排序持一种宽容的心态</item>
+    </array>
+    <array name="i151schapter5">
+        <item>建议60： 性能考虑，数组是首选</item>
+        <item>建议61： 若有必要，使用变长数组</item>
+        <item>建议62： 警惕数组的浅拷贝</item>
+        <item>建议63： 在明确的场景下，为集合指定初始容量</item>
+        <item>建议64： 多种最值算法，适时选择</item>
+        <item>建议65： 避开基本类型数组转换列表陷阱</item>
+        <item>建议66： aslist方法产生的list对象不可更改</item>
+        <item>建议67： 不同的列表选择不同的遍历方法</item>
+        <item>建议68： 频繁插入和删除时使用linkedlist</item>
+        <item>建议69： 列表相等只需关心元素数据</item>
+        <item>建议70：子列表只是原列表的一个视图</item>
+        <item>建议71： 推荐使用sublist处理局部列表</item>
+        <item>建议72： 生成子列表后不要再操作原列表</item>
+        <item>建议73： 使用comparator进行排序</item>
+        <item>建议74： 不推荐使用binarysearch对列表进行检索</item>
+        <item>建议75： 集合中的元素必须做到compareto和equals同步</item>
+        <item>建议76： 集合运算时使用更优雅的方式</item>
+        <item>建议77： 使用shuffle打乱列表</item>
+        <item>建议78： 减少hashmap中元素的数量</item>
+        <item>建议79： 集合中的哈希码不要重复</item>
+        <item>建议80： 多线程使用vector或hashtable</item>
+        <item>建议81： 非稳定排序推荐使用list</item>
+        <item>建议82： 由点及面，一叶知秋—集合大家族</item>
+    </array>
+    <array name="i151schapter6">
+        <item>建议83： 推荐使用枚举定义常量</item>
+        <item>建议84： 使用构造函数协助描述枚举项</item>
+        <item>建议85： 小心switch带来的空值异常</item>
+        <item>建议86： 在switch的default代码块中增加assertionerror错误</item>
+        <item>建议87： 使用valueof前必须进行校验</item>
+        <item>建议88： 用枚举实现工厂方法模式更简洁</item>
+        <item>建议89： 枚举项的数量限制在64个以内</item>
+        <item>建议90： 小心注解继承</item>
+        <item>建议91： 枚举和注解结合使用威力更大</item>
+        <item>建议92： 注意@override不同版本的区别</item>
+    </array>
+    <array name="i151schapter7">
+        <item>建议93： java的泛型是类型擦除的</item>
+        <item>建议94： 不能初始化泛型参数和数组</item>
+        <item>建议95： 强制声明泛型的实际类型</item>
+        <item>建议96： 不同的场景使用不同的泛型通配符</item>
+        <item>建议97： 警惕泛型是不能协变和逆变的</item>
+        <item>建议98： 建议采用的顺序是list[t]、list[?]、list[object]</item>
+        <item>建议99： 严格限定泛型类型采用多重界限</item>
+        <item>建议100： 数组的真实类型必须是泛型类型的子类型</item>
+        <item>建议101： 注意class类的特殊性</item>
+        <item>建议102： 适时选择getdeclared×××和get×××</item>
+        <item>建议103： 反射访问属性或方法时将accessible设置为true</item>
+        <item>建议104： 使用forname动态加载类文件</item>
+        <item>建议105： 动态加载不适合数组</item>
+        <item>建议106： 动态代理可以使代理模式更加灵活</item>
+        <item>建议107： 使用反射增加装饰模式的普适性</item>
+        <item>建议108： 反射让模板方法模式更强大</item>
+        <item>建议109： 不需要太多关注反射效率</item>
+    </array>
+    <array name="i151schapter8">
+        <item>建议110： 提倡异常封装</item>
+        <item>建议111： 采用异常链传递异常</item>
+        <item>建议112： 受检异常尽可能转化为非受检异常</item>
+        <item>建议113： 不要在finally块中处理返回值</item>
+        <item>建议114： 不要在构造函数中抛出异常</item>
+        <item>建议115： 使用throwable获得栈信息</item>
+        <item>建议116： 异常只为异常服务</item>
+        <item>建议117： 多使用异常，把性能问题放一边</item>
+    </array>
+    <array name="i151schapter9">
+        <item>建议118： 不推荐覆写start方法</item>
+        <item>建议119： 启动线程前stop方法是不可靠的</item>
+        <item>建议120： 不使用stop方法停止线程</item>
+        <item>建议121： 线程优先级只使用三个等级</item>
+        <item>建议122： 使用线程异常处理器提升系统可靠性</item>
+        <item>建议123： volatile不能保证数据同步</item>
+        <item>建议124： 异步运算考虑使用callable接口</item>
+        <item>建议125： 优先选择线程池</item>
+        <item>建议126： 适时选择不同的线程池来实现</item>
+        <item>建议127： lock与synchronized是不一样的</item>
+        <item>建议128： 预防线程死锁</item>
+        <item>建议129： 适当设置阻塞队列长度</item>
+        <item>建议130： 使用countdownlatch协调子线程</item>
+        <item>建议131： cyclicbarrier让多线程齐步走</item>
+    </array>
+    <array name="i151schapter10">
+        <item>建议132： 提升java性能的基本方法</item>
+        <item>建议133： 若非必要，不要克隆对象</item>
+        <item>建议134： 推荐使用“望闻问切”的方式诊断性能</item>
+        <item>建议135： 必须定义性能衡量标准</item>
+        <item>建议136： 枪打出头鸟—解决首要系统性能问题</item>
+        <item>建议137： 调整jvm参数以提升性能</item>
+        <item>建议138： 性能是个大“咕咚”</item>
+    </array>
+    <array name="i151schapter11">
+        <item>建议139： 大胆采用开源工具</item>
+        <item>建议140： 推荐使用guava扩展工具包</item>
+        <item>建议141： apache扩展包</item>
+        <item>建议142： 推荐使用joda日期时间扩展包</item>
+        <item>建议143： 可以选择多种collections扩展</item>
+    </array>
+    <array name="i151schapter12">
+        <item>建议144： 提倡良好的代码风格</item>
+        <item>建议145： 不要完全依靠单元测试来发现问题</item>
+        <item>建议146： 让注释正确、清晰、简洁</item>
+        <item>建议147： 让接口的职责保持单一</item>
+        <item>建议148： 增强类的可替换性</item>
+        <item>建议149： 依赖抽象而不是实现</item>
+        <item>建议150： 抛弃7条不良的编码习惯</item>
+        <item>建议151： 以技术员自律而不是工人</item>
+    </array>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="zodpparts">
+        <item>第一部分 大旗不挥，谁敢冲锋——热身篇</item>
+        <item>第二部分 我惹了谁——真刀实枪篇</item>
+        <item>第三部分 谁的地盘谁做主—模式PK篇</item>
+        <item>第四部分 完美世界—混编模式</item>
+        <item>第五部分 扩展篇</item>
+    </array>
+    <array name="zodppart1">
+        <item>第1章 单一职责原则</item>
+        <item>第2章 里氏替换原则</item>
+        <item>第3章 依赖倒置原则</item>
+        <item>第4章 接口隔离原则</item>
+        <item>第5章 迪米特法则</item>
+        <item>第6章 开闭原则</item>
+    </array>
+    <array name="zodppart2">
+        <item>第7章 单例模式</item>
+        <item>第8章 工厂方法模式</item>
+        <item>第9章 抽象工厂模式</item>
+        <item>第10章 模板方法模式</item>
+        <item>第11章 建造者模式</item>
+        <item>第12章 代理模式</item>
+        <item>第13章 原型模式</item>
+        <item>第14章 中介者模式</item>
+        <item>第15章 命令模式</item>
+        <item>第16章 责任链模式</item>
+        <item>第17章 装饰模式</item>
+        <item>第18章 策略模式</item>
+        <item>第19章 适配器模式</item>
+        <item>第20章 迭代器模式</item>
+        <item>第21章 组合模式</item>
+        <item>第22章 观察者模式</item>
+        <item>第23章 门面模式</item>
+        <item>第24章 备忘录模式</item>
+        <item>第25章 访问者模式</item>
+        <item>第26章 状态模式</item>
+        <item>第27章 解释器模式</item>
+        <item>第28章 享元模式</item>
+        <item>第29章 桥梁模式</item>
+    </array>
+    <array name="zodppart3">
+        <item>第30章 创建类模式大PK</item>
+        <item>第31章 结构类模式大PK</item>
+        <item>第32章 行为类模式大PK</item>
+        <item>第33章 跨战区PK</item>
+    </array>
+    <array name="zodppart4">
+        <item>第34章 命令模式+责任链模式</item>
+        <item>第35章 工厂方法模式+策略模式</item>
+        <item>第36章 观察者模式+中介者模式</item>
+    </array>
+    <array name="zodppart5">
+        <item>第37章 MVC框架</item>
+        <item>第38章 新模式</item>
+    </array>
+    <array name="zodppart1chapterClazzes">
+        <item>com.cheng.zenofdesignpatterns.principle.srp.UiZoDPSingleResponsibilityPrinciple</item>
+        <item>com.cheng.zenofdesignpatterns.principle.lsp.UiZoDPLiskovSubstitutionPrinciple</item>
+        <item>com.cheng.zenofdesignpatterns.principle.dip.UiZoDPDependenceInversionPrinciple</item>
+        <item>com.cheng.zenofdesignpatterns.principle.isp.UiZoDPInterfaceSegregationPrinciple</item>
+        <item>com.cheng.zenofdesignpatterns.principle.lkp.UiZoDPLeastKnowledgePrinciple</item>
+        <item>com.cheng.zenofdesignpatterns.principle.ocp.UiZoDPOpenClosePrinciple</item>
+    </array>
+    <array name="zodppart2chapterClazzes">
+        <item>com.cheng.zenofdesignpatterns.patterns.singleton.UiZoDPSingleton</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.factorymethod.UiZoDPFactoryMethod</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.abstractfactory.UiZoDPAbstractFactory</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.templatemethod.UiZoDPTemplateMethod</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.builder.UiZoDPBuilder</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.proxy.UiZoDPProxy</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.prototype.UiZoDPPrototype</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.mediator.UiZoDPMediator</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.command.UiZoDPCommand</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.chainofresponsibility.UiChainofResponsibility</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.decorator.UiZoDPDecorator</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.strategy.UiZoDPStrategy</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.adapter.UiZoDPAdapter</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.iterator.UiZoDPIterator</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.composite.UiZoDPComposite</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.observer.UiZoDPObserver</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.facade.UiZoDPFacade</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.memento.UiZoDPMemento</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.visitor.UiZoDPVisitor</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.state.UiZoDPState</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.interpreter.UiZoDPInterpreter</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.flyweight.UiZoDPFlyweight</item>
+        <item>com.cheng.zenofdesignpatterns.patterns.bridge.UiZoDPBridge</item>
+    </array>
+    <array name="zodppart3chapterClazzes">
+        <item>com.cheng.zenofdesignpatterns.patternpk.creational.UiZoDPCreationalPK</item>
+        <item>com.cheng.zenofdesignpatterns.patternpk.structural.UiZoDPStructuralPK</item>
+        <item>com.cheng.zenofdesignpatterns.patternpk.behavioral.UiZoDPBehavioralPK</item>
+        <item>com.cheng.zenofdesignpatterns.patternpk.crosswarzone.UiZoDPCrossWarZonePK</item>
+    </array>
+    <array name="zodppart4chapterClazzes">
+        <item>com.cheng.zenofdesignpatterns.perfectworld.command_chain.UiZoDPCommandChain</item>
+        <item>com.cheng.zenofdesignpatterns.perfectworld.factory_strategy.UiZoDPFactoryStrategy</item>
+        <item>com.cheng.zenofdesignpatterns.perfectworld.observer_mediator.UiZoDPObserverMediator</item>
+    </array>
+    <array name="zodppart5chapterClazzes">
+        <item>com.cheng.zenofdesignpatterns.extension.mvcframework.UiZoDPMVCFramework</item>
+        <item>com.cheng.zenofdesignpatterns.extension.newpatterns.UiZoDPNewPatterns</item>
+    </array>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="iss_title_main">《编写高质量代码：改善java程序的151个建议》</string>
+    <string name="title_activity_i151s_chapter01">Chapter01</string>
+    <string name="title_activity_i151s_chapter02">Chapter02</string>
+    <string name="title_activity_i151s_chapter03">Chapter03</string>
+    <string name="title_activity_i151s_chapter04">Chapter04</string>
+    <string name="title_activity_i151s_chapter05">Chapter05</string>
+    <string name="title_activity_i151s_chapter06">Chapter06</string>
+    <string name="title_activity_i151s_chapter07">Chapter07</string>
+    <string name="title_activity_i151s_chapter08">Chapter08</string>
+    <string name="title_activity_i151s_chapter09">Chapter09</string>
+    <string name="title_activity_i151s_chapter10">Chapter10</string>
+    <string name="title_activity_i151s_chapter11">Chapter11</string>
+    <string name="title_activity_i151s_chapter12">Chapter12</string>
+</resources>

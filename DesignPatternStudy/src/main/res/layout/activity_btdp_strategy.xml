@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cheng.bigtalkdesignpatterns.strategy.BTDPStrategyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商场收费系统"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:text="单价："
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/bti_price_et"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@id/textView"
+        android:layout_toEndOf="@id/textView3" />
+
+    <Button
+        android:id="@+id/bti_sure_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="确定"
+        android:layout_alignBottom="@id/bti_price_et"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="数量："
+        android:gravity="center_vertical"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/bti_goodnum_et"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignBottom="@id/textView5"
+        android:layout_alignStart="@id/bti_price_et" />
+
+    <Button
+        android:id="@+id/bti_reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="重置"
+        android:layout_alignBottom="@id/bti_goodnum_et"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="计算方式："
+        android:gravity="center_vertical"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/bti_discountstrategy_sp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/textView6"
+        android:layout_alignStart="@id/bti_price_et"
+        android:layout_toEndOf="@id/textView"
+        android:entries="@array/btdpdiscountstrategies"/>
+
+    <EditText
+        android:id="@+id/bti_gooditems_et"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView6"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总计："
+        android:id="@+id/textView7"
+        android:layout_below="@id/bti_gooditems_et"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/bti_totalmoney_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0.0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+</RelativeLayout>

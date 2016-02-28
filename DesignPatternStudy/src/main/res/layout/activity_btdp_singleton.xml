@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cheng.bigtalkdesignpatterns.singleton.BTDPSingletonActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单例模式的七种写法"
+        android:id="@+id/textView21" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton1"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@id/textView21"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton2"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton3"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton4"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton5"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button14"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton6"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singleton7"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/button16"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="title_activity_bp">BestPractice</string>
+    <string name="title_activity_bp_observer">BPObserverBestPractice</string>
+    <string name="title_activity_bp_observerfirst">BPObserverFirst</string>
+    <string name="title_activity_bp_observerother">BPObserverOther</string>
+
+</resources>

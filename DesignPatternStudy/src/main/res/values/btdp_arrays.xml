@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="btdpchapters">
+        <item>第1章 代码无错就是优？--简单工厂模式</item>
+        <item>第2章 商场促销--策略模式</item>
+        <item>第3章 拍摄UFO--单一职责原则</item>
+        <item>第4章 考研求职两不误--开放-封闭原则</item>
+        <item>第5章 会修电脑不会修收音机？--依赖倒转原则</item>
+        <item>第6章 穿什么有这么重要？--装饰模式</item>
+        <item>第7章 为别人做嫁衣--代理模式</item>
+        <item>第8章 雷锋依然在人间--工厂方法模式</item>
+        <item>第9章 简历复印--原型模式</item>
+        <item>第10章 考题抄错会做也白搭--模板方法模式</item>
+        <item>第11章 无熟人难办事？--迪米特法则</item>
+        <item>第12章 牛市股票还会亏钱？--外观模式</item>
+        <item>第13章 好菜每回味不同--建造者模式</item>
+        <item>第14章 老板回来，我不知道--观察者模式</item>
+        <item>第15章 就不能不换DB吗？--抽象工厂模式</item>
+        <item>第16章 无尽加班何时休--状态模式</item>
+        <item>第17章 在NBA我需要翻译--适配器模式</item>
+        <item>第18章 如果再回到从前--备忘录模式</item>
+        <item>第19章 分公司=一部门--组合模式</item>
+        <item>第20章 想走？可以！先买票--迭代器模式</item>
+        <item>第21章 有些类也需计划生育--单例模式</item>
+        <item>第22章 手机软件何时统一--桥接模式</item>
+        <item>第23章 烤羊肉串引来的思考--命令模式</item>
+        <item>第24章 加薪非要老总批？--职责链模式</item>
+        <item>第25章 世界需要和平--中介者模式</item>
+        <item>第26章 项目多也别傻做--享元模式</item>
+        <item>第27章 其实你不懂老板的心--解释器模式</item>
+        <item>第28章 男人和女人--访问者模式</item>
+        <item>第29章 OOTV杯超级模式大赛--模式总结</item>
+        <item>附 录 A 培训实习生--面向对象基础</item>
+    </array>
+    <array name="btdpchapterClazzes">
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter01</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter02</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter03</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter04</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter05</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter06</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter07</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter08</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter09</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter10</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter11</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter12</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter14</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter14</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter15</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter16</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter17</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter18</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter19</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter20</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter21</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter22</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter23</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter24</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter25</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter26</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter27</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter28</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter29</item>
+        <item>com.cheng.bigtalkdesignpatterns.UiChapter30</item>
+    </array>
+    <array name="btdpchapter1">
+        <item>1.1 面试受挫</item>
+        <item>1.2 初学者代码毛病</item>
+        <item>1.3 代码规范</item>
+        <item>1.4 面向对象编程</item>
+        <item>1.5 活字印刷，面向对象</item>
+        <item>1.6 面向对象的好处</item>
+        <item>1.7 复制vs.复用</item>
+        <item>1.8 业务的封装</item>
+        <item>1.9 紧耦合vs.松耦合</item>
+        <item>1.10 简单工厂模式</item>
+        <item>1.11 UML类图</item>
+    </array>
+    <array name="btdpchapter2">
+        <item>2.1 商场收银软件</item>
+        <item>2.2 增加打折</item>
+        <item>2.3 简单工厂实现</item>
+        <item>2.4 策略模式</item>
+        <item>2.5 策略模式实现</item>
+        <item>2.6 策略与简单工厂结合</item>
+        <item>2.7 策略模式解析</item>
+    </array>
+    <array name="btdpchapter3">
+        <item>3.1 新手机</item>
+        <item>3.2 拍摄</item>
+        <item>3.3 没用的东西</item>
+        <item>3.4 单一职责原则</item>
+        <item>3.5 方块游戏的设计</item>
+        <item>3.6 手机职责过多吗？</item>
+    </array>
+    <array name="btdpchapter4">
+        <item>4.1 考研失败</item>
+        <item>4.2 开放-封闭原则</item>
+        <item>4.3 何时应对变化</item>
+        <item>4.4 两手准备，并全力以赴</item>
+    </array>
+    <array name="btdpchapter5">
+        <item>5.1 MM请求修电脑</item>
+        <item>5.2 电话遥控修电脑</item>
+        <item>5.3 依赖倒转原则</item>
+        <item>5.4 里氏代换原则</item>
+        <item>5.5 修收音机</item>
+    </array>
+    <array name="btdpchapter6">
+        <item>6.1 穿什么有这么重要？</item>
+        <item>6.2 小菜扮靓第一版</item>
+        <item>6.3 小菜扮靓第二版</item>
+        <item>6.4 装饰模式</item>
+        <item>6.5 小菜扮靓第三版</item>
+        <item>6.6 装饰模式总结</item>
+    </array>
+    <array name="btdpchapter7">
+        <item>7.1 为别人做嫁衣！</item>
+        <item>7.2 没有代理的代码</item>
+        <item>7.3 只有代理的代码</item>
+        <item>7.4 符合实际的代码</item>
+        <item>7.5 代理模式</item>
+        <item>7.6 代理模式应用</item>
+        <item>7.7 秀才让小六代其求婚</item>
+    </array>
+    <array name="btdpchapter8">
+        <item>8.1 再现活雷锋</item>
+        <item>8.2 简单工厂模式实现</item>
+        <item>8.3 工厂方法模式实现</item>
+        <item>8.4 简单工厂vs.工厂方法</item>
+        <item>8.5 雷锋工厂</item>
+    </array>
+    <array name="btdpchapter9">
+        <item>9.1 夸张的简历</item>
+        <item>9.2 简历代码初步实现</item>
+        <item>9.3 原型模式</item>
+        <item>9.4 简历的原型实现</item>
+        <item>9.5 浅复制与深复制</item>
+        <item>9.6 简历的深复制实现</item>
+        <item>9.7 复制简历vs.手写求职信</item>
+    </array>
+    <array name="btdpchapter10">
+        <item>10.1 选择题不会做，蒙呗！</item>
+        <item>10.2 重复=易错+难改</item>
+        <item>10.3 提炼代码</item>
+        <item>10.4 模板方法模式</item>
+        <item>10.5 模板方法模式特点</item>
+        <item>10.6 主观题，看你怎么蒙</item>
+    </array>
+    <array name="btdpchapter11">
+        <item>11.1 第一天上班</item>
+        <item>11.2 无熟人难办事</item>
+        <item>11.3 迪米特法则</item>
+    </array>
+    <array name="btdpchapter12">
+        <item>12.1 牛市股票还会亏钱？</item>
+        <item>12.2 股民炒股代码</item>
+        <item>12.3 投资基金代码</item>
+        <item>12.4 外观模式</item>
+        <item>12.5 何时使用外观模式</item>
+    </array>
+    <array name="btdpchapter13">
+        <item>13.1 炒面没放盐</item>
+        <item>13.2 建造小人一</item>
+        <item>13.3 建造小人二</item>
+        <item>13.4 建造者模式</item>
+        <item>13.5 建造者模式解析</item>
+        <item>13.6 建造者模式基本代码</item>
+    </array>
+    <array name="btdpchapter14">
+        <item>14.1 老板回来？我不知道！</item>
+        <item>14.2 双向耦合的代码</item>
+        <item>14.3 解耦实践一</item>
+        <item>14.4 解耦实践二</item>
+        <item>14.5 观察者模式</item>
+        <item>14.6 观察者模式特点</item>
+        <item>14.7 观察者模式的不足</item>
+        <item>14.8 事件委托实现</item>
+        <item>14.9 事件委托说明</item>
+        <item>14.10 石守吉失手机后的委托</item>
+    </array>
+    <array name="btdpchapter15">
+        <item>15.1 就不能不换DB吗？</item>
+        <item>15.2 最基本的数据访问程序</item>
+        <item>15.3 用了工厂方法模式的数据访问程序</item>
+        <item>15.4 用了抽象工厂模式的数据访问程序</item>
+        <item>15.5 抽象工厂模式</item>
+        <item>15.6 抽象工厂模式的优点与缺点</item>
+        <item>15.7 用简单工厂来改进抽象工厂</item>
+        <item>15.8 用反射+抽象工厂的数据访问程序</item>
+        <item>15.9 用反射+配置文件实现数据访问程序</item>
+        <item>15.10 无痴迷，不成功</item>
+    </array>
+    <array name="btdpchapter16">
+        <item>16.1 加班，又是加班！</item>
+        <item>16.2 工作状态-函数版</item>
+        <item>16.3 工作状态-分类版</item>
+        <item>16.4 方法过长是坏味道</item>
+        <item>16.5 状态模式</item>
+        <item>16.6 状态模式好处与用处</item>
+        <item>16.7 工作状态-状态模式版</item>
+    </array>
+    <array name="btdpchapter17">
+        <item>17.1 在NBA我需要翻译！</item>
+        <item>17.2 适配器模式</item>
+        <item>17.3 何时使用适配器模式</item>
+        <item>17.4 篮球翻译适配器</item>
+        <item>17.5 适配器模式的.NET应用</item>
+        <item>17.6 扁鹊的医术</item>
+    </array>
+    <array name="btdpchapter18">
+        <item>18.1 如果再给我一次机会……</item>
+        <item>18.2 游戏存进度</item>
+        <item>18.3 备忘录模式</item>
+        <item>18.4 备忘录模式基本代码</item>
+        <item>18.5 游戏进度备忘</item>
+    </array>
+    <array name="btdpchapter19">
+        <item>19.1 分公司不就是一部门吗？</item>
+        <item>19.2 组合模式</item>
+        <item>19.3 透明方式与安全方式</item>
+        <item>19.4 何时使用组合模式</item>
+        <item>19.5 公司管理系统</item>
+        <item>19.6 组合模式好处</item>
+    </array>
+    <array name="btdpchapter20">
+        <item>20.1 乘车买票，不管你是谁！</item>
+        <item>20.2 迭代器模式</item>
+        <item>20.3 迭代器实现</item>
+        <item>20.4 .NET的迭代器实现</item>
+        <item>20.5 迭代高手</item>
+    </array>
+    <array name="btdpchapter21">
+        <item>21.1 类也需要计划生育</item>
+        <item>21.2 判断对象是否是null</item>
+        <item>21.3 生还是不生是自己的责任</item>
+        <item>21.4 单例模式</item>
+        <item>21.5 多线程时的单例</item>
+        <item>21.6 双重锁定</item>
+        <item>21.7 静态初始化</item>
+    </array>
+    <array name="btdpchapter22">
+        <item>22.1 凭什么你的游戏我不能玩</item>
+        <item>22.2 紧耦合的程序演化</item>
+        <item>22.3 合成/聚合复用原则</item>
+        <item>22.4 松耦合的程序</item>
+        <item>22.5 桥接模式</item>
+        <item>22.6 桥接模式基本代码</item>
+        <item>22.7 我要开发"好"游戏</item>
+    </array>
+    <array name="btdpchapter23">
+        <item>23.1 吃烤羊肉串！</item>
+        <item>23.2 烧烤摊vs.烧烤店</item>
+        <item>23.3 紧耦合设计</item>
+        <item>23.4 松耦合设计</item>
+        <item>23.5 松耦合后</item>
+        <item>23.6 命令模式</item>
+        <item>23.7 命令模式作用</item>
+    </array>
+    <array name="btdpchapter24">
+        <item>24.1 老板，我要加薪！</item>
+        <item>24.2 加薪代码初步</item>
+        <item>24.3 职责链模式</item>
+        <item>24.4 职责链的好处</item>
+        <item>24.5 加薪代码重构</item>
+        <item>24.6 加薪成功</item>
+    </array>
+    <array name="btdpchapter25">
+        <item>25.1 世界需要和平！</item>
+        <item>25.2 中介者模式</item>
+        <item>25.3 安理会做中介</item>
+        <item>25.4 中介者模式优缺点</item>
+    </array>
+    <array name="btdpchapter26">
+        <item>26.1 项目多也别傻做！</item>
+        <item>26.2 享元模式</item>
+        <item>26.3 网站共享代码</item>
+        <item>26.4 内部状态与外部状态</item>
+        <item>26.5 享元模式应用</item>
+    </array>
+    <array name="btdpchapter27">
+        <item>27.1 其实你不懂老板的心</item>
+        <item>27.2 解释器模式</item>
+        <item>27.3 解释器模式好处</item>
+        <item>27.4 音乐解释器</item>
+        <item>27.5 音乐解释器实现</item>
+        <item>27.6 料事如神</item>
+    </array>
+    <array name="btdpchapter28">
+        <item>28.1 男人和女人！</item>
+        <item>28.2 最简单的编程实现</item>
+        <item>28.3 简单的面向对象实现</item>
+        <item>28.4 用了模式的实现</item>
+        <item>28.5 访问者模式</item>
+        <item>28.6 访问者模式基本代码</item>
+        <item>28.7 比上不足，比下有余</item>
+    </array>
+    <array name="btdpchapter29">
+        <item>29.1 演讲任务</item>
+        <item>29.2 报名参赛</item>
+        <item>29.3 超模大赛开幕式</item>
+        <item>29.4 创建型模式比赛</item>
+        <item>29.5 结构型模式比赛</item>
+        <item>29.6 行为型模式一组比赛</item>
+        <item>29.7 行为型模式二组比赛</item>
+        <item>29.8 决赛</item>
+        <item>29.9 梦醒时分</item>
+        <item>29.10 没有结束的结尾</item>
+    </array>
+    <array name="btdpchapter30">
+        <item>A.1 培训实习生</item>
+        <item>A.2 类与实例</item>
+        <item>A.3 构造方法</item>
+        <item>A.4 方法重载</item>
+        <item>A.5 属性与修饰符</item>
+        <item>A.6 封装</item>
+        <item>A.7 继承</item>
+        <item>A.8 多态</item>
+        <item>A.9 重构</item>
+        <item>A.10 抽象类</item>
+        <item>A.11 接口</item>
+        <item>A.12 集合</item>
+        <item>A.13 泛型</item>
+        <item>A.14 委托与事件</item>
+        <item>A.15 客套</item>
+    </array>
+    <string-array name="btdpoperators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="btdpdiscountstrategies">
+        <item>正常收费</item>
+        <item>满300返100</item>
+        <item>打8折</item>
+    </string-array>
+</resources>

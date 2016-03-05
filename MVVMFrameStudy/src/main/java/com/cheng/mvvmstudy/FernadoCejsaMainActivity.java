@@ -12,12 +12,12 @@ import android.support.v7.app.AppCompatActivity;
  * http://rocko.xyz/2015/11/07/MVVM_Android-CleanArchitecture/
  * 项目配置略复杂没有集成进来了
  */
-public class UiFernadoCejsaMain extends AppCompatActivity {
+public class FernadoCejsaMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_fernadocejsamain);
+        setContentView(R.layout.activity_fernadocejsamain);
     }
 
 }

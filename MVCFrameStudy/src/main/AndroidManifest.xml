@@ -20,13 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".asyncmvc.view.UiAsyncMVCDemo"
+            android:name=".asyncmvc.view.AsyncMVCDemoActivity"
             android:label="@string/title_activity_ui_async_mvcmemo"/>
         <activity
-            android:name=".simplemvc.view.UiSimpleMVCDemo"
+            android:name=".simplemvc.view.SimpleMVCDemoActivity"
             android:label="@string/title_activity_ui_simple_mvcdemo"/>
         <activity
-            android:name=".diymvc.controller.UiDIYMVCDemo"
+            android:name=".diymvc.controller.DIYMVCDemoActivity"
             android:label="@string/title_activity_ui_diy_mvcdemo"/>
     </application>
 

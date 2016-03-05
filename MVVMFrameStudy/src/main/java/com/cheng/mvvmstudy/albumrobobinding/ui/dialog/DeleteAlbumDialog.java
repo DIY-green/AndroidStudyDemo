@@ -37,7 +37,7 @@ public class DeleteAlbumDialog extends Dialog implements IDeleteAlbumView {
         DeleteAlbumPresentationModel deleteAlbumDialogPresentationModel = new DeleteAlbumPresentationModel(
                 this, getAlbumApp().getAlbumStore(), album);
         setTitle(R.string.delete_album);
-        initializeContentView(R.layout.ui_deletealbumdialog, deleteAlbumDialogPresentationModel);
+        initializeContentView(R.layout.dialog_deletealbum, deleteAlbumDialogPresentationModel);
     }
 
     private void initializeContentView(int layoutId, Object presentationModel) {

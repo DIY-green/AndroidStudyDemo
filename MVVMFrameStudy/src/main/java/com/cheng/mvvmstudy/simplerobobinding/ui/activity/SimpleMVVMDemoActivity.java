@@ -18,7 +18,7 @@ import org.robobinding.binder.BinderFactoryBuilder;
 * @version $Revision: 1.0 $
 * @author Cheng Wei
 */
-public class UiSimpleMVVMDemo extends BaseActivity {
+public class SimpleMVVMDemoActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class UiSimpleMVVMDemo extends BaseActivity {
 	
 		PresentationModel presentationModel = new PresentationModel();
 		ViewBinder viewBinder = createViewBinder();
-		View rootView = viewBinder.inflateAndBind(R.layout.ui_simplemvvmdemo
+		View rootView = viewBinder.inflateAndBind(R.layout.activity_simplemvvmdemo
 				, presentationModel);
 		setContentView(rootView);
     }

@@ -9,7 +9,7 @@
     tools:context=".memoryleakhandle.HowToUseHandlerActivity">
 
     <TextView
-        android:id="@+id/sdi_test_tv"
+        android:id="@+id/tv_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />

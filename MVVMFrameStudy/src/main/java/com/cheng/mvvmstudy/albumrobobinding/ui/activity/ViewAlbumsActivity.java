@@ -13,7 +13,7 @@ import com.cheng.mvvmstudy.albumrobobinding.ui.i.IViewAlbumsView;
  * @version $Revision: 1.0 $
  * @since 1.0
  */
-public class UiViewAlbums extends BaseAbstractUi implements IViewAlbumsView {
+public class ViewAlbumsActivity extends BaseAbstractUi implements IViewAlbumsView {
     protected ViewAlbumsPresentationModel presentationModel;
 
     @Override
@@ -21,7 +21,7 @@ public class UiViewAlbums extends BaseAbstractUi implements IViewAlbumsView {
         super.onCreate(savedInstanceState);
 
         presentationModel = new ViewAlbumsPresentationModel(this, getAlbumStore());
-        initializeContentView(R.layout.ui_viewalbums, presentationModel);
+        initializeContentView(R.layout.activity_viewalbums, presentationModel);
     }
 
     @Override
@@ -32,13 +32,13 @@ public class UiViewAlbums extends BaseAbstractUi implements IViewAlbumsView {
 
     @Override
     public void createAlbum() {
-        startActivity(new Intent(this, UiCreateEditAlbum.class));
+        startActivity(new Intent(this, CreateEditAlbumActivity.class));
     }
 
     @Override
     public void viewAlbum(long albumId) {
-        Intent intent = new Intent(this, UiViewAlbum.class);
-        intent.putExtra(UiViewAlbum.ALBUM_ID, albumId);
+        Intent intent = new Intent(this, ViewAlbumActivity.class);
+        intent.putExtra(ViewAlbumActivity.ALBUM_ID, albumId);
         startActivity(intent);
     }
 }

@@ -22,7 +22,7 @@ public class HowToUseHandlerActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_howtousehandler);
 
-        this.mTestTV = findViewByID(R.id.sdi_test_tv);
+        this.mTestTV = findViewByID(R.id.tv_test);
         this.mGoodMyHandler = new GoodMyHandler();
     }
 
@@ -115,6 +115,24 @@ public class HowToUseHandlerActivity extends BaseActivity {
         @Override
         public void handleMessage(Message msg) {
             // ...
+        }
+    }
+
+    private static final class InnerHandler extends Handler {
+
+        private WeakReference<HowToUseHandlerActivity> mActivityWR;
+
+        public InnerHandler(HowToUseHandlerActivity theActivity) {
+            this.mActivityWR = new WeakReference<>(theActivity);
+        }
+
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            HowToUseHandlerActivity theActivity = mActivityWR.get();
+            if (theActivity == null) return;
+            // TODO 使用theActivity调用成员方法
+
         }
     }
 

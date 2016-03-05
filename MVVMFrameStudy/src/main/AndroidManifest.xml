@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".UiMain"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,25 +18,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UiFernadoCejsaMain"
+            android:name=".FernadoCejsaMainActivity"
             android:label="@string/title_activity_ui_fernado_cejsa_main" />
         <activity
-            android:name=".simplerobobinding.ui.activity.UiSimpleMVVMDemo"
+            android:name=".simplerobobinding.ui.activity.SimpleMVVMDemoActivity"
             android:label="@string/title_activity_ui_simple_mvvmdemo" />
         <activity
-            android:name=".albumrobobinding.ui.activity.UiAlbumHome"
+            android:name=".albumrobobinding.ui.activity.AlbumHomeActivity"
             android:label="@string/title_activity_ui_albumrobobinding_mvvmdemo" />
         <activity
-            android:name=".albumrobobinding.ui.activity.UiCreateEditAlbum"
+            android:name=".albumrobobinding.ui.activity.CreateEditAlbumActivity"
             android:label="@string/title_activity_ui_createedit_album" />
         <activity
-            android:name=".albumrobobinding.ui.activity.UiViewAlbum"
+            android:name=".albumrobobinding.ui.activity.ViewAlbumActivity"
             android:label="@string/title_activity_ui_view_album" />
         <activity
-            android:name=".albumrobobinding.ui.activity.UiViewAlbums"
+            android:name=".albumrobobinding.ui.activity.ViewAlbumsActivity"
             android:label="@string/title_activity_ui_view_albums" />
         <activity
-            android:name=".androiddatabinding.ui.activity.UiAndroidDataBindingDemo"
+            android:name=".androiddatabinding.ui.activity.AndroidDataBindingDemoActivity"
             android:label="@string/title_activity_ui_android_data_binding_demo" >
         </activity>
     </application>

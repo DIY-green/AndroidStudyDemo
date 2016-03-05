@@ -4,7 +4,7 @@
     xmlns:bind="http://robobinding.org/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cheng.mvvmstudy.simplerobobinding.ui.activity.UiSimpleMVVMDemo"
+    tools:context=".simplerobobinding.ui.activity.SimpleMVVMDemoActivity"
     tools:ignore="MissingPrefix"
     android:orientation="vertical">
 

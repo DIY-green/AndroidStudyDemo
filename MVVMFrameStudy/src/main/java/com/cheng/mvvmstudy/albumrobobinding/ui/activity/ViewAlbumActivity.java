@@ -18,7 +18,7 @@ import com.cheng.mvvmstudy.albumrobobinding.ui.dialog.DeleteAlbumDialog;
  * @author Robert Taylor
  * @since 1.0
  */
-public class UiViewAlbum extends BaseAbstractUi implements IViewAlbumView {
+public class ViewAlbumActivity extends BaseAbstractUi implements IViewAlbumView {
     public static final String ALBUM_ID = "album_id";
 
     private ViewAlbumPresentationModel presentationModel;
@@ -36,7 +36,7 @@ public class UiViewAlbum extends BaseAbstractUi implements IViewAlbumView {
 
         presentationModel = new ViewAlbumPresentationModel(this, getAlbumStore(), albumId);
         ViewBinder viewBinder = createViewBinder(false);
-        View contentView = viewBinder.inflateAndBind(R.layout.ui_viewalbum, presentationModel);
+        View contentView = viewBinder.inflateAndBind(R.layout.activity_viewalbum, presentationModel);
         setContentView(contentView);
     }
 
@@ -48,8 +48,8 @@ public class UiViewAlbum extends BaseAbstractUi implements IViewAlbumView {
 
     @Override
     public void editAlbum(long albumId) {
-        Intent intent = new Intent(this, UiCreateEditAlbum.class);
-        intent.putExtra(UiCreateEditAlbum.ALBUM_ID, albumId);
+        Intent intent = new Intent(this, CreateEditAlbumActivity.class);
+        intent.putExtra(CreateEditAlbumActivity.ALBUM_ID, albumId);
         startActivity(intent);
     }
 

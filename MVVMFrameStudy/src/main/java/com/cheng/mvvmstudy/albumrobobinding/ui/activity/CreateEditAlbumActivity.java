@@ -13,9 +13,9 @@ import com.cheng.mvvmstudy.albumrobobinding.ui.i.ICreateEditAlbumView;
  * @author Robert Taylor
  * @since 1.0
  */
-public class UiCreateEditAlbum extends BaseAbstractUi implements ICreateEditAlbumView {
+public class CreateEditAlbumActivity extends BaseAbstractUi implements ICreateEditAlbumView {
 
-    public static final String ALBUM_ID = UiViewAlbum.ALBUM_ID;
+    public static final String ALBUM_ID = ViewAlbumActivity.ALBUM_ID;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

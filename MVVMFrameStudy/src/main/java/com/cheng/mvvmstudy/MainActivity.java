@@ -4,27 +4,27 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.cheng.base.BaseActivity;
-import com.cheng.mvvmstudy.albumrobobinding.ui.activity.UiAlbumHome;
-import com.cheng.mvvmstudy.simplerobobinding.ui.activity.UiSimpleMVVMDemo;
+import com.cheng.mvvmstudy.albumrobobinding.ui.activity.AlbumHomeActivity;
+import com.cheng.mvvmstudy.simplerobobinding.ui.activity.SimpleMVVMDemoActivity;
 
-public class UiMain extends BaseActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_main);
+        setContentView(R.layout.activity_main);
     }
 
     public void toFernadoCejsa(View v) {
-        overlay(UiFernadoCejsaMain.class);
+        overlay(FernadoCejsaMainActivity.class);
     }
 
     public void toSimpleMVVMDemo(View v) {
-        overlay(UiSimpleMVVMDemo.class);
+        overlay(SimpleMVVMDemoActivity.class);
     }
 
     public void toRobobindingAlbum(View v) {
-        overlay(UiAlbumHome.class);
+        overlay(AlbumHomeActivity.class);
     }
 
 }

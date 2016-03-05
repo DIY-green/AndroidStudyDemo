@@ -13,17 +13,17 @@ import com.cheng.mvvmstudy.albumrobobinding.ui.i.IHomeView;
  * @author Robert Taylor
  * @since 1.0
  */
-public class UiAlbumHome extends BaseAbstractUi implements IHomeView {
+public class AlbumHomeActivity extends BaseAbstractUi implements IHomeView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         HomePresentationModel presentationModel = new HomePresentationModel(this);
-        initializeContentView(R.layout.ui_albumhome, presentationModel);
+        initializeContentView(R.layout.activity_albumhome, presentationModel);
     }
 
     @Override
     public void showAlbums() {
-        startActivity(new Intent(this, UiViewAlbums.class));
+        startActivity(new Intent(this, ViewAlbumsActivity.class));
     }
 }

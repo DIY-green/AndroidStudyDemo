@@ -20,42 +20,42 @@ import com.cheng.utils.Logger;
  * 参考
  * http://blog.csdn.net/binyao02123202/article/details/7733835
  */
-public class UiAsyncMVCDemo extends Activity implements Handler.Callback {
+public class AsyncMVCDemoActivity extends Activity implements Handler.Callback {
 	
 	private TextView mDataTV;
 	private ProgressBar mLoadingPB;
 	
-	private Controller controller;
+	private Controller mController;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_asyncmvcmemo);
+        setContentView(R.layout.activity_asyncmvcmemo);
 
+		Logger.TAG = "AsyncMVCDemoActivity";
 		initView();
 		initController();
 
     }
 
 	private void initView() {
-		mDataTV = (TextView) findViewById(R.id.sdi_data_tv);
-		mLoadingPB = (ProgressBar) findViewById(R.id.sdi_loading_pb);
-		Logger.TAG = "UiAsyncMVCDemo";
+		mDataTV = (TextView) findViewById(R.id.tv_data);
+		mLoadingPB = (ProgressBar) findViewById(R.id.pb_loading);
 	}
 
 	private void initController() {
-		controller = new Controller(new Model());
-		controller.addOutboxHandler(new Handler(this)); // messages will go to .handleMessage()
-		controller.getInboxHandler().sendEmptyMessage(V_REQUEST_DATA); // request initial data
+		mController = new Controller(new Model());
+		mController.addOutboxHandler(new Handler(this)); // messages will go to .handleMessage()
+		mController.getInboxHandler().sendEmptyMessage(V_REQUEST_DATA); // request initial data
 	}
 
 	@Override
 	protected void onDestroy() {
 		// I think it is a good idea to not fail in onDestroy()
 		try {
-			controller.dispose();
+			mController.dispose();
 		} catch (Throwable t) {
-			Logger.e("Failed to destroy the controller", t);
+			Logger.e("Failed to destroy the mController", t);
 		} 
 		super.onDestroy();
 	}
@@ -87,7 +87,7 @@ public class UiAsyncMVCDemo extends Activity implements Handler.Callback {
 	private void onUpdateFinished() {
 		mLoadingPB.setVisibility(View.GONE);
 		// request the updated data
-		controller.getInboxHandler().sendEmptyMessage(V_REQUEST_DATA);
+		mController.getInboxHandler().sendEmptyMessage(V_REQUEST_DATA);
 	}
 
 	private void onData(ModelData data) {
@@ -102,10 +102,10 @@ public class UiAsyncMVCDemo extends Activity implements Handler.Callback {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.update:
-			controller.getInboxHandler().sendEmptyMessage(V_REQUEST_UPDATE);
+			mController.getInboxHandler().sendEmptyMessage(V_REQUEST_UPDATE);
 			break;
 		case R.id.quit:
-			controller.getInboxHandler().sendEmptyMessage(V_REQUEST_QUIT);
+			mController.getInboxHandler().sendEmptyMessage(V_REQUEST_QUIT);
 			break;
 		}
 	}

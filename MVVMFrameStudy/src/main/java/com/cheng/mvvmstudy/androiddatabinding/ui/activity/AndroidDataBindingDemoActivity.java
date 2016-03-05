@@ -7,12 +7,12 @@ import android.view.MenuItem;
 
 import com.cheng.mvvmstudy.R;
 
-public class UiAndroidDataBindingDemo extends AppCompatActivity {
+public class AndroidDataBindingDemoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_androiddatabindingdemo);
+        setContentView(R.layout.activity_androiddatabindingdemo);
     }
 
     @Override

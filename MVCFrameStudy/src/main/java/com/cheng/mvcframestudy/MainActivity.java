@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.cheng.base.BaseActivity;
-import com.cheng.mvcframestudy.asyncmvc.view.UiAsyncMVCDemo;
-import com.cheng.mvcframestudy.diymvc.controller.UiDIYMVCDemo;
-import com.cheng.mvcframestudy.simplemvc.view.UiSimpleMVCDemo;
+import com.cheng.mvcframestudy.asyncmvc.view.AsyncMVCDemoActivity;
+import com.cheng.mvcframestudy.diymvc.controller.DIYMVCDemoActivity;
+import com.cheng.mvcframestudy.simplemvc.view.SimpleMVCDemoActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -17,15 +17,15 @@ public class MainActivity extends BaseActivity {
     }
 
     public void toAsyncMVCDemo(View v) {
-        overlay(UiAsyncMVCDemo.class);
+        overlay(AsyncMVCDemoActivity.class);
     }
 
     public void toSimpleMCVDemo(View v) {
-        overlay(UiSimpleMVCDemo.class);
+        overlay(SimpleMVCDemoActivity.class);
     }
 
     public void toDIYMCVDemo(View v) {
-        overlay(UiDIYMVCDemo.class);
+        overlay(DIYMVCDemoActivity.class);
     }
 
     /**

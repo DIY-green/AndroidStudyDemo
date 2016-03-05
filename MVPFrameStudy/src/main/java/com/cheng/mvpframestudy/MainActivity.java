@@ -8,12 +8,12 @@ import com.cheng.mvpframestudy.diymvp.ui.activity.UiLogin;
 import com.cheng.mvpframestudy.rxjavamvp.UiRxJavaMVP;
 import com.cheng.mvpframestudy.themvp.UiTheMVPDemo;
 
-public class UiMain extends BaseActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ui_main);
+        setContentView(R.layout.activity_main);
     }
 
     public void toDIYMVPDemo(View v) {

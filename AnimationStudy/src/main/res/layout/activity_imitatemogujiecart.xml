@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/detail_buy_board"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/detail_taobao_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffee4566"
+            android:textSize="24.0sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/detail_im_celler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:drawablePadding="2dp"
+            android:textColor="#ff424242"
+            android:textSize="12.0sp" />
+        <TextView
+            android:id="@+id/detail_cart_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/detail_im_celler"
+            android:drawablePadding="2dp"
+            android:drawableTop="@mipmap/detail_cart_icon"
+            android:text="@string/detail_bottom_cart_btn"
+            android:textColor="#ff424242"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:background="#96000000"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/detail_home_btn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center" />
+
+        <ImageView
+            android:id="@+id/detail_shopping_cart"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/detail_home_btn"
+            android:scaleType="center"
+            android:src="@mipmap/detail_shopping_cart" />
+
+        <TextView
+            android:id="@+id/tv_goodsnum"
+            android:layout_width="14.5dip"
+            android:layout_height="14.5dip"
+            android:layout_alignRight="@id/detail_shopping_cart"
+            android:layout_alignTop="@id/detail_shopping_cart"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="top|center"
+            android:paddingTop="0dp"
+            android:textColor="#ffffffff"
+            android:textSize="10.0sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_cartanimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/cart_anim_icon"
+        android:visibility="gone" />
+</RelativeLayout>

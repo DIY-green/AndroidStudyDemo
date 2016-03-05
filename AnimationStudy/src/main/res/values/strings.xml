@@ -127,7 +127,7 @@
 
     <string name="current_mplitude">修改中等振幅，当前%1$s</string>
     <string name="current_Disparity">修改振幅差距，当前%1$s</string>
-    <string name="current_float_time">修改移动速度，当前%1$s</string>
+    <string name="tv_current_float_time">修改移动速度，当前%1$s</string>
     <string name="current_rotate_time">修改旋转速度，当前%1$s</string>
 
     <string name="pull_to_refresh_pull_label">下拉刷新</string>

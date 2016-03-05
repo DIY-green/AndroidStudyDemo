@@ -85,7 +85,7 @@ public class MeiTuanListView extends ListView implements AbsListView.OnScrollLis
         setOverScrollMode(View.OVER_SCROLL_NEVER);
         setOnScrollListener(this);
 
-        this.mHeaderView = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.ui_meituan_header, null, false);
+        this.mHeaderView = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.meituan_header, null, false);
         this.mMeiTuanRefreshFirstStepView = ViewFinder.findViewById(mHeaderView, R.id.first_view);
         this.mMeiTuanRefreshSecondStepView = ViewFinder.findViewById(mHeaderView, R.id.second_view);
         this.mMeiTuanRefreshThirdStepView = ViewFinder.findViewById(mHeaderView, R.id.third_view);

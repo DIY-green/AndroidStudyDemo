@@ -12,7 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.RelativeLayout;
 
 import com.cheng.animationstudy.R;
-import com.cheng.animationstudy.activity.UiImitateBaiduReadBubble;
+import com.cheng.animationstudy.activity.ImitateBaiduReadBubbleActivity;
 import com.cheng.utils.ViewFinder;
 
 /**
@@ -43,7 +43,7 @@ public class ImportMenuView extends RelativeLayout implements RippleLayout.Rippl
     }
 
     private void init(Context context, AttributeSet attrs) {
-        LayoutInflater.from(context).inflate(R.layout.ui_imitatebaiduread_importmenu, this, true);
+        LayoutInflater.from(context).inflate(R.layout.imitatebaiduread_importmenu, this, true);
 
         mCloseRL = ViewFinder.findViewById(this, R.id.sdi_close_rl);
         mFirstBallRL = ViewFinder.findViewById(this, R.id.sdi_firstball_rl);
@@ -120,11 +120,11 @@ public class ImportMenuView extends RelativeLayout implements RippleLayout.Rippl
         objectAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                UiImitateBaiduReadBubble.mRippleLayout.setVisibility(VISIBLE);
+                ImitateBaiduReadBubbleActivity.mRippleLayout.setVisibility(VISIBLE);
                 setVisibility(GONE);
                 setEnabled(false);
                 setFocusable(false);
-                UiImitateBaiduReadBubble.mRippleLayout.bringToFront();
+                ImitateBaiduReadBubbleActivity.mRippleLayout.bringToFront();
             }
         });
         objectAnimator.start();

@@ -1,0 +1,74 @@
+<com.cheng.animationstudy.customview.bagrefresh.BGARefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cheng.animationstudy.customview.bagrefresh.BGAStickyNavLayout
+        style="@style/MatchAuto"
+        android:layout_marginBottom="@dimen/test_padding_margin"
+        android:layout_marginTop="@dimen/test_padding_margin"
+        android:background="@color/red"
+        android:paddingBottom="@dimen/test_padding_margin"
+        android:paddingTop="@dimen/test_padding_margin">
+
+        <TextView
+            style="@style/MatchWrap"
+            android:layout_marginBottom="@dimen/test_padding_margin"
+            android:layout_marginTop="@dimen/test_padding_margin"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp"
+            android:text="顶部视图"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            style="@style/MatchWrap.Horizontal"
+            android:layout_marginBottom="@dimen/test_padding_margin"
+            android:layout_marginTop="@dimen/test_padding_margin"
+            android:background="@color/dark_green"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/btn_retweet"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="转发"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick"/>
+
+            <TextView
+                android:id="@+id/btn_comment"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="评论"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/btn_praise"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="赞"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_data"
+            style="@style/MatchMatch"
+            android:layout_marginBottom="@dimen/test_padding_margin"
+            android:layout_marginTop="@dimen/test_padding_margin"
+            android:background="@android:color/white"
+            android:divider="@mipmap/list_divider"
+            android:paddingBottom="@dimen/test_padding_margin"
+            android:paddingTop="@dimen/test_padding_margin"
+            android:scrollbars="none"/>
+
+    </com.cheng.animationstudy.customview.bagrefresh.BGAStickyNavLayout>
+</com.cheng.animationstudy.customview.bagrefresh.BGARefreshLayout>

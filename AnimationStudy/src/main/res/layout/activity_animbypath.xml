@@ -1,0 +1,28 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btn_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run"
+        android:textAllCaps="false"
+        android:onClick="showPathAnim"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/rl_animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </RelativeLayout>
+    <com.cheng.animationstudy.customview.DynamicHeartView
+        android:id="@+id/dhv_heart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <CheckBox
+        android:id="@+id/cb_changepathview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/sds_cb_changepathview"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</merge>

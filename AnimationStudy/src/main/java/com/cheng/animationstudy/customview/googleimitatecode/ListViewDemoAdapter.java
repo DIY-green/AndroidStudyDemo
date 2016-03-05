@@ -50,7 +50,7 @@ public class ListViewDemoAdapter extends BaseAdapter {
         if(convertView==null){
             LayoutInflater inflater = ((Activity) mContext).getLayoutInflater();
 
-            convertView = inflater.inflate(R.layout.ui_swipylv_item, parent, false);
+            convertView = inflater.inflate(R.layout.item_swipylv, parent, false);
             viewHolder = new ViewHolder();
             viewHolder.mCellNumberTV = ViewFinder.findViewById(convertView, R.id.sdi_cellnumber_tv);
             viewHolder.mCellTextTV = ViewFinder.findViewById(convertView, R.id.sdi_celltext_tv);

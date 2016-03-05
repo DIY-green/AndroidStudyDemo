@@ -14,7 +14,7 @@ import cn.bingoogolapple.androidcommon.adapter.BGAViewHolderHelper;
  */
 public class NormalRecyclerViewAdapter extends BGARecyclerViewAdapter<RefreshModel> {
     public NormalRecyclerViewAdapter(RecyclerView recyclerView) {
-        super(recyclerView, R.layout.ui_bganormalrecyclerview_item);
+        super(recyclerView, R.layout.item_bganormalrecyclerview);
     }
 
     @Override

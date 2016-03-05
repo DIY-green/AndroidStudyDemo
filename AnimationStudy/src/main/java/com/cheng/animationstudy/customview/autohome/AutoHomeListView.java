@@ -69,7 +69,7 @@ public class AutoHomeListView extends ListView implements AbsListView.OnScrollLi
 		setOverScrollMode(View.OVER_SCROLL_NEVER);
 		setOnScrollListener(this);
 
-		this.mHeaderView = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.ui_imitateautohomeheaderview, null, false);
+		this.mHeaderView = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.imitateautohome_header, null, false);
 		this.mAutoHome = ViewFinder.findViewById(mHeaderView, R.id.sdi_autohome);
 		this.mPullToRefreshTV = ViewFinder.findViewById(mHeaderView, R.id.sdi_pulltorefresh_tv);
 		mAnimContainer = ViewFinder.findViewById(mHeaderView, R.id.sdi_animcontainer_fl);

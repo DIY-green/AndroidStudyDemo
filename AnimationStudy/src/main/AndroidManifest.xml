@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.UiMain"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,145 +19,145 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.UiFrameAnim"
+            android:name=".activity.FrameAnimActivity"
             android:label="@string/title_uidrawableanim" />
         <activity
-            android:name=".activity.UiTweenAnim"
+            android:name=".activity.TweenAnimActivity"
             android:label="@string/title_uitweenanim" />
         <activity
-            android:name=".activity.UiPropertyAnim"
+            android:name=".activity.PropertyAnimActivity"
             android:label="@string/title_uipropertyanim" />
         <activity
-            android:name=".activity.UiNineOldAndroids"
+            android:name=".activity.NineOldAndroidsActivity"
             android:label="@string/title_uinineoldandroids" />
         <activity
-            android:name=".activity.UiAdvanced"
+            android:name=".activity.AdvancedAnimActivity"
             android:label="@string/title_uiadvanced" />
         <activity
-            android:name=".activity.UiImitateWandoujia"
+            android:name=".activity.ImitateWandoujiaActivity"
             android:label="@string/title_uiimitatewandoujia" />
         <activity
-            android:name=".activity.UiImitateBaiduReadBubble"
+            android:name=".activity.ImitateBaiduReadBubbleActivity"
             android:label="@string/title_activity_ui_imitate_baidu_read_bubble" />
         <activity
-            android:name=".activity.UiImitateMogujieCart"
+            android:name=".activity.ImitateMogujieCartActivity"
             android:label="@string/title_activity_ui_imitate_mogujie_cart" />
         <activity
-            android:name=".activity.UiImitateUCPullDownEye"
+            android:name=".activity.ImitateUCPullDownEyeActivity"
             android:label="@string/title_activity_ui_imitate_ucpull_down_eye" />
         <activity
-            android:name=".activity.UiImitateTaobaoRetraction"
+            android:name=".activity.ImitateTaobaoRetractionActivity"
             android:label="@string/title_activity_ui_imitate_taobao_retraction" />
         <activity
-            android:name=".activity.UiImitateBrowserZoomView"
+            android:name=".activity.ImitateBrowserZoomViewActivity"
             android:label="@string/title_activity_ui_imitate_browser_zoom_view" />
         <activity
-            android:name=".activity.UiViewNatrueTransitionAnim"
+            android:name=".activity.ViewNatrueTransitionAnimActivity"
             android:label="@string/title_activity_ui_view_natrue_transition_anim" />
         <activity
-            android:name=".activity.UiPullToRefreshAnim01"
+            android:name=".activity.PullToRefreshAnim01Activity"
             android:label="@string/title_activity_ui_pull_to_refresh_anim01" />
         <activity
-            android:name=".activity.UiPullToRefreshAnim02"
+            android:name=".activity.PullToRefreshAnim02Activity"
             android:label="@string/title_activity_ui_pull_to_refresh_anim02" />
         <activity
-            android:name=".activity.UiPullToRefreshAnim03"
+            android:name=".activity.PullToRefreshAnim03Activity"
             android:label="@string/title_activity_ui_pull_to_refresh_anim03" />
         <activity
-            android:name=".activity.UiPropertyAnimAdvanced"
+            android:name=".activity.PropertyAnimAdvancedActivity"
             android:label="@string/title_activity_ui_property_anim_advanced" />
         <activity
-            android:name=".activity.UiLayoutAnim"
+            android:name=".activity.LayoutAnimActivity"
             android:label="@string/title_activity_ui_layout_anim" />
         <activity
-            android:name=".activity.UiLayoutAnimDefault"
+            android:name=".activity.LayoutAnimDefaultActivity"
             android:label="@string/title_activity_ui_layout_anim_default" />
         <activity
-            android:name=".activity.UiLayoutAnimHideShow"
+            android:name=".activity.LayoutAnimHideShowActivity"
             android:label="@string/title_activity_ui_layout_anim_hide_show" />
         <activity
-            android:name=".activity.UiAnimStreamControl"
+            android:name=".activity.AnimStreamControlActivity"
             android:label="@string/title_activity_ui_anim_stream_control" />
         <activity
-            android:name=".activity.UiCommonPropertyAnim"
+            android:name=".activity.CommonPropertyAnimActivity"
             android:label="@string/title_activity_ui_common_property_anim" />
         <activity
-            android:name=".activity.UiObjectPropertyAnim"
+            android:name=".activity.ObjectPropertyAnimActivity"
             android:label="@string/title_activity_ui_object_property_anim" />
         <activity
-            android:name=".activity.UiActivityJump"
+            android:name=".activity.TransitionActivityFirst"
             android:label="@string/title_activity_ui_activity_jump" />
         <activity
-            android:name=".activity.UiShowDialog"
+            android:name=".activity.ShowDialogActivity"
             android:label="@string/title_activity_ui_show_dialog" />
         <activity
-            android:name=".activity.UiFragmentTransition"
+            android:name=".activity.FragmentTransitionActivity"
             android:label="@string/title_activity_ui_fragment_transition" />
         <activity
-            android:name=".activity.UiViewPagerTransition"
+            android:name=".activity.ViewPagerTransitionView"
             android:label="@string/title_activity_ui_view_pager_transition" />
         <activity
-            android:name=".activity.UiActivityJumpAim"
+            android:name=".activity.TransitionActivitySecond"
             android:label="@string/title_activity_ui_activity_jump_aim" />
         <activity
-            android:name=".activity.UiActivityOptionsCompatDemo"
+            android:name=".activity.OptionsCompatDemoActivity"
             android:label="@string/title_activity_ui_activity_options_compat_demo" />
         <activity
-            android:name=".activity.UiActivityOptionsCompatDemoTarget"
+            android:name=".activity.OptionsCompatDemoTargetActivity"
             android:label="@string/title_activity_ui_activity_options_compat_demo_target"
             android:theme="@style/TranslucentTheme" />
         <activity
-            android:name=".activity.UiAnimByPath"
+            android:name=".activity.AnimByPathActivity"
             android:label="@string/title_activity_ui_anim_by_path" />
         <activity
-            android:name=".activity.UiLeafFlyLoadingAnim"
+            android:name=".activity.LeafFlyLoadingAnimActivity"
             android:label="@string/title_activity_ui_leaf_fly_loading_anim" />
         <activity
-            android:name=".activity.UiDynamicRotationAnim"
+            android:name=".activity.DynamicRotationAnimActivity"
             android:label="@string/title_activity_ui_dynamic_rotation_anim" />
         <activity
-            android:name=".activity.UiImitateAutoHomePTRA"
+            android:name=".activity.ImitateAutoHomePTRAActivity"
             android:label="@string/title_activity_ui_imitate_athmpt_anim" />
         <activity
-            android:name=".activity.UiImitateMeiTuanPTRA"
+            android:name=".activity.ImitateMeiTuanPTRAActivity"
             android:label="@string/title_activity_ui_imitate_meituanpt_anim" />
         <activity
-            android:name=".activity.UiImitateGoogleSRLA01"
+            android:name=".activity.ImitateGoogleSRLA01Activity"
             android:label="@string/title_activity_ui_imitate_google_srla01" />
         <activity
-            android:name=".activity.UiImitateGoogleSRLA02"
+            android:name=".activity.ImitateGoogleSRLA02Activity"
             android:label="@string/title_activity_ui_imitate_google_srla02" />
         <activity
-            android:name=".activity.UiBGARefreshLayout"
+            android:name=".activity.BGARefreshLayoutActivity"
             android:label="@string/title_activity_ui_bgarefresh_layout" />
         <activity
-            android:name=".activity.UiBGANormalListView"
+            android:name=".activity.BGANormalListViewActivity"
             android:label="@string/title_activity_ui_bganormal_list_view" />
         <activity
-            android:name=".activity.UiBGANormalRecyclerView"
+            android:name=".activity.BGANormalRecyclerViewActivity"
             android:label="@string/title_activity_ui_bgarecycler_view" />
         <activity
-            android:name=".activity.UiBGASwipeListView"
+            android:name=".activity.BGASwipeListViewActivity"
             android:label="@string/title_activity_ui_bgaswipe_list_view" />
         <activity
-            android:name=".activity.UiBGASwipeRecyclerView"
+            android:name=".activity.BGASwipeRecyclerViewActivity"
             android:label="@string/title_activity_ui_bgaswipe_recycler_view" />
         <activity
-            android:name=".activity.UiBGAScrollView"
+            android:name=".activity.BGAScrollViewActivity"
             android:label="@string/title_activity_ui_bga_scroll_view" />
         <activity
-            android:name=".activity.UiBGAWebView"
+            android:name=".activity.BGAWebViewActivity"
             android:label="@string/title_activity_ui_bga_web_view" />
         <activity
-            android:name=".activity.UiBGAViewPager"
+            android:name=".activity.BGAViewPagerActivity"
             android:label="@string/title_activity_ui_bga_view_pager" />
         <activity
-            android:name=".activity.UiSunRosePullToRefreshAnim"
+            android:name=".activity.SunRosePullToRefreshAnimActivity"
             android:label="@string/title_activity_ui_sun_rose_pull_to_refresh_anim" />
         <activity
-            android:name=".activity.UiZrcListView"
+            android:name=".activity.ZrcListViewActivity"
             android:label="@string/title_activity_ui_zrc_list_view"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

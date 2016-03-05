@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vg_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_addnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Buttons"
+        android:textAllCaps="false" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cb_customanim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Animations"
+            android:textAllCaps="false" />
+        <CheckBox
+            android:id="@+id/cb_hideGone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide (GONE)"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

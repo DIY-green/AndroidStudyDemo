@@ -1,0 +1,65 @@
+<com.cheng.animationstudy.customview.bagrefresh.BGARefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_root"
+    style="@style/MatchMatch"
+    android:paddingBottom="@dimen/test_padding_margin"
+    android:paddingTop="@dimen/test_padding_margin">
+    <com.cheng.animationstudy.customview.bagrefresh.BGAStickyNavLayout
+        style="@style/MatchAuto"
+        android:layout_marginBottom="@dimen/test_padding_margin"
+        android:layout_marginTop="@dimen/test_padding_margin"
+        android:background="@color/blue"
+        android:paddingBottom="@dimen/test_padding_margin"
+        android:paddingTop="@dimen/test_padding_margin">
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/banner_normalrecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:banner_pointAutoPlayInterval="3000"
+            app:banner_pointGravity="bottom|right"
+            app:banner_pointTopBottomMargin="10dp"
+            app:banner_tipTextSize="12sp"
+            app:banner_transitionEffect="accordion" />
+        <LinearLayout
+            style="@style/MatchWrap.Horizontal"
+            android:layout_marginBottom="@dimen/test_padding_margin"
+            android:layout_marginTop="@dimen/test_padding_margin"
+            android:background="@color/red"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+            <TextView
+                android:id="@+id/retweet"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="转发"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick"/>
+            <TextView
+                android:id="@+id/comment"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="评论"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick" />
+            <TextView
+                android:id="@+id/praise"
+                style="@style/AutoWrap"
+                android:gravity="center"
+                android:text="赞"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:onClick="onClick" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/datarv_normalrecyclerview"
+            style="@style/MatchMatch"
+            android:layout_marginBottom="@dimen/test_padding_margin"
+            android:layout_marginTop="@dimen/test_padding_margin"
+            android:background="@android:color/white"
+            android:paddingBottom="@dimen/test_padding_margin"
+            android:paddingTop="@dimen/test_padding_margin"
+            android:scrollbars="none" />
+    </com.cheng.animationstudy.customview.bagrefresh.BGAStickyNavLayout>
+</com.cheng.animationstudy.customview.bagrefresh.BGARefreshLayout>

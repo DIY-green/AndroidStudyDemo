@@ -5,3 +5,12 @@ include ':MechanismStudy', ':MVCFrameStudy', ':MVPFrameStudy', ':AnimationStudy'
         ':DesignPatternStudy', ':ArithmeticStudy', ':MultithreadStudy', ':HotFixStudy',
         ':DataRelatedStudy', ':MechanismStudy', ':SecurityStudy', ':zBase', ':MVVMFrameStudy',
         ':AnnotationStudy', ':HighQualityCodeStudy'
+/*
+include ':MechanismStudy', ':MVCFrameStudy', ':MVPFrameStudy', ':AnimationStudy',
+        ':NetworkFrameStudy', ':Android5Study', ':Android6Study', ':StyleStudy',
+        ':Utils', ':UiImitateStudy', ':CustomViewStudy', ':FrontierTechnologyStudy',
+        ':CommonLibsStudy', ':OptimizeStudy', ':PluggableStudy', ':ImageRelatedStudy',
+        ':DesignPatternStudy', ':ArithmeticStudy', ':MultithreadStudy', ':HotFixStudy',
+        ':DataRelatedStudy', ':MechanismStudy', ':SecurityStudy', ':zBase', ':MVVMFrameStudy',
+        ':AnnotationStudy', ':HighQualityCodeStudy'
+ */

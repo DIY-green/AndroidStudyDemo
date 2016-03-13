@@ -6,6 +6,8 @@ import android.view.View;
 import com.cheng.base.BaseActivity;
 import com.cheng.networkframestudy.androidasynchttp.AndroidAsyncHttpActivity;
 import com.cheng.networkframestudy.okhttp.OkHttpActivity;
+import com.cheng.networkframestudy.retrofit.RetrofitDemoActivity;
+import com.cheng.networkframestudy.xutils.XUtils3DemoActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -23,6 +25,12 @@ public class MainActivity extends BaseActivity {
             case R.id.btn_androidasynchttp:
                 toAndroidAsyncHttp();
                 break;
+            case R.id.btn_retrofit:
+                toRetrofit();
+                break;
+            case R.id.btn_xutils3:
+                toXUtils3();
+                break;
         }
     }
 
@@ -32,6 +40,14 @@ public class MainActivity extends BaseActivity {
 
     private void toAndroidAsyncHttp() {
         overlay(AndroidAsyncHttpActivity.class);
+    }
+
+    private void toRetrofit() {
+        overlay(RetrofitDemoActivity.class);
+    }
+
+    private void toXUtils3() {
+        overlay(XUtils3DemoActivity.class);
     }
 
 }

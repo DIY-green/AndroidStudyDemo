@@ -97,7 +97,9 @@ public class PostFormRequest extends OkHttpRequest {
             return;
         }
         for (String key : mParamMap.keySet()) {
-            builder.add(key, mParamMap.get(key));
+            String value = mParamMap.get(key);
+            if (value == null) continue;
+            builder.add(key, value);
         }
     }
 

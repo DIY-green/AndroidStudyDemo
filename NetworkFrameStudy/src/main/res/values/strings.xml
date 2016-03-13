@@ -6,6 +6,8 @@
     <string name="action_settings">Settings</string>
     <string name="okhttp">OkHttp</string>
     <string name="androidasynchttp">AndroidAsyncHttp</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="xutils3">xUtils3</string>
     <string name="title_activity_okhttp">OkHttp</string>
     <string name="title_activity_okhttpdemo">OkHttpDemo</string>
 </resources>

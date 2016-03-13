@@ -27,7 +27,9 @@
             android:label="@string/title_activity_okhttpdemo" />
         <activity android:name=".okhttp.sample.OkHttpTestActivity" />
         <activity android:name=".androidasynchttp.AndroidAsyncHttpActivity" />
-        <activity android:name=".androidasynchttp.sample.AndroidAsyncHttpDemoActivity"></activity>
+        <activity android:name=".androidasynchttp.sample.AndroidAsyncHttpDemoActivity" />
+        <activity android:name=".retrofit.RetrofitDemoActivity" />
+        <activity android:name=".xutils.XUtils3DemoActivity"></activity>
     </application>
 
 </manifest>

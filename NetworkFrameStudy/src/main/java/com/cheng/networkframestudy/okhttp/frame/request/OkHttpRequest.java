@@ -59,9 +59,10 @@ public abstract class OkHttpRequest {
     protected void appendHeaders() {
         Headers.Builder headerBuilder = new Headers.Builder();
         if (mHeaderMap == null || mHeaderMap.isEmpty()) return;
-
         for (String key : mHeaderMap.keySet()) {
-            headerBuilder.add(key, mHeaderMap.get(key));
+            String value = mHeaderMap.get(key);
+            if (value == null) continue;
+            headerBuilder.add(key, value);
         }
         mBuilder.headers(headerBuilder.build());
     }

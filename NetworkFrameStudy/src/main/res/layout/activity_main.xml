@@ -18,20 +18,40 @@
         android:id="@+id/btn_okhttp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tv_projectnavigation"
+        android:layout_alignParentStart="true"
         android:text="@string/okhttp"
         android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_below="@id/tv_projectnavigation"
-        android:layout_alignParentStart="true" />
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/btn_androidasynchttp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/btn_okhttp"
+        android:layout_alignParentStart="true"
         android:text="@string/androidasynchttp"
         android:textAllCaps="false"
-        android:onClick="onClick"
-        android:layout_below="@id/btn_okhttp"
-        android:layout_alignParentStart="true" />
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_androidasynchttp"
+        android:layout_alignParentStart="true"
+        android:text="@string/retrofit"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_xutils3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_retrofit"
+        android:layout_alignParentStart="true"
+        android:text="@string/xutils3"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
 
 </RelativeLayout>

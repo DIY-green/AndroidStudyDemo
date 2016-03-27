@@ -38,6 +38,19 @@ public class SDUtil {
     }
 
     /**
+     * 获取SD卡路径
+     *
+     * @return
+     */
+    public static String getSDCardPath(String dirName) {
+        String path = getSDCardPath() + File.separator + dirName;
+        File file = new File(path);
+        if(!file.exists())
+            file.mkdir();
+        return file.getAbsolutePath();
+    }
+
+    /**
      * 获取SD卡的剩余容量 单位byte
      *
      * @return

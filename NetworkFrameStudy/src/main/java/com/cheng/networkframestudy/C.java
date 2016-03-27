@@ -5,6 +5,8 @@ package com.cheng.networkframestudy;
  */
 public class C {
 
+    public static final String APP_NAME = "AndroidStudyDemo";
+
     public static final class baseurl {
         public static final String TAOBAO_IP_SEARCH_BASE_URL = "http://ip.taobao.com";
         public static final String BAIDU_API_STORE = "http://apis.baidu.com/apistore/";
@@ -16,6 +18,7 @@ public class C {
 
     public static final class apiurl {
         public static final String MOBILE_PHONE_SERVICE = "/mobilephoneservice/mobilephone";
+        public static final String ID_CARD_SERVICE = "/idservice/id";
     }
 
 }

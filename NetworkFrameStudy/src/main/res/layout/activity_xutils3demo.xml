@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.cheng.networkframestudy.xutils.XUtils3DemoActivity">
-
-    <TextView
-        android:id="@+id/tv_showresult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:text="Result"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textAllCaps="false"/>
-
-    <ProgressBar
-        android:id="@+id/pb_loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:indeterminate="false" />
+    android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
         android:id="@+id/btn_ipsearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_showresult"
         android:layout_alignParentStart="true"
         android:text="IP Search"
         android:textAllCaps="false"
@@ -41,19 +20,66 @@
         android:id="@+id/btn_telsearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_ipsearch"
-        android:layout_alignParentStart="true"
         android:text="Tel Search"
         android:textAllCaps="false"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btn_gettest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_telsearch"
-        android:layout_alignParentStart="true"
         android:text="Get Test"
         android:textAllCaps="false"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/pb_loading" />
+
+    <Button
+        android:id="@+id/btn_posttest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Test"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/btn_ipsearch"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_uploadfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UploadFile"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/btn_ipsearch"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/btn_telsearch"
+        android:layout_alignEnd="@+id/btn_gettest" />
+    <TextView
+        android:id="@+id/tv_showresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_posttest"
+        android:text="Result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAllCaps="false"/>
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_below="@+id/btn_posttest"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

@@ -27,12 +27,14 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     // OkHttp3
     compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    // Okio
+    compile 'com.squareup.okio:okio:1.6.0'
     // Gson
     compile 'com.google.code.gson:gson:2.4'
     // Android-Async-Http
     compile 'com.loopj.android:android-async-http:1.4.9'
     // xUtils3
-    compile 'org.xutils:xutils:3.3.16'
+    compile 'org.xutils:xutils:3.3.22'
     // Retrofit
     compile 'com.squareup.retrofit2:retrofit:2.0.0'
     compile 'com.squareup.retrofit2:converter-gson:2.0.0'

@@ -46,4 +46,13 @@
         android:text="Tel Search"
         android:textAllCaps="false"
         android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_idsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Search"
+        android:layout_below="@id/btn_telsearch"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
 </RelativeLayout>

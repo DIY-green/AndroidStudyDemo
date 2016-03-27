@@ -8,13 +8,17 @@ import android.widget.TextView;
 
 import com.cheng.networkframestudy.C;
 import com.cheng.networkframestudy.R;
+import com.cheng.networkframestudy.retrofit.api.IDCardService;
 import com.cheng.networkframestudy.retrofit.api.IPService;
 import com.cheng.networkframestudy.retrofit.api.MobilePhoneService;
+import com.cheng.networkframestudy.retrofit.convert.MyGsonConverter;
+import com.cheng.networkframestudy.retrofit.model.IDCardInfo;
 import com.cheng.networkframestudy.retrofit.model.IPDetail;
 import com.cheng.networkframestudy.retrofit.model.TelphoneOwnershipOfLand;
 
 import retrofit2.Call;
 import retrofit2.Callback;
+import retrofit2.Converter;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -44,6 +48,9 @@ public class RetrofitDemoActivity extends AppCompatActivity {
                 break;
             case R.id.btn_telsearch:
                 telSearch();
+                break;
+            case R.id.btn_idsearch:
+                idCardSearch();
                 break;
         }
     }
@@ -96,6 +103,30 @@ public class RetrofitDemoActivity extends AppCompatActivity {
         });
     }
 
+    private void idCardSearch() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(C.baseurl.BAIDU_API_STORE)
+                .addConverterFactory(MyGsonConverter.create())
+                .build();
+        IDCardService idCardService = retrofit.create(IDCardService.class);
+        showLoading();
+        Call<IDCardInfo> idCardInfoCall = idCardService.getIDCardInfo("420984198704207896");
+        idCardInfoCall.enqueue(new Callback<IDCardInfo>() {
+            @Override
+            public void onResponse(Call<IDCardInfo> call, Response<IDCardInfo> response) {
+                hideLoading();
+                IDCardInfo idCardInfo = response.body();
+                mShowResultTV.setText(idCardInfo.toString());
+            }
+
+            @Override
+            public void onFailure(Call<IDCardInfo> call, Throwable t) {
+                hideLoading();
+                mShowResultTV.setText("Error");
+            }
+        });
+    }
+
     private void showLoading() {
         mLoadingPB.setVisibility(View.VISIBLE);
     }
@@ -103,5 +134,6 @@ public class RetrofitDemoActivity extends AppCompatActivity {
     private void hideLoading() {
         mLoadingPB.setVisibility(View.GONE);
     }
+
 
 }

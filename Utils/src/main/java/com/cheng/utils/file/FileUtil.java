@@ -81,22 +81,11 @@ public final class FileUtil {
     }
 
     /**
-     * 删除文件或者空的文件夹
-     *
-     * @param file File对象
-     * @return 执行结果
-     */
-    public static boolean deleteFile(File file) {
-
-        return file.delete();
-    }
-
-    /**
      * 递归删除文件和文件夹
      *
      * @param file 要删除的根目录
      */
-    public static void DeleteFile(File file) {
+    public static void deleteFile(File file) {
         if (file.exists() == false) {
             return;
         } else {
@@ -111,7 +100,7 @@ public final class FileUtil {
                     return;
                 }
                 for (File f : childFile) {
-                    DeleteFile(f);
+                    deleteFile(f);
                 }
                 file.delete();
             }

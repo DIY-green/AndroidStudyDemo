@@ -1,6 +1,112 @@
 <resources>
-    <string name="app_name">Android5Study</string>
+    <string name="app_name">Android5New</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="title_toolbar">ToolbarDemo</string>
+    <string name="subtitle_toolbat">DIY-Toolbar</string>
+
+    <string name="text_android5introduce">Android 5.x 介绍：\n
+    1. Android5.x新API介绍\n
+    2. Android5.x新控件介绍\n
+    </string>
+
+    <string name="text_android5apiintroduce">Android5.x新API介绍：\n
+        1.elevation 和 translationZ\n
+        2.tint\n
+        3.setClipToOutline\n
+        4.Activity Transitions\n
+        5.setTaskDescription\n
+        6.MediaBrowser 和 MediaSession\n
+        7.Camera2 API\n
+        8.MediaProjection\n
+        9.JobScheduler\n
+        10.Heads-up\n
+        11.PdfRenderer\n
+        12.UsageStats\n
+    </string>
+
+    <string name="text_android5widgetintroduce">Android 5.x新控件介绍：\n
+        1. RippleDrawable \n
+        2. Toolbar\n
+        3. \n
+    </string>
+
+    <string name="text_android5api">Android 5.x 新 API</string>
+    <string name="text_android5widget">Android 5.x 新控件</string>
+    <string name="text_android5api1">elevation 和 translationZ</string>
+    <string name="text_android5api2">tint</string>
+    <string name="text_android5api3">setClipToOutline</string>
+    <string name="text_android5api4">Activity Transitions</string>
+    <string name="text_android5api5">setTaskDescription</string>
+    <string name="text_android5api6">MediaProjection</string>
+    <string name="text_android5api7">JobScheduler</string>
+    <string name="text_android5api8">Heads-Up</string>
+    <string name="text_android5api9">PdfRenderer</string>
+    <string name="text_android5api10">UsageStats</string>
+
+    <string name="text_0dp">0dp</string>
+    <string name="text_15dp">15dp</string>
+    <string name="text_30dp">30dp</string>
+    <string name="text_45dp">45dp</string>
+    <string name="text_clip1">Clip1</string>
+    <string name="text_clip2">Clip2</string>
+    <string name="text_clip3">Clip3</string>
+    <string name="text_explode">Explode</string>
+    <string name="text_slide">Slide</string>
+    <string name="text_fade">Fade</string>
+    <string name="text_sharedelements">Shared Elements</string>
+    <string name="text_share">共享元素</string>
+    <string name="text_start">StartSimpleJobScheduler</string>
+    <string name="text_test1_tip">src + tint 演示</string>
+    <string name="text_test2_tip">background + backgroundTint 演示</string>
+    <string name="text_test3_tip">src/background + foregroundTint 演示</string>
+    <string name="text_test4_tip">src/background + drawableTint 演示</string>
+
+    <string name="text_rippledrawable">RippleDrawable</string>
+    <string name="text_toolbarintroduce">Toolbar 简单使用示例</string>
+
+    <string name="onstoptask">onStopTask</string>
+    <string name="onstarttask">onStartTask</string>
+    <string name="defaultparamtext">task params will show up here.</string>
+    <string name="schedule_job_button_text">Schedule Job</string>
+    <string name="cancel_all_jobs_button_text">Cancel all</string>
+    <string name="finish_job_button_text">taskFinished</string>
+    <string name="idle_mode_text">Requires device in idle mode.</string>
+    <string name="charging_caption">Charging:</string>
+    <string name="charging_text">Requires device plugged in.</string>
+    <string name="idle_caption">Idle:</string>
+    <string name="constraints">Constraints</string>
+    <string name="connectivity">Connectivity:</string>
+    <string name="any">Any</string>
+    <string name="unmetered">WiFi</string>
+    <string name="timing">Timing:</string>
+    <string name="delay">Delay:</string>
+    <string name="deadline">Deadline:</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="expanded">I\'m the expanded notification.\nCollapse me!</string>
+    <string name="collapsed">I\'m the collapsed notification.\nCreated at: %s</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="custom_notification">I\'m a custom notification.</string>
+    <string name="collapsed_image">A single Android robot waving. Symbolises a collapsed
+        notification.
+    </string>
+    <string name="expanded_image">Two Androids on top of each other. Symbolises an expanded
+        notification.
+    </string>
+
+    <string name="app_name_with_index">PdfRendererBasic (%1$d/%2$d)</string>
+    <string name="info">Info</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates how to use PdfRenderer to display PDF documents on the screen.
+
+
+        ]]>
+    </string>
+
 </resources>

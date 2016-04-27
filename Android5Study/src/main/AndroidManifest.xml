@@ -1,21 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cheng.android5study" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.diygreen.android5">
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
+        android:name=".DIYApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".newapi1.ElevationTranslationZActivity" />
+        <activity android:name=".newapi1.TintActivity" />
+        <activity android:name=".newapi1.SetClipToOutlineActivity" />
+        <activity android:name=".newapi1.ActivityTransitionsActivity" />
+        <activity android:name=".newapi1.ActivityTransitionsSecondActivity" />
+        <activity android:name=".newapi2.MediaProjectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newapi2.JobSchedulerActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service android:name=".newapi2.CaptureScreenService" />
+        <service
+            android:name=".newapi2.JobSchedulerService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".newapi2.JobSchedulerSimpleService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".newapi2.HeadsUpActivity" />
+        <activity android:name=".newapi2.PdfRendererActivity" />
+        <activity android:name=".newapi2.UsageStatsActivity" />
+        <activity android:name=".Android5NewApiActivity" />
+        <activity android:name=".Android5NewWidgetActivity" />
+        <activity
+            android:name=".newwidget1.RippleDrawableActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".newwidget1.ToolbarActivity"
+            android:theme="@style/AppTheme.DIYToolbar" />
+        <activity
+            android:name=".newwidget1.Toolbar2Activity"
+            android:theme="@style/AppTheme.DIYToolbar2" />
+        <activity
+            android:name=".newwidget1.ToolbarDrawerLayoutActivity"
+            android:theme="@style/DIYAppTheme" />
+        <activity
+            android:name=".newwidget1.MaterialThemeActivity"
+            android:theme="@style/DIYMaterialTheme" />
+        <activity android:name=".newwidget2.MaterialDialogActivity" />
+        <activity android:name=".newwidget2.PaletteActivity" />
+        <activity android:name=".newwidget2.CardViewActivity" />
+        <activity android:name=".newwidget3.RecyclerViewActivity"></activity>
     </application>
 
 </manifest>

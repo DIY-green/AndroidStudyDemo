@@ -1,8 +1,89 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!-- 刚开始的默认主题 -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 去掉 ActionBar，使用 Toolbar 的主题 -->
+    <style name="AppTheme.DIYToolbar" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 各控制元件(如：check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色 -->
+        <item name="colorAccent">#003300</item>
+        <!-- 各控制元件的预设颜色 -->
+        <item name="colorControlNormal">#6600ff</item>
+        <!-- 导航栏的背景色 -->
+        <item name="android:navigationBarColor">#330099</item>
+    </style>
+
+    <!-- Toolbar 定制菜单的样式 -->
+    <style name="AppTheme.DIYToolbar2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- toolbar（actionbar）颜色 -->
+        <!-- App bar 上的标题与更多菜单中的文字颜色 -->
+        <item name="colorPrimary">#ff6600</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#ff9900</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 溢出菜单 -->
+        <!-- Required for Lollipop. -->
+        <item name="android:actionOverflowMenuStyle">@style/DIYMenuStyle</item>
+    </style>
+
+    <style name="DIYAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DIYMaterialTheme.Base" parent="android:Theme.Material.Light"/>
+    <style name="DIYMaterialTheme" parent="DIYMaterialTheme.Base">
+        <!-- 个性化颜色基调 -->
+        <item name="android:colorPrimary">#ff00cc</item>
+        <item name="android:colorPrimaryDark">#ff33ff</item>
+        <item name="android:colorAccent">#993300</item>
+        <item name="android:statusBarColor">#ccffff</item>
+        <item name="android:navigationBarColor">#330099</item>
+    </style>
+    <style name="DIYMaterialDialog" parent="android:Theme.Material.Light.Dialog">
+        <!-- 个性化颜色基调 -->
+        <item name="android:colorPrimary">#336600</item>
+        <item name="android:colorPrimaryDark">#339900</item>
+        <item name="android:colorAccent">#993300</item>
+        <item name="android:statusBarColor">#ccffff</item>
+        <item name="android:navigationBarColor">#330099</item>
+    </style>
+
+    <!-- 溢出菜单样式 -->
+    <style name="DIYMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <!-- Required for Lollipop. -->
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">10dp</item>
+        <item name="android:popupBackground">#ff6600</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="diygreenTheme" parent="android:Theme.Material">
+        <!-- 设置允许使用 transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- 指定进入和退出 transitions -->
+        <item name="android:windowEnterTransition">@anim/explode</item>
+        <item name="android:windowExitTransition">@anim/explode</item>
+    </style>
+
+    <style name="NotificationContent" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
     </style>
 
 </resources>

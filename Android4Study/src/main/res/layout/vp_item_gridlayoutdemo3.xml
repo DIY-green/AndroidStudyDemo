@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:columnOrderPreserved="false"
+    android:useDefaultMargins="true">
+
+    <!-- 第一行跨4列 -->
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_emailsetup"
+        android:textSize="22sp" />
+
+    <!-- 第二行跨4列 -->
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        android:text="@string/text_emailsetup_tip"
+        android:textSize="14sp" />
+
+    <!-- 第三行一列 -->
+    <TextView
+        android:layout_gravity="right"
+        android:text="@string/text_emailaddress_tip" />
+    <!-- 第三行二列 -->
+    <EditText android:ems="8" />
+
+    <!-- 第四行一列 -->
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:text="@string/text_emailpassword_tip" />
+    <!-- 第四行二列 -->
+    <EditText android:ems="6" />
+
+    <!-- 第五行跨三列 -->
+    <Space
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill" />
+
+    <!-- 第六行四列 -->
+    <Button
+        android:layout_row="5"
+        android:layout_column="3"
+        android:text="@string/text_nextstep" />
+</GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/text_vp_item_introduce3"/>
+</FrameLayout>

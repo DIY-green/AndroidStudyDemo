@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Android4New</string>
+
+    <string name="switch_introduce">Switch 是一个可以在两种状态切换的开关控件。用户可以拖动"thumb"来回选择，也可以像选择复选框一样点击切换Switch的状态。</string>
+    <string name="switch_on_chinese">开</string>
+    <string name="switch_off_chinese">关</string>
+    <string name="switch_on_english">Open</string>
+    <string name="switch_off_english">Close</string>
+
+    <string name="text_slide_tip">该页面使用 ViewPager \n可以滑动 &#8211;&#8211;></string>
+    <string name="text_emailsetup">邮箱注册</string>
+    <string name="text_emailsetup_tip">你可通过如下几步完成邮箱注册：</string>
+    <string name="text_emailaddress_tip">邮箱地址：</string>
+    <string name="text_emailpassword_tip">邮箱密码：</string>
+    <string name="text_nextstep">下一步</string>
+    <string name="text_alphavalue_tip">设Alpha：</string>
+    <string name="text_rotationvalue_tip">设Rotation：</string>
+
+    <string name="app_introduce">Android 4 提供了如下新控件：\n
+        1. Switch\n2. Space\n3. PopupMenu\n4. GridLayout\n
+        5. TextureView</string>
+    <string name="popupmune_introduce">PopupMenu代表弹出式菜单，
+        它会在指定组件上弹出PopupMenu，默认情况下，PopupMenu
+        会显示在该组件的下方或上方。PopupMenu可增加多个菜单项，
+        并可为菜单项增加子菜单。</string>
+    <string name="space_introduce">Space 空白控件，就是空白的一块。
+        他是一个轻量级的视图，为什么？分析源码可知这个类的onDraw方法
+        什么也不做。所以他比设置一个invisible的控件填充视图空隙是要
+        省资源的多。</string>
+    <string name="gridlayout_introduce">GridLayout用一组无限细的
+        直线将它的绘图区域分割成行、列、单元。它支持行、列拼接合并，
+        这就使得一个子元素控件能够排布在一系列连续单元格组成的矩形区
+        域。在下文中，我们将直接使用“行”、“列”、“单元格”这些术语来分别
+        代表“行集合”、“列集合”、“单元格集合”，这里集合的意思是指那些
+        一个或多个连续元素。</string>
+    <string name="gridlayout_strategy_introduce">GridLayout的布局
+        策略简单分为以下三个部分：\n
+        首先，它与LinearLayout布局一样，也分为水平和垂直两种方式，默认
+        是水平布局，一个控件挨着一个控件从左到右依次排列，但是通过指定
+        android:columnCount设置列数的属性后，控件会自动换行进行排列。
+        另一方面，对于GridLayout布局中的子控件，默认按照wrap_content
+        的方式设置其显示，这只需要在GridLayout布局中显式声明即可。
+        \n其次，若要指定某控件显示在固定的行或列，只需设置该子控件的
+        android:layout_row和android:layout_column属性即可，但是需要
+        注意：android:layout_row=”0”表示从第一行开始，
+        android:layout_column=”0”表示从第一列开始，这与编程语言中一维
+        数组的赋值情况类似。
+        \n最后，如果需要设置某控件跨越多行或多列，只需将该子控件的
+        android:layout_rowSpan或者layout_columnSpan属性设置为数值，
+        再设置其layout_gravity属性为fill即可，前一个设置表明该控件跨越
+        的行数或列数，后一个设置表明该控件填满所跨越的整行或整列。</string>
+    <string name="text_vp_item_introduce2">在 GridLayout 中，演示
+        子控件 android:layout_gravity="fill" 属性的效果，第一行最后
+        一个控件没有设置该属性，下面各行最后一个控件都设置了该属性</string>
+    <string name="text_vp_item_introduce3">注意：\n在 GridLayout
+        布局中，不需要使用 WRAP_CONTENT 和 MATCH_PARENT 等属性了。
+        要注意的是，在上面的代码中，并没有显式地说明哪个控件摆放在什么
+        单元格，每一个控件其实是使用了layout_columnSpan及rowSpan
+        或columnSpan去指定其相关的位置和宽度。</string>
+    <string name="text_vp_item_introduce4">可以看到，在 GridLayout
+        中，默认的布局是水平方向的，即将控件从左到右，从上到下进行排列，
+        比如上图中的文本“1&#8211;1”即放置在第1行第1列中，以此类推。</string>
+    <string name="text_vp_item_introduce5">可以看到，在上例中，
+        第3行第3列的文本“3&#8211;3”的位置是拉伸了，没有跟其他控件对齐。
+        要实现控件间的对齐，可以通过设置 android:layout_gravity=
+        "fill_horizontal" 属性</string>
+    <string name="text_vp_item_introduce6">GridLayout 默认布局是水
+        平的，要使用垂直的布局，很简单，和 LinearLayout 一样，它也有
+        orientation 属性。注意，设置为"vertical"后，控件排列方式的变化</string>
+    <string name="text_vp_item_introduce7">在 GridLayout 中可以显示
+        指定某一控件位于哪一行哪一列(通过 layout_row 和 layout_column
+        设置)。注意：\n该控件后面的控件也会跟随着其位置相对偏移</string>
+    <string name="text_vp_item_introduce8">在 GridLayout 中，子控件的
+        layout_gravity 属性，和 LinearLayout 中完全一样，直接看效果吧
+        —— x&#8211;3 都使用了 android:layout_gravity="fill_horizontal" </string>
+    <string name="text_vp_item_introduce9">在 GridLayout 中，子控件的
+        gravity 属性，也没什么两样，直接试试看效果 —— 1&#8211;3 使用了
+        android:gravity="center"</string>
+    <string name="text_vp_item_introduce10">使用 LinearLayout 和
+        GridLayout 实现相同布局，GridLayout 可以减少嵌套层次。看效果，
+        上面为 LinearLayout 实现，下面的是 GridLayout 实现的</string>
+    <string name="text_vp_item_introduce11">使用 GridLayout 时让行
+        或列平均分配，为每一个希望平均分配的行或列分别指定，android:
+        layout_columnWeight="1"，android:layout_rowWeight="1"</string>
+    <string name="text_textureview_introduce">由于 SurfaceView
+        的内容不在应用窗口上，所以不能使用变换（平移、缩放、旋转等）。
+        也难以放在 ListView 或者 ScrollView 中，不能使用UI控件的一
+        些特性比如 View.setAlpha()。为了解决这个问题 Android 4.0
+        中引入了 TextureView。与 SurfaceView 相比，TextureView
+        并没有创建一个单独的 Surface 用来绘制，这使得它可以像一般的
+        View 一样执行一些变换操作，设置透明度等。另外，Textureview
+        必须在硬件加速开启的窗口中。</string>
+
+    <string name="title_main_activity">Android4新控件</string>
+    <string name="title_switchdemo_activity">Switch 演示</string>
+    <string name="title_popupmenudemo_activity">PopupMenu 演示</string>
+    <string name="title_spacedemo_activity">Space 演示</string>
+    <string name="title_gridlayoutdemo_activity">GridLayout 演示</string>
+
+    <string name="menu_item_new">猪八戒</string>
+    <string name="menu_item_open">沙和尚</string>
+</resources>

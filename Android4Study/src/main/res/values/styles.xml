@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="custom_switch">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:switchMinWidth">104dp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:textOff">""</item><!-- 此设置不需要文字，只显示背景图的开关 -->
+        <item name="android:textOn">""</item>
+        <item name="android:thumb">@mipmap/switch_custom_thumb</item><!--滑块格式9.png -->
+        <item name="android:thumbTextPadding">10dp</item><!-- 用来控制背景图片和文字之间的间距来控制switch整体宽度 -->
+        <item name="android:track">@drawable/switch_custom_track</item><!-- 背景图的开关 格式9.png-->
+    </style>
+</resources>

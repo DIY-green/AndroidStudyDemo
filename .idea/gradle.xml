@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android4Study" />
             <option value="$PROJECT_DIR$/Android5Study" />
             <option value="$PROJECT_DIR$/Android6Study" />
             <option value="$PROJECT_DIR$/AnimationStudy" />

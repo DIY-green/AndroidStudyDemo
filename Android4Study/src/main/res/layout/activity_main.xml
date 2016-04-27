@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.andoid4.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_introduce" />
+
+    <Button
+        android:id="@+id/btn_switchdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_introduce"
+        android:layout_alignParentStart="true"
+        android:text="Switch Demo"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_spacedemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_switchdemo"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:text="Space Demo"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_popupmenudemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_spacedemo"
+        android:layout_alignParentStart="true"
+        android:text="PopupMenu Demo"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_gridlayoutdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_popupmenudemo"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:text="GridLayout Demo"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_textureviewdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_gridlayoutdemo"
+        android:textAllCaps="false"
+        android:text="TextureView Demo"
+        android:onClick="onClick"  />
+</RelativeLayout>

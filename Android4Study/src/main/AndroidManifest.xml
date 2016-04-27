@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diygreen.andoid4">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_main_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SwicthDemoActivity"
+            android:label="@string/title_switchdemo_activity" />
+        <activity
+            android:name=".SpaceDemoActivity"
+            android:label="@string/title_spacedemo_activity" />
+        <activity
+            android:name=".GridLayoutDemoActivity"
+            android:label="@string/title_gridlayoutdemo_activity" />
+        <activity
+            android:name=".PopupMenuDemoActivity"
+            android:label="@string/title_popupmenudemo_activity" />
+        <activity android:name=".TextureViewDemoActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridLayout
+    android:id="@+id/gl_gridlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:layout_columnSpan="4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_columnSpan="4" />
+
+    <Button
+        android:id="@+id/one"
+        android:text="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/two"
+        android:text="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/three"
+        android:text="3"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/devide"
+        android:text="/"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+    　　
+    <Button
+        android:id="@+id/four"
+        android:text="4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/five"
+        android:text="5"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/six"
+        android:text="6"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+    　　
+    <Button
+        android:id="@+id/multiply"
+        android:text="×"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/seven"
+        android:text="7"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+    　　
+    <Button
+        android:id="@+id/eight"
+        android:text="8"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+    　　
+    <Button
+        android:id="@+id/nine"
+        android:text="9"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/minus"
+        android:text="-"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/zero"
+        android:text="0"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/point"
+        android:text="."
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/plus"
+        android:text="+"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/equal"
+        android:text="="
+        android:layout_width="match_parent"
+        android:layout_columnSpan="4"
+        android:layout_rowWeight="1" />
+</GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/text_vp_item_introduce11"/>
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="5">
+
+    <!-- 第一行 -->
+    <Button
+        android:id="@+id/one"
+        android:text="1"/>
+    <Button
+        android:id="@+id/two"
+        android:text="2" />
+    <Button
+        android:id="@+id/three"
+        android:text="3" />
+    <Button
+        android:id="@+id/devide"
+        android:text="/" />
+
+    <!-- 第二行 -->
+    <Button
+        android:id="@+id/four"
+        android:text="4" />
+    <Button
+        android:id="@+id/five"
+        android:text="5" />
+    <Button
+        android:id="@+id/six"
+        android:text="6" />
+    <Button
+        android:id="@+id/multiply"
+        android:text="×"
+        android:layout_gravity="fill" />
+
+    <!-- 第三行 -->
+    <Button
+        android:id="@+id/seven"
+        android:text="7" />
+    <Button
+        android:id="@+id/eight"
+        android:text="8" />
+    <Button
+        android:id="@+id/nine"
+        android:text="9" />
+    <Button
+        android:id="@+id/minus"
+        android:text="-"
+        android:layout_gravity="fill"/>
+
+    <!-- 第四行 -->
+    <Button
+        android:id="@+id/zero"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="0" />
+    <Button
+        android:id="@+id/point"
+        android:text="." />
+    <Button
+        android:id="@+id/plus"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:text="+" />
+
+    <!-- 第五行 -->
+    <Button
+        android:id="@+id/equal"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:text="=" />
+
+</GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/text_vp_item_introduce2"/>
+</FrameLayout>

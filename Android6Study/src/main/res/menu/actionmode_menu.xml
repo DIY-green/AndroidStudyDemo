@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="New"/>
+    <item
+        android:title="Open"/>
+    <item
+        android:title="Cut"/>
+    <item
+        android:title="Copy"/>
+    <group>
+        <item android:title="Android" />
+        <item android:title="iOS" />
+        <item android:title="Java" />
+        <item android:title="OC" />
+    </group>
+
+</menu>  

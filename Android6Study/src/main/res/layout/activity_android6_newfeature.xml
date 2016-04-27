@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_feature1_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="硬件相关"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_feature1"
+        android:layout_below="@+id/tv_feature1_tip"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="安全相关"
+        android:id="@+id/tv_feature2_tip"
+        android:layout_below="@+id/tv_feature"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_feature2"
+        android:layout_below="@+id/tv_feature2_tip"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature3_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="体验相关"
+        android:layout_below="@+id/tv_feature2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_feature3"
+        android:layout_below="@+id/tv_feature3_tip"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature4_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="性能相关"
+        android:layout_below="@+id/tv_feature3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_feature4"
+        android:layout_below="@+id/tv_feature4_tip"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature5_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="其他"
+        android:layout_below="@+id/tv_feature4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_feature5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_feature5"
+        android:layout_below="@+id/tv_feature5_tip"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</ScrollView>

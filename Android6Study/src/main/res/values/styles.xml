@@ -3,6 +3,58 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DIYTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item> 
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> 
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TabLayoutDemo3Style" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">@color/tab_bgcolor</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- 自定义 TabLayout 样式 -->
+    <style name="DIY.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="paddingEnd">10dp</item>
+        <item name="paddingStart">10dp</item>
+        <item name="tabBackground">@color/colorPrimaryDark</item>
+        <item name="tabContentStart">10dp</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorColor">#999900</item>
+        <item name="tabIndicatorHeight">6dp</item>
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabMinWidth">@dimen/tab_min_width</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabPaddingBottom">2dp</item>
+        <item name="tabPaddingEnd">10dp</item>
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingTop">15dp</item>
+        <item name="tabSelectedTextColor">#ffcc00</item>
+        <item name="tabTextAppearance">@style/DIY.TabTextAppearance</item>
+        <item name="tabTextColor">#000066</item>
+    </style>
+    <!-- 自定义 TabText 的外观 -->
+    <style name="DIY.TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#006600</item>
+        <item name="textAllCaps">false</item>
     </style>
 
 </resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.android6new.newwidget2.TabLayoutActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接使用"
+        android:id="@+id/btn_demo1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="配合 ViewPager"
+        android:id="@+id/btn_demo2"
+        android:layout_below="@+id/btn_demo1"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="底部 Tab"
+        android:id="@+id/btn_demo3"
+        android:layout_below="@+id/btn_demo2"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义样式"
+        android:id="@+id/btn_demo4"
+        android:layout_below="@+id/btn_demo3"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加角标"
+        android:id="@+id/btn_demo5"
+        android:layout_below="@+id/btn_demo4"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+</RelativeLayout>

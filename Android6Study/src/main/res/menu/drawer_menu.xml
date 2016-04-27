@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:icon="@mipmap/ic_alarm_add_black"
+            android:title="Alarm"/>
+        <item
+            android:id="@+id/drawer_favourite"
+            android:icon="@mipmap/ic_cast_connected_black"
+            android:title="Connected"/>
+        <item
+            android:id="@+id/section"
+            android:icon="@mipmap/ic_more_horiz_grey"
+            android:title="Group">
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                <item
+                    android:id="@+id/drawer_downloaded"
+                    android:icon="@mipmap/ic_computer_grey"
+                    android:title="Computer"/>
+                <item
+                    android:id="@+id/drawer_more"
+                    android:icon="@mipmap/ic_border_color_grey"
+                    android:title="Border"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@mipmap/ic_fullscreen_black"
+            android:title="FullScreen"/>
+    </group>
+</menu>

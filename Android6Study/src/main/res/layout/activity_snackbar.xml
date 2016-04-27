@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.android6new.newwidget1.SnackBarActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示普通 SnackBar"
+        android:id="@+id/btn_showcommonsb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示带 Action 的 SnackBar"
+        android:id="@+id/btn_showwithactionsb"
+        android:layout_below="@+id/btn_showcommonsb"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_setcallbacktest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setCallback 演示"
+        android:layout_below="@+id/btn_showwithactionsb"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Result"
+        android:id="@+id/tv_showresult"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_changebackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改变背景色"
+        android:layout_below="@+id/btn_setcallbacktest"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_addcoordinatiorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout 支持 Snackbar 更多特性"
+        android:layout_below="@+id/tv_showresult"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/cl_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabtn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@mipmap/ic_alarm_add_black"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cheng.android6study" >
+    package="com.diygreen.android6new">
+
+    <!-- 危险权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 一般权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Android6NewFeatureActivity" />
+        <activity android:name=".Android6NewApiActivity" />
+        <activity android:name=".Android6NewWidgetActivity" />
+        <activity android:name=".newapi.DynamicPermissionActivity" />
+        <activity android:name=".newapi.PermissionsActivity" />
+        <activity android:name=".newapi.TextSelectionActivity" />
+        <activity android:name=".newapi.DirectShareActivity" />
+        <activity android:name=".newapi.ShareActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".newapi.DirectShareService" />
+        </activity>
+
+        <service
+            android:name=".newapi.DirectShareService"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".newapi.CameraTestActivity" />
+        <activity android:name=".newapi.ColorStateListActivity" />
+        <activity android:name=".newwidget1.FloatingActionButtonActivity" />
+        <activity android:name=".newwidget1.TextInputLayoutActivity" />
+        <activity android:name=".newwidget1.SnackBarActivity" />
+        <activity android:name=".newwidget2.TabLayoutActivity" />
+        <activity android:name=".newwidget2.TabLayoutDemo1Activity" />
+        <activity android:name=".newwidget2.TabLayoutDemo2Activity" />
+        <activity android:name=".newwidget2.TabLayoutDemo3Activity" />
+        <activity android:name=".newwidget2.TabLayoutDemo4Activity" />
+        <activity android:name=".newwidget2.TabLayoutDemo5Activity" />
+        <activity
+            android:name=".newwidget2.NavigationViewActivity"
+            android:theme="@style/BaseTheme" />
+        <activity android:name=".newwidget3.AppBarLayout2Activity"
+            android:theme="@style/DIYTheme" />
+        <activity android:name=".newwidget3.AppBarLayout1Activity"
+            android:theme="@style/DIYTheme" />
+        <activity android:name=".newwidget3.CoordinatorLayoutActivity"
+            android:theme="@style/DIYTheme" />
+        <activity android:name=".newwidget3.CollapsingToolbarLayout1Activity"
+            android:theme="@style/DIYTheme" />
+        <activity android:name=".newwidget3.CollapsingToolbarLayout2Activity"
+            android:theme="@style/DIYTheme" />
     </application>
 
 </manifest>

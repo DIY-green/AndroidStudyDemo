@@ -1,6 +1,69 @@
 <resources>
-    <string name="app_name">Android6Study</string>
+    <string name="app_name">Android6New</string>
+    <string name="text_feature1">
+        指纹识别\n
+        Doze电量管理\n
+        &#160;&#160;&#160;&#160;支持快速充电的切换\n
+        相机新增专业模式\n
+        支持RAW格式照片\n
+        Chrome Custom Tabs\n
+        外置存储融入系统存储中\n
+        蓝牙SAP\n
+        支持MIDI\n
+        支持WIFI热点2.0\n
+        USB Type-C端口支持\n
+    </string>
+    <string name="text_feature2">
+        更完整的应用权限管理\n
+        启动验证\n
+    </string>
+    <string name="text_feature3">
+        锁屏下语音搜索\n
+        支持4K显示\n
+        存储管理\n
+        &#160;&#160;&#160;&#160;支持文件夹拖拽应用\n
+        Now on Tap功能\n
+        App Links\n
+        改进通知\n
+        Google Now Launcher\n
+        文字选择界面\n
+        音量控制界面\n
+        锁屏界面\n
+        直接分享\n
+        全新的启动动画\n
+        系统界面调谐器\n
+        &#160;&#160;&#160;&#160;快速设置\n
+        &#160;&#160;&#160;&#160;状态栏\n
+        &#160;&#160;&#160;&#160;显示电池百分比\n
+        &#160;&#160;&#160;&#160;演示模式\n
+    </string>
+    <string name="text_feature4">
+        App Standby\n
+        内存管理\n
+    </string>
+    <string name="text_feature5">
+        Android Pay\n
+        分屏显示\n
+        USB 连接选项\n
+        一些谜之特性\n
+        &#160;&#160;&#160;&#160;消失的 Dark Theme\n
+        &#160;&#160;&#160;&#160;改进Android for Work\n
+        &#160;&#160;&#160;&#160;整合Android Wear\n
+        &#160;&#160;&#160;&#160;或许存在的一键关闭全部最近应用\n
+        &#160;&#160;&#160;&#160;增加信息中心\n
+        &#160;&#160;&#160;&#160;更快的更新机制\n
+        &#160;&#160;&#160;&#160;更开放应用程序卸载选项\n
+    </string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="text_feature6">
+
+    </string>
+
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
 </resources>

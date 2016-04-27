@@ -7,40 +7,50 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.diygreen.android6new.MainActivity">
-
-    <TextView
-        android:id="@+id/tv_android6introduce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Android 6.x 介绍" />
+    tools:context="com.diygreen.android6new.Android6NewApiActivity">
 
     <Button
-        android:id="@+id/btn_newfeatures"
+        android:id="@+id/btn_dynamicpermission"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Android 6 新特性"
-        android:layout_below="@+id/tv_android6introduce"
+        android:text="动态权限申请"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:textAllCaps="false"
         android:onClick="onClick"/>
 
     <Button
-        android:id="@+id/btn_newapis"
+        android:id="@+id/btn_textselection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Android  6 新 API"
-        android:layout_below="@+id/btn_newfeatures"
+        android:text="文本选择"
+        android:layout_below="@+id/btn_dynamicpermission"
         android:layout_alignParentStart="true"
-        android:textAllCaps="false"
         android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btn_newwidgets"
+        android:id="@+id/btn_directshare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Android 6 新控件"
-        android:layout_below="@+id/btn_newapis"
+        android:text="直接分享"
+        android:layout_below="@+id/btn_textselection"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_camera2api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera 2 New API"
+        android:layout_below="@+id/btn_directshare"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_colorstatelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ColorStateList"
+        android:layout_below="@+id/btn_camera2api"
         android:layout_alignParentStart="true"
         android:textAllCaps="false"
         android:onClick="onClick" />
